@@ -1,0 +1,3 @@
+version: 1
+eventstore:
+  url: http://localhost:8090

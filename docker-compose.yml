@@ -1,0 +1,15 @@
+services:
+  db:
+    image: mysql
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: 1
+      MYSQL_USER: skibidi
+      MYSQL_PASSWORD: helpme
+      MYSQL_DATABASE: fire_data
+    ports:
+      - 3307:3306
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:

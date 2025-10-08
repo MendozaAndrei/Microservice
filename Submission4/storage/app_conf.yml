@@ -1,0 +1,7 @@
+version: 1
+datastore:
+  user: skibidi
+  password: helpme
+  hostname: localhost
+  port: 3307
+  db: fire_data
