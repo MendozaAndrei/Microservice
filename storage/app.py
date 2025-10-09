@@ -148,7 +148,27 @@ def create_airquality_reading(body):
 
 
 def get_temperature_readings(start_timestamp, end_timestamp):
-    """Gets temperature readings between the start and end timestamps"""
+    """
+    GET /temperature ENDPOINT - Retrieves temperature readings from MySQL database
+    
+    This endpoint is called by the Processing service to get temperature data.
+    It directly queries the MySQL database and returns matching records as JSON.
+    
+    Parameters:
+        start_timestamp: Start of time window (ISO 8601 format, e.g., "2025-10-09T15:00:00Z")
+        end_timestamp: End of time window (ISO 8601 format)
+    
+    Returns:
+        JSON array of temperature readings where date_created is between start and end timestamps
+        
+    Example:
+        GET /temperature?start_timestamp=2025-10-09T15:00:00Z&end_timestamp=2025-10-09T16:00:00Z
+        
+    This queries MySQL:
+        SELECT * FROM temperature 
+        WHERE date_created >= '2025-10-09 15:00:00' 
+        AND date_created < '2025-10-09 16:00:00'
+    """
     session = SessionLocal()
     
     logger.info(f"Query for Temperature readings between {start_timestamp} and {end_timestamp}")
@@ -157,13 +177,15 @@ def get_temperature_readings(start_timestamp, end_timestamp):
     start_datetime = datetime.fromisoformat(start_timestamp.replace('Z', '+00:00'))
     end_datetime = datetime.fromisoformat(end_timestamp.replace('Z', '+00:00'))
     
-    # Query the database for readings within the timestamp range
+    # Query the MySQL database for readings within the timestamp range
+    # This is the ACTUAL database query that retrieves data from MySQL
     statement = select(Temperature).where(
         Temperature.date_created >= start_datetime
     ).where(
         Temperature.date_created < end_datetime
     )
     
+    # Execute the query and convert results to dictionaries for JSON response
     results = [
         result.to_dict()
         for result in session.execute(statement).scalars().all()
@@ -177,7 +199,27 @@ def get_temperature_readings(start_timestamp, end_timestamp):
 
 
 def get_airquality_readings(start_timestamp, end_timestamp):
-    """Gets air quality readings between the start and end timestamps"""
+    """
+    GET /airquality ENDPOINT - Retrieves air quality readings from MySQL database
+    
+    This endpoint is called by the Processing service to get air quality data.
+    It directly queries the MySQL database and returns matching records as JSON.
+    
+    Parameters:
+        start_timestamp: Start of time window (ISO 8601 format, e.g., "2025-10-09T15:00:00Z")
+        end_timestamp: End of time window (ISO 8601 format)
+    
+    Returns:
+        JSON array of air quality readings where date_created is between start and end timestamps
+        
+    Example:
+        GET /airquality?start_timestamp=2025-10-09T15:00:00Z&end_timestamp=2025-10-09T16:00:00Z
+        
+    This queries MySQL:
+        SELECT * FROM airquality 
+        WHERE date_created >= '2025-10-09 15:00:00' 
+        AND date_created < '2025-10-09 16:00:00'
+    """
     session = SessionLocal()
     
     logger.info(f"Query for Air Quality readings between {start_timestamp} and {end_timestamp}")
@@ -186,13 +228,15 @@ def get_airquality_readings(start_timestamp, end_timestamp):
     start_datetime = datetime.fromisoformat(start_timestamp.replace('Z', '+00:00'))
     end_datetime = datetime.fromisoformat(end_timestamp.replace('Z', '+00:00'))
     
-    # Query the database for readings within the timestamp range
+    # Query the MySQL database for readings within the timestamp range
+    # This is the ACTUAL database query that retrieves data from MySQL
     statement = select(AirQuality).where(
         AirQuality.date_created >= start_datetime
     ).where(
         AirQuality.date_created < end_datetime
     )
     
+    # Execute the query and convert results to dictionaries for JSON response
     results = [
         result.to_dict()
         for result in session.execute(statement).scalars().all()
