@@ -1,0 +1,11 @@
+2025-10-08 23:03:32,629 - basicLogger - INFO - Started Periodic Processing
+2025-10-08 23:03:37,626 - basicLogger - INFO - Started Periodic Processing
+2025-10-08 23:03:42,635 - basicLogger - INFO - Started Periodic Processing
+2025-10-08 23:03:47,625 - basicLogger - INFO - Started Periodic Processing
+2025-10-08 23:03:52,623 - basicLogger - INFO - Started Periodic Processing
+2025-10-08 23:03:57,627 - basicLogger - INFO - Started Periodic Processing
+2025-10-08 23:04:03,767 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-08 23:04:09,886 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-08 23:04:09,887 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-08T23:03:57Z'}
+2025-10-08 23:04:09,887 - basicLogger - INFO - Periodic processing has ended
+2025-10-08 23:04:12,625 - basicLogger - INFO - Started Periodic Processing

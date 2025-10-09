@@ -536,3 +536,7 @@
 2025-10-02 09:28:21,479 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422499010892800
 2025-10-02 09:28:21,482 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422499010481000
 2025-10-02 09:28:21,482 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422499011375400
+2025-10-08 23:03:57,827 - basicLogger - INFO - Connected to the database
+2025-10-08 23:03:57,877 - basicLogger - INFO - Connected to the database
+2025-10-08 23:03:59,670 - basicLogger - INFO - Query for Temperature readings between 2000-01-01T00:00:00Z and 2025-10-08T23:03:57Z
+2025-10-08 23:04:05,799 - basicLogger - INFO - Query for Air Quality readings between 2000-01-01T00:00:00Z and 2025-10-08T23:03:57Z

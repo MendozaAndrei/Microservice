@@ -1,5 +1,5 @@
 import connexion
-from sqlalchemy import create_engine, Integer, String, Float, DateTime, func, BigInteger, text
+from sqlalchemy import create_engine, Integer, String, Float, DateTime, func, BigInteger, text, select
 from sqlalchemy.orm import DeclarativeBase, mapped_column, sessionmaker
 from datetime import datetime
 import pymysql
@@ -52,6 +52,19 @@ class Temperature(Base):
     reading_timestamp = mapped_column(DateTime, nullable=False)
     date_created = mapped_column(DateTime, nullable=False, default=func.now())
 
+    def to_dict(self):
+        """Convert Temperature object to dictionary matching the OpenAPI schema"""
+        return {
+            "trace_id": self.trace_id,
+            "fire_id": self.fire_id,
+            "latitude": self.latitude,
+            "longitude": self.longitude,
+            "temperature_celsius": self.temperature_celsius,
+            "humidity_level": self.humidity_level,
+            "batch_timestamp": self.batch_timestamp.strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + "Z",
+            "reading_timestamp": self.reading_timestamp.strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + "Z"
+        }
+
 
 class AirQuality(Base):
     __tablename__ = "airquality"
@@ -65,6 +78,19 @@ class AirQuality(Base):
     batch_timestamp = mapped_column(DateTime, nullable=False)
     reading_timestamp = mapped_column(DateTime, nullable=False)
     date_created = mapped_column(DateTime, nullable=False, default=func.now())
+
+    def to_dict(self):
+        """Convert AirQuality object to dictionary matching the OpenAPI schema"""
+        return {
+            "trace_id": self.trace_id,
+            "fire_id": self.fire_id,
+            "location_name": self.location_name,
+            "particulate_level": self.particulate_level,
+            "air_quality": self.air_quality,
+            "smoke_opacity": self.smoke_opacity,
+            "batch_timestamp": self.batch_timestamp.strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + "Z",
+            "reading_timestamp": self.reading_timestamp.strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + "Z"
+        }
 
 
 def create_temperature_reading(body):
@@ -119,6 +145,65 @@ def create_airquality_reading(body):
     # Log message when event is successfully stored (after DB session is closed)
     logger.debug(f"Stored event airquality_reading with a trace id of {body['trace_id']}")
     return {"message": "stored"}, 201
+
+
+def get_temperature_readings(start_timestamp, end_timestamp):
+    """Gets temperature readings between the start and end timestamps"""
+    session = SessionLocal()
+    
+    logger.info(f"Query for Temperature readings between {start_timestamp} and {end_timestamp}")
+    
+    # Convert ISO format timestamps to datetime objects
+    start_datetime = datetime.fromisoformat(start_timestamp.replace('Z', '+00:00'))
+    end_datetime = datetime.fromisoformat(end_timestamp.replace('Z', '+00:00'))
+    
+    # Query the database for readings within the timestamp range
+    statement = select(Temperature).where(
+        Temperature.date_created >= start_datetime
+    ).where(
+        Temperature.date_created < end_datetime
+    )
+    
+    results = [
+        result.to_dict()
+        for result in session.execute(statement).scalars().all()
+    ]
+    
+    session.close()
+    
+    logger.info(f"Query for Temperature readings returns {len(results)} results")
+    
+    return results, 200
+
+
+def get_airquality_readings(start_timestamp, end_timestamp):
+    """Gets air quality readings between the start and end timestamps"""
+    session = SessionLocal()
+    
+    logger.info(f"Query for Air Quality readings between {start_timestamp} and {end_timestamp}")
+    
+    # Convert ISO format timestamps to datetime objects
+    start_datetime = datetime.fromisoformat(start_timestamp.replace('Z', '+00:00'))
+    end_datetime = datetime.fromisoformat(end_timestamp.replace('Z', '+00:00'))
+    
+    # Query the database for readings within the timestamp range
+    statement = select(AirQuality).where(
+        AirQuality.date_created >= start_datetime
+    ).where(
+        AirQuality.date_created < end_datetime
+    )
+    
+    results = [
+        result.to_dict()
+        for result in session.execute(statement).scalars().all()
+    ]
+    
+    session.close()
+    
+    logger.info(f"Query for Air Quality readings returns {len(results)} results")
+    
+    return results, 200
+
 
 # I changed the name of the lab1.yaml from the receiver folder to openapi.yaml
 app = connexion.App(__name__, specification_dir=".")

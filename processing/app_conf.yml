@@ -1,0 +1,10 @@
+version: 1
+datastore:
+  filename: data.json
+scheduler:
+  interval: 5
+eventstores:
+  temperature:
+    url: http://localhost:8090/temperature
+  airquality:
+    url: http://localhost:8090/airquality

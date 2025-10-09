@@ -20,6 +20,43 @@ paths:
           description: Stored
         '400':
           description: Invalid input
+    get:
+      summary: Gets temperature readings within a time range
+      operationId: app.get_temperature_readings
+      description: Gets temperature readings received between start and end timestamps
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: Start of the timespan
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+        - name: end_timestamp
+          in: query
+          description: End of the timespan
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+      responses:
+        '200':
+          description: Returns the list of temperature readings
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/TemperatureReading'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
 
   /airquality:
     post:
@@ -36,6 +73,43 @@ paths:
           description: Stored
         '400':
           description: Invalid input
+    get:
+      summary: Gets air quality readings within a time range
+      operationId: app.get_airquality_readings
+      description: Gets air quality readings received between start and end timestamps
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: Start of the timespan
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+        - name: end_timestamp
+          in: query
+          description: End of the timespan
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+      responses:
+        '200':
+          description: Returns the list of air quality readings
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/AirQualityReading'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
 
 components:
   schemas:
