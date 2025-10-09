@@ -7,10 +7,11 @@ import json
 from datetime import datetime
 import os
 
-# Loads the configuration files
+# Contains: datastore filename, scheduler interval, and eventstore URLs
 with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
 
+# Loads the logging configuration from log_conf.yml
 with open('log_conf.yml', 'r') as f:
     log_config = yaml.safe_load(f.read())
     
@@ -18,15 +19,30 @@ logging.config.dictConfig(log_config)
 logger = logging.getLogger('basicLogger')
 
 
+
 def get_stats():
+    """
+    HTTP GET endpoint to retrieve current statistics
+    
+    URL: GET http://localhost:8100/stats
+    
+    Example Response:
+    {
+        "num_temp_readings": 150,
+        "max_temperature_celsius": 145.8,
+        "num_airquality_readings": 120,
+        "max_air_quality": 250.5,
+        "last_updated": "2025-10-09T08:45:30Z"
+    }
+    """
     logger.info("Started Request for Statistics")
     
-    # Check if the statistics file exists
+    # Check if the statistics file exists (data.json)
     if not os.path.exists(app_config['datastore']['filename']):
         logger.error("Statistics do not exist")
         return {"message": "Statistics do not exist"}, 404
     
-    # Read the statistics from the file
+    # Read the statistics from the JSON     file
     with open(app_config['datastore']['filename'], 'r') as f:
         stats = json.load(f)
     
@@ -36,14 +52,19 @@ def get_stats():
     return stats, 200
 
 
+
+# ============================================================================
+# PERIODIC PROCESSING FUNCTION (Runs every 5 seconds)
+# ============================================================================
 def populate_stats():
     logger.info("Started Periodic Processing")
-        
+    
     if os.path.exists(app_config['datastore']['filename']):
+        # Read existing statistics from data.json
         with open(app_config['datastore']['filename'], 'r') as f:
             stats = json.load(f)
     else:
-        # Default statistics if file doesn't exist
+        # First time running - initialize with default values
         stats = {
             "num_temp_readings": 0,
             "max_temperature_celsius": 0,
@@ -52,11 +73,11 @@ def populate_stats():
             "last_updated": "2000-01-01T00:00:00Z"
         }
     
-    # Get current datetime and last update datetime
     current_datetime = datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
     last_updated = stats["last_updated"]
     
-    # Query temperature readings
+    logger.info(f"Querying events from {last_updated} to {current_datetime}")
+    
     temp_response = requests.get(
         app_config['eventstores']['temperature']['url'],
         params={'start_timestamp': last_updated, 'end_timestamp': current_datetime}
@@ -64,20 +85,19 @@ def populate_stats():
     
     if temp_response.status_code == 200:
         temp_readings = temp_response.json()
-        logger.info(f"Received {len(temp_readings)} temperature readings")
+        logger.info(f"Received {len(temp_readings)} NEW temperature readings")
         
-        # Update statistics
         stats["num_temp_readings"] += len(temp_readings)
         
-        # Calculate max temperature
         if len(temp_readings) > 0:
             max_temp = max([reading['temperature_celsius'] for reading in temp_readings])
+            # Only update if this new max is higher than our current max
             if max_temp > stats["max_temperature_celsius"]:
                 stats["max_temperature_celsius"] = max_temp
+                logger.info(f"New max temperature: {max_temp}°C")
     else:
         logger.error(f"Failed to get temperature readings. Status code: {temp_response.status_code}")
-    
-    # Query air quality readings
+    # Example URL: http://localhost:8090/airquality?start_timestamp=2025-10-09T08:00:00Z&end_timestamp=2025-10-09T08:05:00Z
     airquality_response = requests.get(
         app_config['eventstores']['airquality']['url'],
         params={'start_timestamp': last_updated, 'end_timestamp': current_datetime}
@@ -85,23 +105,21 @@ def populate_stats():
     
     if airquality_response.status_code == 200:
         airquality_readings = airquality_response.json()
-        logger.info(f"Received {len(airquality_readings)} air quality readings")
+        logger.info(f"Received {len(airquality_readings)} NEW air quality readings")
         
-        # Update statistics
         stats["num_airquality_readings"] += len(airquality_readings)
         
-        # Calculate max air quality
         if len(airquality_readings) > 0:
             max_aq = max([reading['air_quality'] for reading in airquality_readings])
             if max_aq > stats["max_air_quality"]:
                 stats["max_air_quality"] = max_aq
+                logger.info(f"New max air quality: {max_aq}")
     else:
         logger.error(f"Failed to get air quality readings. Status code: {airquality_response.status_code}")
     
-    # Update last_updated timestamp
     stats["last_updated"] = current_datetime
     
-    # Write updated statistics to JSON file
+    # Write updated statistics back to data.json file
     with open(app_config['datastore']['filename'], 'w') as f:
         json.dump(stats, f, indent=4)
     
@@ -109,17 +127,21 @@ def populate_stats():
     logger.info("Periodic processing has ended")
 
 
+
 def init_scheduler():
-    """Initialize the background scheduler"""
     sched = BackgroundScheduler(daemon=True)
-    sched.add_job(populate_stats, 'interval', seconds=app_config['scheduler']['interval'])
+    sched.add_job(
+        populate_stats,                                  # Function to run
+        'interval',                                      # Run at regular intervals
+        seconds=app_config['scheduler']['interval']      # Every 5 seconds (from config)
+    )
     sched.start()
-
-
-# Create Connexion app
+    logger.info(f"Scheduler started - will run every {app_config['scheduler']['interval']} seconds")
 app = connexion.App(__name__, specification_dir=".")
 app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
     init_scheduler()
+    
+    logger.info("Starting Processing Service on port 8100")
     app.run(port=8100)

@@ -540,3 +540,1737 @@
 2025-10-08 23:03:57,877 - basicLogger - INFO - Connected to the database
 2025-10-08 23:03:59,670 - basicLogger - INFO - Query for Temperature readings between 2000-01-01T00:00:00Z and 2025-10-08T23:03:57Z
 2025-10-08 23:04:05,799 - basicLogger - INFO - Query for Air Quality readings between 2000-01-01T00:00:00Z and 2025-10-08T23:03:57Z
+2025-10-09 08:37:03,076 - basicLogger - INFO - Connected to the database
+2025-10-09 08:37:03,620 - basicLogger - INFO - Connected to the database
+2025-10-09 08:37:42,060 - basicLogger - INFO - Query for Temperature readings between 2025-10-08T23:03:57Z and 2025-10-09T08:37:39Z
+2025-10-09 08:37:49,410 - basicLogger - INFO - Query for Air Quality readings between 2025-10-08T23:03:57Z and 2025-10-09T08:37:39Z
+2025-10-09 08:37:57,027 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:37:39Z and 2025-10-09T08:37:54Z
+2025-10-09 08:38:03,280 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:37:39Z and 2025-10-09T08:37:54Z
+2025-10-09 08:38:11,999 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:37:54Z and 2025-10-09T08:38:09Z
+2025-10-09 08:38:18,278 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:37:54Z and 2025-10-09T08:38:09Z
+2025-10-09 08:38:27,469 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:38:09Z and 2025-10-09T08:38:25Z
+2025-10-09 08:38:33,717 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:38:09Z and 2025-10-09T08:38:25Z
+2025-10-09 08:38:42,015 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:38:25Z and 2025-10-09T08:38:39Z
+2025-10-09 08:38:48,214 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:38:25Z and 2025-10-09T08:38:39Z
+2025-10-09 08:38:51,154 - basicLogger - DEBUG - Storing 1760024327853217200 to the database
+2025-10-09 08:38:57,005 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:38:39Z and 2025-10-09T08:38:54Z
+2025-10-09 08:39:03,210 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:38:39Z and 2025-10-09T08:38:54Z
+2025-10-09 08:39:12,040 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:38:54Z and 2025-10-09T08:39:09Z
+2025-10-09 08:39:14,296 - basicLogger - DEBUG - Storing 1760024351134169500 to the database
+2025-10-09 08:39:18,219 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:38:54Z and 2025-10-09T08:39:09Z
+2025-10-09 08:39:27,010 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:39:09Z and 2025-10-09T08:39:24Z
+2025-10-09 08:39:33,231 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:39:09Z and 2025-10-09T08:39:24Z
+2025-10-09 08:39:42,020 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:39:24Z and 2025-10-09T08:39:39Z
+2025-10-09 08:39:48,252 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:39:24Z and 2025-10-09T08:39:39Z
+2025-10-09 08:39:57,009 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:39:39Z and 2025-10-09T08:39:54Z
+2025-10-09 08:40:03,205 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:39:39Z and 2025-10-09T08:39:54Z
+2025-10-09 08:40:12,015 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:39:54Z and 2025-10-09T08:40:09Z
+2025-10-09 08:40:18,168 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:39:54Z and 2025-10-09T08:40:09Z
+2025-10-09 08:41:25,744 - basicLogger - INFO - Connected to the database
+2025-10-09 08:43:13,279 - basicLogger - INFO - Connected to the database
+2025-10-09 08:43:41,319 - basicLogger - INFO - Connected to the database
+2025-10-09 08:43:41,640 - basicLogger - INFO - Connected to the database
+2025-10-09 08:43:43,690 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:40:09Z and 2025-10-09T08:43:41Z
+2025-10-09 08:43:43,817 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:43:45,908 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:40:09Z and 2025-10-09T08:43:41Z
+2025-10-09 08:43:45,929 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:43:48,733 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:43:41Z and 2025-10-09T08:43:46Z
+2025-10-09 08:43:48,752 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:43:49,893 - basicLogger - DEBUG - Storing 1760024625564881700 to the database
+2025-10-09 08:43:50,205 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760024625564881700
+2025-10-09 08:43:51,143 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:43:41Z and 2025-10-09T08:43:46Z
+2025-10-09 08:43:51,163 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:43:55,346 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:43:46Z and 2025-10-09T08:43:52Z
+2025-10-09 08:43:55,503 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:43:58,396 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:43:46Z and 2025-10-09T08:43:52Z
+2025-10-09 08:43:58,664 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:44:05,443 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:43:52Z and 2025-10-09T08:44:02Z
+2025-10-09 08:44:05,695 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:44:06,222 - basicLogger - DEBUG - Storing 1760024630896510300 to the database
+2025-10-09 08:44:06,915 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760024630896510300
+2025-10-09 08:44:09,091 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:43:52Z and 2025-10-09T08:44:02Z
+2025-10-09 08:44:09,100 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:44:13,792 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:44:02Z and 2025-10-09T08:44:11Z
+2025-10-09 08:44:13,820 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:44:16,122 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:44:02Z and 2025-10-09T08:44:11Z
+2025-10-09 08:44:16,131 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:44:18,745 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:44:11Z and 2025-10-09T08:44:16Z
+2025-10-09 08:44:18,760 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:44:20,823 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:44:11Z and 2025-10-09T08:44:16Z
+2025-10-09 08:44:20,835 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:44:23,727 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:44:16Z and 2025-10-09T08:44:21Z
+2025-10-09 08:44:23,739 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:44:25,817 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:44:16Z and 2025-10-09T08:44:21Z
+2025-10-09 08:44:25,827 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:44:28,754 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:44:21Z and 2025-10-09T08:44:26Z
+2025-10-09 08:44:28,767 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:44:30,828 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:44:21Z and 2025-10-09T08:44:26Z
+2025-10-09 08:44:30,841 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:44:33,735 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:44:26Z and 2025-10-09T08:44:31Z
+2025-10-09 08:44:33,745 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:44:35,808 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:44:26Z and 2025-10-09T08:44:31Z
+2025-10-09 08:44:35,817 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:44:38,757 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:44:31Z and 2025-10-09T08:44:36Z
+2025-10-09 08:44:38,769 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:44:40,838 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:44:31Z and 2025-10-09T08:44:36Z
+2025-10-09 08:44:40,850 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:44:43,738 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:44:36Z and 2025-10-09T08:44:41Z
+2025-10-09 08:44:43,751 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:44:45,825 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:44:36Z and 2025-10-09T08:44:41Z
+2025-10-09 08:44:45,836 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:44:48,710 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:44:41Z and 2025-10-09T08:44:46Z
+2025-10-09 08:44:48,724 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:44:50,792 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:44:41Z and 2025-10-09T08:44:46Z
+2025-10-09 08:44:50,810 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:44:53,727 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:44:46Z and 2025-10-09T08:44:51Z
+2025-10-09 08:44:53,740 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:44:55,889 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:44:46Z and 2025-10-09T08:44:51Z
+2025-10-09 08:44:55,893 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:44:58,709 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:44:51Z and 2025-10-09T08:44:56Z
+2025-10-09 08:44:58,723 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:45:00,806 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:44:51Z and 2025-10-09T08:44:56Z
+2025-10-09 08:45:00,815 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:45:03,672 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:44:56Z and 2025-10-09T08:45:01Z
+2025-10-09 08:45:03,683 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:45:05,756 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:44:56Z and 2025-10-09T08:45:01Z
+2025-10-09 08:45:05,767 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:45:08,349 - basicLogger - DEBUG - Storing 1760024705012289100 to the database
+2025-10-09 08:45:08,373 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760024705012289100
+2025-10-09 08:45:08,694 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:45:01Z and 2025-10-09T08:45:06Z
+2025-10-09 08:45:08,704 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:45:10,782 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:45:01Z and 2025-10-09T08:45:06Z
+2025-10-09 08:45:10,793 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:45:11,866 - basicLogger - DEBUG - Storing 1760024708391381800 to the database
+2025-10-09 08:45:11,901 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760024708391381800
+2025-10-09 08:45:13,704 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:45:06Z and 2025-10-09T08:45:11Z
+2025-10-09 08:45:13,711 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:45:16,235 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:45:06Z and 2025-10-09T08:45:11Z
+2025-10-09 08:45:16,250 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:45:18,684 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:45:11Z and 2025-10-09T08:45:16Z
+2025-10-09 08:45:18,697 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:45:20,752 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:45:11Z and 2025-10-09T08:45:16Z
+2025-10-09 08:45:20,766 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:45:23,719 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:45:16Z and 2025-10-09T08:45:21Z
+2025-10-09 08:45:23,733 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:45:25,795 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:45:16Z and 2025-10-09T08:45:21Z
+2025-10-09 08:45:25,803 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:45:28,687 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:45:21Z and 2025-10-09T08:45:26Z
+2025-10-09 08:45:28,700 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:45:30,774 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:45:21Z and 2025-10-09T08:45:26Z
+2025-10-09 08:45:30,786 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:45:33,698 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:45:26Z and 2025-10-09T08:45:31Z
+2025-10-09 08:45:33,713 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:45:35,794 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:45:26Z and 2025-10-09T08:45:31Z
+2025-10-09 08:45:35,809 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:45:38,716 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:45:31Z and 2025-10-09T08:45:36Z
+2025-10-09 08:45:38,731 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:45:40,839 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:45:31Z and 2025-10-09T08:45:36Z
+2025-10-09 08:45:40,852 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:45:43,707 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:45:36Z and 2025-10-09T08:45:41Z
+2025-10-09 08:45:43,719 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:45:45,839 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:45:36Z and 2025-10-09T08:45:41Z
+2025-10-09 08:45:45,853 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:45:48,727 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:45:41Z and 2025-10-09T08:45:46Z
+2025-10-09 08:45:48,745 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:45:50,808 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:45:41Z and 2025-10-09T08:45:46Z
+2025-10-09 08:45:50,824 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:45:53,731 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:45:46Z and 2025-10-09T08:45:51Z
+2025-10-09 08:45:53,754 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:45:56,016 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:45:46Z and 2025-10-09T08:45:51Z
+2025-10-09 08:45:56,096 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:45:58,839 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:45:51Z and 2025-10-09T08:45:56Z
+2025-10-09 08:45:58,869 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:46:00,958 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:45:51Z and 2025-10-09T08:45:56Z
+2025-10-09 08:46:00,973 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:46:03,703 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:45:56Z and 2025-10-09T08:46:01Z
+2025-10-09 08:46:03,718 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:46:05,852 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:45:56Z and 2025-10-09T08:46:01Z
+2025-10-09 08:46:05,893 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:46:08,754 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:46:01Z and 2025-10-09T08:46:06Z
+2025-10-09 08:46:08,790 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:46:10,881 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:46:01Z and 2025-10-09T08:46:06Z
+2025-10-09 08:46:10,895 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:46:13,788 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:46:06Z and 2025-10-09T08:46:11Z
+2025-10-09 08:46:13,805 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:46:15,907 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:46:06Z and 2025-10-09T08:46:11Z
+2025-10-09 08:46:15,934 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:46:18,707 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:46:11Z and 2025-10-09T08:46:16Z
+2025-10-09 08:46:18,721 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:46:20,809 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:46:11Z and 2025-10-09T08:46:16Z
+2025-10-09 08:46:20,828 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:46:23,698 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:46:16Z and 2025-10-09T08:46:21Z
+2025-10-09 08:46:23,713 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:46:25,798 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:46:16Z and 2025-10-09T08:46:21Z
+2025-10-09 08:46:25,814 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:46:28,723 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:46:21Z and 2025-10-09T08:46:26Z
+2025-10-09 08:46:28,736 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:46:30,801 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:46:21Z and 2025-10-09T08:46:26Z
+2025-10-09 08:46:30,817 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:46:33,702 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:46:26Z and 2025-10-09T08:46:31Z
+2025-10-09 08:46:33,721 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:46:35,800 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:46:26Z and 2025-10-09T08:46:31Z
+2025-10-09 08:46:35,812 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:46:38,709 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:46:31Z and 2025-10-09T08:46:36Z
+2025-10-09 08:46:38,722 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:46:40,782 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:46:31Z and 2025-10-09T08:46:36Z
+2025-10-09 08:46:40,796 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:46:43,698 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:46:36Z and 2025-10-09T08:46:41Z
+2025-10-09 08:46:43,712 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:46:45,899 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:46:36Z and 2025-10-09T08:46:41Z
+2025-10-09 08:46:45,927 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:46:49,843 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:46:41Z and 2025-10-09T08:46:46Z
+2025-10-09 08:46:50,037 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:46:52,341 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:46:41Z and 2025-10-09T08:46:46Z
+2025-10-09 08:46:52,354 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:46:58,714 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:46:46Z and 2025-10-09T08:46:56Z
+2025-10-09 08:46:58,738 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:47:00,814 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:46:46Z and 2025-10-09T08:46:56Z
+2025-10-09 08:47:00,828 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:47:03,718 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:46:56Z and 2025-10-09T08:47:01Z
+2025-10-09 08:47:03,731 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:47:05,798 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:46:56Z and 2025-10-09T08:47:01Z
+2025-10-09 08:47:05,814 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:47:08,722 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:47:01Z and 2025-10-09T08:47:06Z
+2025-10-09 08:47:08,737 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:47:11,218 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:47:01Z and 2025-10-09T08:47:06Z
+2025-10-09 08:47:11,328 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:47:18,822 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:47:06Z and 2025-10-09T08:47:16Z
+2025-10-09 08:47:19,019 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:47:21,349 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:47:06Z and 2025-10-09T08:47:16Z
+2025-10-09 08:47:21,376 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:47:23,696 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:47:16Z and 2025-10-09T08:47:21Z
+2025-10-09 08:47:23,710 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:47:25,897 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:47:16Z and 2025-10-09T08:47:21Z
+2025-10-09 08:47:25,997 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:47:28,745 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:47:21Z and 2025-10-09T08:47:26Z
+2025-10-09 08:47:28,786 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:47:31,265 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:47:21Z and 2025-10-09T08:47:26Z
+2025-10-09 08:47:31,376 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:47:34,181 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:47:26Z and 2025-10-09T08:47:32Z
+2025-10-09 08:47:34,205 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:47:36,418 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:47:26Z and 2025-10-09T08:47:32Z
+2025-10-09 08:47:36,498 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:47:44,627 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:47:32Z and 2025-10-09T08:47:41Z
+2025-10-09 08:47:44,655 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:47:46,736 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:47:32Z and 2025-10-09T08:47:41Z
+2025-10-09 08:47:46,747 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:47:53,698 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:47:41Z and 2025-10-09T08:47:51Z
+2025-10-09 08:47:53,717 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:47:55,800 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:47:41Z and 2025-10-09T08:47:51Z
+2025-10-09 08:47:55,815 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:47:58,718 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:47:51Z and 2025-10-09T08:47:56Z
+2025-10-09 08:47:58,732 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:48:01,050 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:47:51Z and 2025-10-09T08:47:56Z
+2025-10-09 08:48:01,092 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:48:05,498 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:47:56Z and 2025-10-09T08:48:01Z
+2025-10-09 08:48:05,512 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:48:07,661 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:47:56Z and 2025-10-09T08:48:01Z
+2025-10-09 08:48:07,674 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:48:13,696 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:48:01Z and 2025-10-09T08:48:11Z
+2025-10-09 08:48:13,709 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:48:15,793 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:48:01Z and 2025-10-09T08:48:11Z
+2025-10-09 08:48:15,802 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:48:18,732 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:48:11Z and 2025-10-09T08:48:16Z
+2025-10-09 08:48:18,747 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:48:20,837 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:48:11Z and 2025-10-09T08:48:16Z
+2025-10-09 08:48:20,860 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:48:23,707 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:48:16Z and 2025-10-09T08:48:21Z
+2025-10-09 08:48:23,718 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:48:25,802 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:48:16Z and 2025-10-09T08:48:21Z
+2025-10-09 08:48:25,837 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:48:28,761 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:48:21Z and 2025-10-09T08:48:26Z
+2025-10-09 08:48:28,771 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:48:30,819 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:48:21Z and 2025-10-09T08:48:26Z
+2025-10-09 08:48:30,834 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:48:33,700 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:48:26Z and 2025-10-09T08:48:31Z
+2025-10-09 08:48:33,719 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:48:35,795 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:48:26Z and 2025-10-09T08:48:31Z
+2025-10-09 08:48:35,811 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:48:38,701 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:48:31Z and 2025-10-09T08:48:36Z
+2025-10-09 08:48:38,714 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:48:40,789 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:48:31Z and 2025-10-09T08:48:36Z
+2025-10-09 08:48:40,799 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:48:43,687 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:48:36Z and 2025-10-09T08:48:41Z
+2025-10-09 08:48:43,698 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:48:45,778 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:48:36Z and 2025-10-09T08:48:41Z
+2025-10-09 08:48:45,798 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:48:48,685 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:48:41Z and 2025-10-09T08:48:46Z
+2025-10-09 08:48:48,697 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:48:50,759 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:48:41Z and 2025-10-09T08:48:46Z
+2025-10-09 08:48:50,769 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:48:53,698 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:48:46Z and 2025-10-09T08:48:51Z
+2025-10-09 08:48:53,711 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:48:55,772 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:48:46Z and 2025-10-09T08:48:51Z
+2025-10-09 08:48:55,783 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:48:58,708 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:48:51Z and 2025-10-09T08:48:56Z
+2025-10-09 08:48:58,731 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:49:01,023 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:48:51Z and 2025-10-09T08:48:56Z
+2025-10-09 08:49:01,084 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:49:04,103 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:48:56Z and 2025-10-09T08:49:02Z
+2025-10-09 08:49:04,113 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:49:06,182 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:48:56Z and 2025-10-09T08:49:02Z
+2025-10-09 08:49:06,191 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:49:08,705 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:49:02Z and 2025-10-09T08:49:06Z
+2025-10-09 08:49:08,716 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:49:10,800 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:49:02Z and 2025-10-09T08:49:06Z
+2025-10-09 08:49:10,812 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:49:13,688 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:49:06Z and 2025-10-09T08:49:11Z
+2025-10-09 08:49:13,698 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:49:15,754 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:49:06Z and 2025-10-09T08:49:11Z
+2025-10-09 08:49:15,766 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:49:18,703 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:49:11Z and 2025-10-09T08:49:16Z
+2025-10-09 08:49:18,714 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:49:20,801 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:49:11Z and 2025-10-09T08:49:16Z
+2025-10-09 08:49:20,811 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:49:23,695 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:49:16Z and 2025-10-09T08:49:21Z
+2025-10-09 08:49:23,709 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:49:25,773 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:49:16Z and 2025-10-09T08:49:21Z
+2025-10-09 08:49:25,782 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:49:28,673 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:49:21Z and 2025-10-09T08:49:26Z
+2025-10-09 08:49:28,680 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:49:30,760 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:49:21Z and 2025-10-09T08:49:26Z
+2025-10-09 08:49:30,772 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:49:33,672 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:49:26Z and 2025-10-09T08:49:31Z
+2025-10-09 08:49:33,681 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:49:35,730 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:49:26Z and 2025-10-09T08:49:31Z
+2025-10-09 08:49:35,741 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:49:38,690 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:49:31Z and 2025-10-09T08:49:36Z
+2025-10-09 08:49:38,701 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:49:40,769 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:49:31Z and 2025-10-09T08:49:36Z
+2025-10-09 08:49:40,783 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:49:43,690 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:49:36Z and 2025-10-09T08:49:41Z
+2025-10-09 08:49:43,704 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:49:45,762 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:49:36Z and 2025-10-09T08:49:41Z
+2025-10-09 08:49:45,776 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:49:48,684 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:49:41Z and 2025-10-09T08:49:46Z
+2025-10-09 08:49:48,693 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:49:50,754 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:49:41Z and 2025-10-09T08:49:46Z
+2025-10-09 08:49:50,764 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:49:53,706 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:49:46Z and 2025-10-09T08:49:51Z
+2025-10-09 08:49:53,721 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:49:55,790 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:49:46Z and 2025-10-09T08:49:51Z
+2025-10-09 08:49:55,812 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:49:58,674 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:49:51Z and 2025-10-09T08:49:56Z
+2025-10-09 08:49:58,696 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:50:00,770 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:49:51Z and 2025-10-09T08:49:56Z
+2025-10-09 08:50:00,778 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:50:03,706 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:49:56Z and 2025-10-09T08:50:01Z
+2025-10-09 08:50:03,716 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:50:05,819 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:49:56Z and 2025-10-09T08:50:01Z
+2025-10-09 08:50:05,830 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:50:07,767 - basicLogger - DEBUG - Storing 1760025004721817700 to the database
+2025-10-09 08:50:07,809 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025004721817700
+2025-10-09 08:50:08,683 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:50:01Z and 2025-10-09T08:50:06Z
+2025-10-09 08:50:08,692 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:50:10,760 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:50:01Z and 2025-10-09T08:50:06Z
+2025-10-09 08:50:10,769 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:50:10,835 - basicLogger - DEBUG - Storing 1760025007819755100 to the database
+2025-10-09 08:50:10,881 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025007819755100
+2025-10-09 08:50:13,686 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:50:06Z and 2025-10-09T08:50:11Z
+2025-10-09 08:50:13,700 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:50:15,778 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:50:06Z and 2025-10-09T08:50:11Z
+2025-10-09 08:50:15,790 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:50:18,696 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:50:11Z and 2025-10-09T08:50:16Z
+2025-10-09 08:50:18,709 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:50:20,769 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:50:11Z and 2025-10-09T08:50:16Z
+2025-10-09 08:50:20,781 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:50:23,698 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:50:16Z and 2025-10-09T08:50:21Z
+2025-10-09 08:50:23,715 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:50:25,791 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:50:16Z and 2025-10-09T08:50:21Z
+2025-10-09 08:50:25,807 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:50:28,695 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:50:21Z and 2025-10-09T08:50:26Z
+2025-10-09 08:50:28,708 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:50:30,779 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:50:21Z and 2025-10-09T08:50:26Z
+2025-10-09 08:50:30,792 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:50:33,697 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:50:26Z and 2025-10-09T08:50:31Z
+2025-10-09 08:50:33,717 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:50:35,780 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:50:26Z and 2025-10-09T08:50:31Z
+2025-10-09 08:50:35,793 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:50:38,672 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:50:31Z and 2025-10-09T08:50:36Z
+2025-10-09 08:50:38,681 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:50:40,724 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:50:31Z and 2025-10-09T08:50:36Z
+2025-10-09 08:50:40,736 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:50:43,675 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:50:36Z and 2025-10-09T08:50:41Z
+2025-10-09 08:50:43,688 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:50:45,760 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:50:36Z and 2025-10-09T08:50:41Z
+2025-10-09 08:50:45,772 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:50:48,684 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:50:41Z and 2025-10-09T08:50:46Z
+2025-10-09 08:50:48,696 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:50:50,765 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:50:41Z and 2025-10-09T08:50:46Z
+2025-10-09 08:50:50,775 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:50:53,678 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:50:46Z and 2025-10-09T08:50:51Z
+2025-10-09 08:50:53,688 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:50:55,747 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:50:46Z and 2025-10-09T08:50:51Z
+2025-10-09 08:50:55,756 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:50:58,699 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:50:51Z and 2025-10-09T08:50:56Z
+2025-10-09 08:50:58,711 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:51:00,771 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:50:51Z and 2025-10-09T08:50:56Z
+2025-10-09 08:51:00,783 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:51:03,697 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:50:56Z and 2025-10-09T08:51:01Z
+2025-10-09 08:51:03,708 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:51:05,783 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:50:56Z and 2025-10-09T08:51:01Z
+2025-10-09 08:51:05,795 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:51:08,681 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:51:01Z and 2025-10-09T08:51:06Z
+2025-10-09 08:51:08,692 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:51:10,764 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:51:01Z and 2025-10-09T08:51:06Z
+2025-10-09 08:51:10,774 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:51:13,681 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:51:06Z and 2025-10-09T08:51:11Z
+2025-10-09 08:51:13,692 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:51:15,762 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:51:06Z and 2025-10-09T08:51:11Z
+2025-10-09 08:51:15,773 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:51:18,698 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:51:11Z and 2025-10-09T08:51:16Z
+2025-10-09 08:51:18,710 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:51:20,777 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:51:11Z and 2025-10-09T08:51:16Z
+2025-10-09 08:51:20,781 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:51:23,671 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:51:16Z and 2025-10-09T08:51:21Z
+2025-10-09 08:51:23,676 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:51:25,732 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:51:16Z and 2025-10-09T08:51:21Z
+2025-10-09 08:51:25,735 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:51:28,666 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:51:21Z and 2025-10-09T08:51:26Z
+2025-10-09 08:51:28,670 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:51:30,693 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:51:21Z and 2025-10-09T08:51:26Z
+2025-10-09 08:51:30,697 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:51:33,679 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:51:26Z and 2025-10-09T08:51:31Z
+2025-10-09 08:51:33,684 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:51:35,727 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:51:26Z and 2025-10-09T08:51:31Z
+2025-10-09 08:51:35,732 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:51:38,693 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:51:31Z and 2025-10-09T08:51:36Z
+2025-10-09 08:51:38,697 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:51:40,743 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:51:31Z and 2025-10-09T08:51:36Z
+2025-10-09 08:51:40,746 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:51:43,682 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:51:36Z and 2025-10-09T08:51:41Z
+2025-10-09 08:51:43,686 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:51:45,731 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:51:36Z and 2025-10-09T08:51:41Z
+2025-10-09 08:51:45,735 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:51:48,681 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:51:41Z and 2025-10-09T08:51:46Z
+2025-10-09 08:51:48,684 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:51:50,739 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:51:41Z and 2025-10-09T08:51:46Z
+2025-10-09 08:51:50,742 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:51:53,687 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:51:46Z and 2025-10-09T08:51:51Z
+2025-10-09 08:51:53,691 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:51:53,810 - basicLogger - DEBUG - Storing 1760025111543273700 to the database
+2025-10-09 08:51:53,818 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025111543273700
+2025-10-09 08:51:55,715 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:51:46Z and 2025-10-09T08:51:51Z
+2025-10-09 08:51:55,717 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:51:56,117 - basicLogger - DEBUG - Storing 1760025113821979200 to the database
+2025-10-09 08:51:56,124 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025113821979200
+2025-10-09 08:52:04,276 - basicLogger - INFO - Connected to the database
+2025-10-09 08:52:04,360 - basicLogger - INFO - Connected to the database
+2025-10-09 08:52:06,489 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:51:51Z and 2025-10-09T08:52:04Z
+2025-10-09 08:52:06,537 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:52:08,573 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:51:51Z and 2025-10-09T08:52:04Z
+2025-10-09 08:52:08,581 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:52:11,474 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:52:04Z and 2025-10-09T08:52:09Z
+2025-10-09 08:52:11,479 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:52:12,024 - basicLogger - DEBUG - Storing 1760025129714283500 to the database
+2025-10-09 08:52:12,038 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025129714283500
+2025-10-09 08:52:13,519 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:52:04Z and 2025-10-09T08:52:09Z
+2025-10-09 08:52:13,523 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:52:14,346 - basicLogger - DEBUG - Storing 1760025132045043700 to the database
+2025-10-09 08:52:14,355 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025132045043700
+2025-10-09 08:52:16,466 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:52:09Z and 2025-10-09T08:52:14Z
+2025-10-09 08:52:16,472 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:52:18,531 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:52:09Z and 2025-10-09T08:52:14Z
+2025-10-09 08:52:18,536 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:52:21,492 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:52:14Z and 2025-10-09T08:52:19Z
+2025-10-09 08:52:21,494 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:52:23,536 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:52:14Z and 2025-10-09T08:52:19Z
+2025-10-09 08:52:23,541 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:52:26,488 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:52:19Z and 2025-10-09T08:52:24Z
+2025-10-09 08:52:26,492 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:52:28,516 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:52:19Z and 2025-10-09T08:52:24Z
+2025-10-09 08:52:28,519 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:52:31,498 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:52:24Z and 2025-10-09T08:52:29Z
+2025-10-09 08:52:31,503 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:52:33,555 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:52:24Z and 2025-10-09T08:52:29Z
+2025-10-09 08:52:33,559 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:52:36,484 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:52:29Z and 2025-10-09T08:52:34Z
+2025-10-09 08:52:36,491 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:52:38,545 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:52:29Z and 2025-10-09T08:52:34Z
+2025-10-09 08:52:38,548 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:52:41,478 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:52:34Z and 2025-10-09T08:52:39Z
+2025-10-09 08:52:41,483 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:52:43,526 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:52:34Z and 2025-10-09T08:52:39Z
+2025-10-09 08:52:43,531 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:52:46,470 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:52:39Z and 2025-10-09T08:52:44Z
+2025-10-09 08:52:46,474 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:52:48,517 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:52:39Z and 2025-10-09T08:52:44Z
+2025-10-09 08:52:48,520 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:52:51,502 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:52:44Z and 2025-10-09T08:52:49Z
+2025-10-09 08:52:51,506 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:52:53,540 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:52:44Z and 2025-10-09T08:52:49Z
+2025-10-09 08:52:53,542 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:52:56,490 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:52:49Z and 2025-10-09T08:52:54Z
+2025-10-09 08:52:56,494 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:52:58,540 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:52:49Z and 2025-10-09T08:52:54Z
+2025-10-09 08:52:58,544 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:53:01,471 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:52:54Z and 2025-10-09T08:52:59Z
+2025-10-09 08:53:01,475 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:53:03,517 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:52:54Z and 2025-10-09T08:52:59Z
+2025-10-09 08:53:03,521 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:53:06,479 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:52:59Z and 2025-10-09T08:53:04Z
+2025-10-09 08:53:06,481 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:53:08,522 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:52:59Z and 2025-10-09T08:53:04Z
+2025-10-09 08:53:08,525 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:53:11,499 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:53:04Z and 2025-10-09T08:53:09Z
+2025-10-09 08:53:11,504 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:53:13,555 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:53:04Z and 2025-10-09T08:53:09Z
+2025-10-09 08:53:13,559 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:53:16,486 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:53:09Z and 2025-10-09T08:53:14Z
+2025-10-09 08:53:16,490 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:53:18,531 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:53:09Z and 2025-10-09T08:53:14Z
+2025-10-09 08:53:18,535 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:53:21,499 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:53:14Z and 2025-10-09T08:53:19Z
+2025-10-09 08:53:21,504 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:53:23,540 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:53:14Z and 2025-10-09T08:53:19Z
+2025-10-09 08:53:23,548 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:53:26,473 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:53:19Z and 2025-10-09T08:53:24Z
+2025-10-09 08:53:26,479 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:53:28,536 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:53:19Z and 2025-10-09T08:53:24Z
+2025-10-09 08:53:28,543 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:53:31,491 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:53:24Z and 2025-10-09T08:53:29Z
+2025-10-09 08:53:31,497 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:53:33,547 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:53:24Z and 2025-10-09T08:53:29Z
+2025-10-09 08:53:33,550 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:53:36,503 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:53:29Z and 2025-10-09T08:53:34Z
+2025-10-09 08:53:36,507 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:53:38,572 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:53:29Z and 2025-10-09T08:53:34Z
+2025-10-09 08:53:38,577 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:53:41,497 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:53:34Z and 2025-10-09T08:53:39Z
+2025-10-09 08:53:41,501 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:53:43,556 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:53:34Z and 2025-10-09T08:53:39Z
+2025-10-09 08:53:43,558 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:53:46,490 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:53:39Z and 2025-10-09T08:53:44Z
+2025-10-09 08:53:46,495 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:53:48,552 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:53:39Z and 2025-10-09T08:53:44Z
+2025-10-09 08:53:48,554 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:53:51,491 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:53:44Z and 2025-10-09T08:53:49Z
+2025-10-09 08:53:51,493 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:53:53,537 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:53:44Z and 2025-10-09T08:53:49Z
+2025-10-09 08:53:53,540 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:53:56,484 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:53:49Z and 2025-10-09T08:53:54Z
+2025-10-09 08:53:56,489 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:53:58,536 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:53:49Z and 2025-10-09T08:53:54Z
+2025-10-09 08:53:58,540 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:54:01,469 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:53:54Z and 2025-10-09T08:53:59Z
+2025-10-09 08:54:01,473 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:54:03,517 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:53:54Z and 2025-10-09T08:53:59Z
+2025-10-09 08:54:03,520 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:54:06,496 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:53:59Z and 2025-10-09T08:54:04Z
+2025-10-09 08:54:06,500 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:54:08,552 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:53:59Z and 2025-10-09T08:54:04Z
+2025-10-09 08:54:08,556 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:54:11,497 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:54:04Z and 2025-10-09T08:54:09Z
+2025-10-09 08:54:11,501 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:54:13,545 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:54:04Z and 2025-10-09T08:54:09Z
+2025-10-09 08:54:13,549 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:54:16,497 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:54:09Z and 2025-10-09T08:54:14Z
+2025-10-09 08:54:16,501 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:54:18,561 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:54:09Z and 2025-10-09T08:54:14Z
+2025-10-09 08:54:18,565 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:54:21,488 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:54:14Z and 2025-10-09T08:54:19Z
+2025-10-09 08:54:21,492 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:54:23,538 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:54:14Z and 2025-10-09T08:54:19Z
+2025-10-09 08:54:23,540 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:54:26,468 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:54:19Z and 2025-10-09T08:54:24Z
+2025-10-09 08:54:26,472 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:54:28,520 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:54:19Z and 2025-10-09T08:54:24Z
+2025-10-09 08:54:28,523 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:54:31,483 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:54:24Z and 2025-10-09T08:54:29Z
+2025-10-09 08:54:31,486 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:54:33,521 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:54:24Z and 2025-10-09T08:54:29Z
+2025-10-09 08:54:33,524 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:54:36,491 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:54:29Z and 2025-10-09T08:54:34Z
+2025-10-09 08:54:36,494 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:54:38,540 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:54:29Z and 2025-10-09T08:54:34Z
+2025-10-09 08:54:38,543 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:54:41,487 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:54:34Z and 2025-10-09T08:54:39Z
+2025-10-09 08:54:41,492 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:54:43,558 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:54:34Z and 2025-10-09T08:54:39Z
+2025-10-09 08:54:43,561 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:54:46,502 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:54:39Z and 2025-10-09T08:54:44Z
+2025-10-09 08:54:46,507 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:54:48,561 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:54:39Z and 2025-10-09T08:54:44Z
+2025-10-09 08:54:48,565 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:54:51,494 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:54:44Z and 2025-10-09T08:54:49Z
+2025-10-09 08:54:51,498 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:54:53,557 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:54:44Z and 2025-10-09T08:54:49Z
+2025-10-09 08:54:53,562 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:54:53,771 - basicLogger - DEBUG - Storing 1760025290881662800 to the database
+2025-10-09 08:54:53,775 - basicLogger - DEBUG - Storing 1760025290881329100 to the database
+2025-10-09 08:54:53,776 - basicLogger - DEBUG - Storing 1760025290881992800 to the database
+2025-10-09 08:54:53,777 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025290881662800
+2025-10-09 08:54:53,799 - basicLogger - DEBUG - Storing 1760025290880979100 to the database
+2025-10-09 08:54:53,799 - basicLogger - DEBUG - Storing 1760025290880637300 to the database
+2025-10-09 08:54:53,800 - basicLogger - DEBUG - Storing 1760025290889021200 to the database
+2025-10-09 08:54:53,814 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025290881992800
+2025-10-09 08:54:53,821 - basicLogger - DEBUG - Storing 1760025290880268900 to the database
+2025-10-09 08:54:53,825 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025290881329100
+2025-10-09 08:54:53,826 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025290880979100
+2025-10-09 08:54:53,830 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025290889021200
+2025-10-09 08:54:53,831 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025290880637300
+2025-10-09 08:54:53,840 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025290880268900
+2025-10-09 08:54:53,881 - basicLogger - DEBUG - Storing 1760025290989218700 to the database
+2025-10-09 08:54:53,901 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025290989218700
+2025-10-09 08:54:53,987 - basicLogger - DEBUG - Storing 1760025291088614400 to the database
+2025-10-09 08:54:53,998 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025291088614400
+2025-10-09 08:54:54,064 - basicLogger - DEBUG - Storing 1760025291188337000 to the database
+2025-10-09 08:54:54,072 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025291188337000
+2025-10-09 08:54:56,487 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:54:49Z and 2025-10-09T08:54:54Z
+2025-10-09 08:54:56,492 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:54:57,352 - basicLogger - DEBUG - Storing 1760025293782289100 to the database
+2025-10-09 08:54:57,360 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025293782289100
+2025-10-09 08:54:57,385 - basicLogger - DEBUG - Storing 1760025293852075600 to the database
+2025-10-09 08:54:57,387 - basicLogger - DEBUG - Storing 1760025293846644500 to the database
+2025-10-09 08:54:57,393 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025293852075600
+2025-10-09 08:54:57,395 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025293846644500
+2025-10-09 08:54:57,415 - basicLogger - DEBUG - Storing 1760025293847851700 to the database
+2025-10-09 08:54:57,424 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025293847851700
+2025-10-09 08:54:57,444 - basicLogger - DEBUG - Storing 1760025293906791500 to the database
+2025-10-09 08:54:57,454 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025293906791500
+2025-10-09 08:54:57,492 - basicLogger - DEBUG - Storing 1760025293825902100 to the database
+2025-10-09 08:54:57,501 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025293825902100
+2025-10-09 08:54:57,508 - basicLogger - DEBUG - Storing 1760025293843834200 to the database
+2025-10-09 08:54:57,515 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025293843834200
+2025-10-09 08:54:57,526 - basicLogger - DEBUG - Storing 1760025293841883000 to the database
+2025-10-09 08:54:57,532 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025293841883000
+2025-10-09 08:54:57,587 - basicLogger - DEBUG - Storing 1760025294004950300 to the database
+2025-10-09 08:54:57,593 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025294004950300
+2025-10-09 08:54:57,618 - basicLogger - DEBUG - Storing 1760025294078444800 to the database
+2025-10-09 08:54:57,626 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025294078444800
+2025-10-09 08:54:58,547 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:54:49Z and 2025-10-09T08:54:54Z
+2025-10-09 08:54:58,558 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:55:00,592 - basicLogger - DEBUG - Storing 1760025297407884400 to the database
+2025-10-09 08:55:00,601 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025297407884400
+2025-10-09 08:55:00,623 - basicLogger - DEBUG - Storing 1760025297408148300 to the database
+2025-10-09 08:55:00,631 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025297408148300
+2025-10-09 08:55:00,688 - basicLogger - DEBUG - Storing 1760025297432713000 to the database
+2025-10-09 08:55:00,700 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025297432713000
+2025-10-09 08:55:00,748 - basicLogger - DEBUG - Storing 1760025297463639100 to the database
+2025-10-09 08:55:00,749 - basicLogger - DEBUG - Storing 1760025297377653800 to the database
+2025-10-09 08:55:00,775 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025297463639100
+2025-10-09 08:55:00,780 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025297377653800
+2025-10-09 08:55:00,956 - basicLogger - DEBUG - Storing 1760025297636470000 to the database
+2025-10-09 08:55:00,974 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025297636470000
+2025-10-09 08:55:01,011 - basicLogger - DEBUG - Storing 1760025297602957200 to the database
+2025-10-09 08:55:01,024 - basicLogger - DEBUG - Storing 1760025297511349600 to the database
+2025-10-09 08:55:01,038 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025297602957200
+2025-10-09 08:55:01,051 - basicLogger - DEBUG - Storing 1760025297541119300 to the database
+2025-10-09 08:55:01,061 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025297511349600
+2025-10-09 08:55:01,071 - basicLogger - DEBUG - Storing 1760025297525137300 to the database
+2025-10-09 08:55:01,073 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025297541119300
+2025-10-09 08:55:01,090 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025297525137300
+2025-10-09 08:55:01,502 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:54:54Z and 2025-10-09T08:54:59Z
+2025-10-09 08:55:01,511 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:55:03,583 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:54:54Z and 2025-10-09T08:54:59Z
+2025-10-09 08:55:03,588 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:55:04,698 - basicLogger - DEBUG - Storing 1760025300605969500 to the database
+2025-10-09 08:55:04,705 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025300605969500
+2025-10-09 08:55:04,867 - basicLogger - DEBUG - Storing 1760025300638953500 to the database
+2025-10-09 08:55:04,875 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025300638953500
+2025-10-09 08:55:05,023 - basicLogger - DEBUG - Storing 1760025300724882200 to the database
+2025-10-09 08:55:05,038 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025300724882200
+2025-10-09 08:55:05,092 - basicLogger - DEBUG - Storing 1760025300790175400 to the database
+2025-10-09 08:55:05,113 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025300790175400
+2025-10-09 08:55:05,116 - basicLogger - DEBUG - Storing 1760025300782639800 to the database
+2025-10-09 08:55:05,134 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025300782639800
+2025-10-09 08:55:05,252 - basicLogger - DEBUG - Storing 1760025301107596400 to the database
+2025-10-09 08:55:05,265 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025301107596400
+2025-10-09 08:55:05,272 - basicLogger - DEBUG - Storing 1760025301023386500 to the database
+2025-10-09 08:55:05,273 - basicLogger - DEBUG - Storing 1760025301135264300 to the database
+2025-10-09 08:55:05,286 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025301135264300
+2025-10-09 08:55:05,287 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025301023386500
+2025-10-09 08:55:05,303 - basicLogger - DEBUG - Storing 1760025301121443600 to the database
+2025-10-09 08:55:05,314 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025301121443600
+2025-10-09 08:55:05,315 - basicLogger - DEBUG - Storing 1760025301090150200 to the database
+2025-10-09 08:55:05,324 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025301090150200
+2025-10-09 08:55:06,491 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:54:59Z and 2025-10-09T08:55:04Z
+2025-10-09 08:55:06,497 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:55:08,556 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:54:59Z and 2025-10-09T08:55:04Z
+2025-10-09 08:55:08,559 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:55:11,495 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:55:04Z and 2025-10-09T08:55:09Z
+2025-10-09 08:55:11,498 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:55:13,550 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:55:04Z and 2025-10-09T08:55:09Z
+2025-10-09 08:55:13,554 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:55:16,500 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:55:09Z and 2025-10-09T08:55:14Z
+2025-10-09 08:55:16,505 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:55:18,558 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:55:09Z and 2025-10-09T08:55:14Z
+2025-10-09 08:55:18,562 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:55:21,484 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:55:14Z and 2025-10-09T08:55:19Z
+2025-10-09 08:55:21,487 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:55:23,524 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:55:14Z and 2025-10-09T08:55:19Z
+2025-10-09 08:55:23,527 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:55:26,469 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:55:19Z and 2025-10-09T08:55:24Z
+2025-10-09 08:55:26,478 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:55:28,514 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:55:19Z and 2025-10-09T08:55:24Z
+2025-10-09 08:55:28,518 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:55:31,498 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:55:24Z and 2025-10-09T08:55:29Z
+2025-10-09 08:55:31,502 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:55:33,545 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:55:24Z and 2025-10-09T08:55:29Z
+2025-10-09 08:55:33,553 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:55:36,498 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:55:29Z and 2025-10-09T08:55:34Z
+2025-10-09 08:55:36,504 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:55:38,560 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:55:29Z and 2025-10-09T08:55:34Z
+2025-10-09 08:55:38,566 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:55:41,484 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:55:34Z and 2025-10-09T08:55:39Z
+2025-10-09 08:55:41,489 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:55:43,555 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:55:34Z and 2025-10-09T08:55:39Z
+2025-10-09 08:55:43,562 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:55:46,511 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:55:39Z and 2025-10-09T08:55:44Z
+2025-10-09 08:55:46,518 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:55:48,576 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:55:39Z and 2025-10-09T08:55:44Z
+2025-10-09 08:55:48,580 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:55:51,470 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:55:44Z and 2025-10-09T08:55:49Z
+2025-10-09 08:55:51,473 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:55:53,523 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:55:44Z and 2025-10-09T08:55:49Z
+2025-10-09 08:55:53,526 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:55:56,499 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:55:49Z and 2025-10-09T08:55:54Z
+2025-10-09 08:55:56,502 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:55:58,547 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:55:49Z and 2025-10-09T08:55:54Z
+2025-10-09 08:55:58,550 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:56:01,473 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:55:54Z and 2025-10-09T08:55:59Z
+2025-10-09 08:56:01,475 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:56:03,515 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:55:54Z and 2025-10-09T08:55:59Z
+2025-10-09 08:56:03,520 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:56:06,480 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:55:59Z and 2025-10-09T08:56:04Z
+2025-10-09 08:56:06,484 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:56:08,531 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:55:59Z and 2025-10-09T08:56:04Z
+2025-10-09 08:56:08,534 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:56:11,490 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:56:04Z and 2025-10-09T08:56:09Z
+2025-10-09 08:56:11,493 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:56:13,536 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:56:04Z and 2025-10-09T08:56:09Z
+2025-10-09 08:56:13,540 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:56:16,478 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:56:09Z and 2025-10-09T08:56:14Z
+2025-10-09 08:56:16,481 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:56:18,533 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:56:09Z and 2025-10-09T08:56:14Z
+2025-10-09 08:56:18,536 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:56:21,499 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:56:14Z and 2025-10-09T08:56:19Z
+2025-10-09 08:56:21,502 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:56:23,542 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:56:14Z and 2025-10-09T08:56:19Z
+2025-10-09 08:56:23,545 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:56:26,489 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:56:19Z and 2025-10-09T08:56:24Z
+2025-10-09 08:56:26,492 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:56:28,535 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:56:19Z and 2025-10-09T08:56:24Z
+2025-10-09 08:56:28,539 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:56:31,482 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:56:24Z and 2025-10-09T08:56:29Z
+2025-10-09 08:56:31,487 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:56:33,534 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:56:24Z and 2025-10-09T08:56:29Z
+2025-10-09 08:56:33,538 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:56:36,493 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:56:29Z and 2025-10-09T08:56:34Z
+2025-10-09 08:56:36,496 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:56:38,546 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:56:29Z and 2025-10-09T08:56:34Z
+2025-10-09 08:56:38,551 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:56:41,483 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:56:34Z and 2025-10-09T08:56:39Z
+2025-10-09 08:56:41,487 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:56:43,546 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:56:34Z and 2025-10-09T08:56:39Z
+2025-10-09 08:56:43,551 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:56:46,490 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:56:39Z and 2025-10-09T08:56:44Z
+2025-10-09 08:56:46,493 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:56:48,554 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:56:39Z and 2025-10-09T08:56:44Z
+2025-10-09 08:56:48,558 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:56:51,492 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:56:44Z and 2025-10-09T08:56:49Z
+2025-10-09 08:56:51,494 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:56:53,535 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:56:44Z and 2025-10-09T08:56:49Z
+2025-10-09 08:56:53,538 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:56:56,476 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:56:49Z and 2025-10-09T08:56:54Z
+2025-10-09 08:56:56,479 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:56:58,514 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:56:49Z and 2025-10-09T08:56:54Z
+2025-10-09 08:56:58,517 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:57:01,499 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:56:54Z and 2025-10-09T08:56:59Z
+2025-10-09 08:57:01,502 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:57:03,555 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:56:54Z and 2025-10-09T08:56:59Z
+2025-10-09 08:57:03,557 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:57:06,487 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:56:59Z and 2025-10-09T08:57:04Z
+2025-10-09 08:57:06,490 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:57:08,526 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:56:59Z and 2025-10-09T08:57:04Z
+2025-10-09 08:57:08,529 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:57:11,496 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:57:04Z and 2025-10-09T08:57:09Z
+2025-10-09 08:57:11,501 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:57:13,539 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:57:04Z and 2025-10-09T08:57:09Z
+2025-10-09 08:57:13,544 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:57:16,487 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:57:09Z and 2025-10-09T08:57:14Z
+2025-10-09 08:57:16,491 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:57:18,533 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:57:09Z and 2025-10-09T08:57:14Z
+2025-10-09 08:57:18,536 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:57:21,485 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:57:14Z and 2025-10-09T08:57:19Z
+2025-10-09 08:57:21,491 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:57:23,546 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:57:14Z and 2025-10-09T08:57:19Z
+2025-10-09 08:57:23,551 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:57:26,483 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:57:19Z and 2025-10-09T08:57:24Z
+2025-10-09 08:57:26,488 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:57:28,512 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:57:19Z and 2025-10-09T08:57:24Z
+2025-10-09 08:57:28,516 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:57:31,488 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:57:24Z and 2025-10-09T08:57:29Z
+2025-10-09 08:57:31,491 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:57:33,508 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:57:24Z and 2025-10-09T08:57:29Z
+2025-10-09 08:57:33,511 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:57:36,492 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:57:29Z and 2025-10-09T08:57:34Z
+2025-10-09 08:57:36,495 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:57:38,527 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:57:29Z and 2025-10-09T08:57:34Z
+2025-10-09 08:57:38,530 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:57:41,490 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:57:34Z and 2025-10-09T08:57:39Z
+2025-10-09 08:57:41,494 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:57:43,550 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:57:34Z and 2025-10-09T08:57:39Z
+2025-10-09 08:57:43,553 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:57:46,500 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:57:39Z and 2025-10-09T08:57:44Z
+2025-10-09 08:57:46,504 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:57:48,551 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:57:39Z and 2025-10-09T08:57:44Z
+2025-10-09 08:57:48,554 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:57:51,508 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:57:44Z and 2025-10-09T08:57:49Z
+2025-10-09 08:57:51,511 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:57:53,534 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:57:44Z and 2025-10-09T08:57:49Z
+2025-10-09 08:57:53,538 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:57:56,489 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:57:49Z and 2025-10-09T08:57:54Z
+2025-10-09 08:57:56,492 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:57:58,536 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:57:49Z and 2025-10-09T08:57:54Z
+2025-10-09 08:57:58,539 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:58:01,501 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:57:54Z and 2025-10-09T08:57:59Z
+2025-10-09 08:58:01,504 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:58:03,546 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:57:54Z and 2025-10-09T08:57:59Z
+2025-10-09 08:58:03,549 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:58:06,505 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:57:59Z and 2025-10-09T08:58:04Z
+2025-10-09 08:58:06,509 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:58:08,574 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:57:59Z and 2025-10-09T08:58:04Z
+2025-10-09 08:58:08,577 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:58:11,484 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:58:04Z and 2025-10-09T08:58:09Z
+2025-10-09 08:58:11,488 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:58:13,536 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:58:04Z and 2025-10-09T08:58:09Z
+2025-10-09 08:58:13,540 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:58:16,350 - basicLogger - DEBUG - Storing 1760025493762749400 to the database
+2025-10-09 08:58:16,360 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025493762749400
+2025-10-09 08:58:16,503 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:58:09Z and 2025-10-09T08:58:14Z
+2025-10-09 08:58:16,508 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:58:18,571 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:58:09Z and 2025-10-09T08:58:14Z
+2025-10-09 08:58:18,574 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:58:18,992 - basicLogger - DEBUG - Storing 1760025496368282400 to the database
+2025-10-09 08:58:19,003 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025496368282400
+2025-10-09 08:58:21,474 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:58:14Z and 2025-10-09T08:58:19Z
+2025-10-09 08:58:21,477 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:58:23,523 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:58:14Z and 2025-10-09T08:58:19Z
+2025-10-09 08:58:23,531 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:58:26,499 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:58:19Z and 2025-10-09T08:58:24Z
+2025-10-09 08:58:26,506 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:58:28,558 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:58:19Z and 2025-10-09T08:58:24Z
+2025-10-09 08:58:28,562 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:58:31,493 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:58:24Z and 2025-10-09T08:58:29Z
+2025-10-09 08:58:31,496 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:58:33,548 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:58:24Z and 2025-10-09T08:58:29Z
+2025-10-09 08:58:33,551 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:58:36,502 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:58:29Z and 2025-10-09T08:58:34Z
+2025-10-09 08:58:36,507 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:58:38,545 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:58:29Z and 2025-10-09T08:58:34Z
+2025-10-09 08:58:38,548 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:58:41,498 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:58:34Z and 2025-10-09T08:58:39Z
+2025-10-09 08:58:41,503 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:58:43,553 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:58:34Z and 2025-10-09T08:58:39Z
+2025-10-09 08:58:43,557 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:58:46,494 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:58:39Z and 2025-10-09T08:58:44Z
+2025-10-09 08:58:46,497 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:58:48,550 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:58:39Z and 2025-10-09T08:58:44Z
+2025-10-09 08:58:48,554 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:58:51,474 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:58:44Z and 2025-10-09T08:58:49Z
+2025-10-09 08:58:51,477 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:58:53,516 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:58:44Z and 2025-10-09T08:58:49Z
+2025-10-09 08:58:53,519 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:58:56,487 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:58:49Z and 2025-10-09T08:58:54Z
+2025-10-09 08:58:56,491 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:58:58,521 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:58:49Z and 2025-10-09T08:58:54Z
+2025-10-09 08:58:58,526 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:59:01,495 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:58:54Z and 2025-10-09T08:58:59Z
+2025-10-09 08:59:01,499 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:59:03,525 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:58:54Z and 2025-10-09T08:58:59Z
+2025-10-09 08:59:03,529 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:59:06,483 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:58:59Z and 2025-10-09T08:59:04Z
+2025-10-09 08:59:06,489 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:59:08,512 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:58:59Z and 2025-10-09T08:59:04Z
+2025-10-09 08:59:08,516 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:59:11,500 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:59:04Z and 2025-10-09T08:59:09Z
+2025-10-09 08:59:11,503 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:59:13,534 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:59:04Z and 2025-10-09T08:59:09Z
+2025-10-09 08:59:13,537 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:59:16,489 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:59:09Z and 2025-10-09T08:59:14Z
+2025-10-09 08:59:16,493 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:59:18,522 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:59:09Z and 2025-10-09T08:59:14Z
+2025-10-09 08:59:18,525 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:59:21,493 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:59:14Z and 2025-10-09T08:59:19Z
+2025-10-09 08:59:21,496 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:59:22,385 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:00:00Z and 2025-10-09T08:05:00Z
+2025-10-09 08:59:22,390 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:59:23,550 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:59:14Z and 2025-10-09T08:59:19Z
+2025-10-09 08:59:23,554 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:59:26,495 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:59:19Z and 2025-10-09T08:59:24Z
+2025-10-09 08:59:26,501 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:59:28,572 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:59:19Z and 2025-10-09T08:59:24Z
+2025-10-09 08:59:28,579 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:59:31,493 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:59:24Z and 2025-10-09T08:59:29Z
+2025-10-09 08:59:31,498 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:59:33,562 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:59:24Z and 2025-10-09T08:59:29Z
+2025-10-09 08:59:33,565 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:59:36,495 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:59:29Z and 2025-10-09T08:59:34Z
+2025-10-09 08:59:36,499 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:59:38,559 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:59:29Z and 2025-10-09T08:59:34Z
+2025-10-09 08:59:38,564 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:59:38,934 - basicLogger - INFO - Query for Air Quality readings between 2025-10-08T08:00:00Z and 2025-10-09T08:05:00Z
+2025-10-09 08:59:38,938 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:59:41,489 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:59:34Z and 2025-10-09T08:59:39Z
+2025-10-09 08:59:41,493 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:59:42,971 - basicLogger - INFO - Query for Air Quality readings between 2025-10-08T08:00:00Z and 2025-10-09T08:05:00Z
+2025-10-09 08:59:42,976 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:59:43,540 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:59:34Z and 2025-10-09T08:59:39Z
+2025-10-09 08:59:43,544 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:59:46,485 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:59:39Z and 2025-10-09T08:59:44Z
+2025-10-09 08:59:46,491 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:59:48,529 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:59:39Z and 2025-10-09T08:59:44Z
+2025-10-09 08:59:48,534 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:59:51,492 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:59:44Z and 2025-10-09T08:59:49Z
+2025-10-09 08:59:51,496 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:59:53,553 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:59:44Z and 2025-10-09T08:59:49Z
+2025-10-09 08:59:53,560 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:59:55,008 - basicLogger - DEBUG - Storing 1760025591705238500 to the database
+2025-10-09 08:59:55,014 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025591705238500
+2025-10-09 08:59:55,252 - basicLogger - DEBUG - Storing 1760025591804844000 to the database
+2025-10-09 08:59:55,259 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025591804844000
+2025-10-09 08:59:55,531 - basicLogger - DEBUG - Storing 1760025591913710200 to the database
+2025-10-09 08:59:55,545 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025591913710200
+2025-10-09 08:59:55,639 - basicLogger - DEBUG - Storing 1760025592007677700 to the database
+2025-10-09 08:59:55,650 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025592007677700
+2025-10-09 08:59:55,810 - basicLogger - DEBUG - Storing 1760025592102600600 to the database
+2025-10-09 08:59:55,820 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025592102600600
+2025-10-09 08:59:55,901 - basicLogger - DEBUG - Storing 1760025592212622500 to the database
+2025-10-09 08:59:55,912 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025592212622500
+2025-10-09 08:59:55,919 - basicLogger - DEBUG - Storing 1760025592307671600 to the database
+2025-10-09 08:59:55,931 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025592307671600
+2025-10-09 08:59:55,995 - basicLogger - DEBUG - Storing 1760025592513991800 to the database
+2025-10-09 08:59:56,015 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025592513991800
+2025-10-09 08:59:56,028 - basicLogger - DEBUG - Storing 1760025592609281600 to the database
+2025-10-09 08:59:56,043 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025592609281600
+2025-10-09 08:59:56,059 - basicLogger - DEBUG - Storing 1760025592480795400 to the database
+2025-10-09 08:59:56,079 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025592480795400
+2025-10-09 08:59:56,492 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:59:49Z and 2025-10-09T08:59:54Z
+2025-10-09 08:59:56,498 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 08:59:57,362 - basicLogger - DEBUG - Storing 1760025595018131900 to the database
+2025-10-09 08:59:57,373 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025595018131900
+2025-10-09 08:59:57,691 - basicLogger - DEBUG - Storing 1760025595264872000 to the database
+2025-10-09 08:59:57,700 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025595264872000
+2025-10-09 08:59:58,358 - basicLogger - DEBUG - Storing 1760025595551615300 to the database
+2025-10-09 08:59:58,364 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025595551615300
+2025-10-09 08:59:58,548 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:59:49Z and 2025-10-09T08:59:54Z
+2025-10-09 08:59:58,552 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 08:59:58,626 - basicLogger - DEBUG - Storing 1760025595656614500 to the database
+2025-10-09 08:59:58,633 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025595656614500
+2025-10-09 08:59:58,987 - basicLogger - DEBUG - Storing 1760025595826487300 to the database
+2025-10-09 08:59:58,993 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025595826487300
+2025-10-09 08:59:59,111 - basicLogger - DEBUG - Storing 1760025595919878700 to the database
+2025-10-09 08:59:59,128 - basicLogger - DEBUG - Storing 1760025595936905700 to the database
+2025-10-09 08:59:59,171 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025595919878700
+2025-10-09 08:59:59,182 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025595936905700
+2025-10-09 08:59:59,194 - basicLogger - DEBUG - Storing 1760025596021883400 to the database
+2025-10-09 08:59:59,195 - basicLogger - DEBUG - Storing 1760025596086090600 to the database
+2025-10-09 08:59:59,209 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025596086090600
+2025-10-09 08:59:59,211 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025596021883400
+2025-10-09 08:59:59,225 - basicLogger - DEBUG - Storing 1760025596049710000 to the database
+2025-10-09 08:59:59,234 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025596049710000
+2025-10-09 08:59:59,783 - basicLogger - DEBUG - Storing 1760025597384118900 to the database
+2025-10-09 08:59:59,802 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025597384118900
+2025-10-09 09:00:00,095 - basicLogger - DEBUG - Storing 1760025597712345900 to the database
+2025-10-09 09:00:00,120 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025597712345900
+2025-10-09 09:00:00,683 - basicLogger - DEBUG - Storing 1760025598373903000 to the database
+2025-10-09 09:00:00,697 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025598373903000
+2025-10-09 09:00:00,978 - basicLogger - DEBUG - Storing 1760025598644078300 to the database
+2025-10-09 09:00:00,998 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025598644078300
+2025-10-09 09:00:01,490 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:59:54Z and 2025-10-09T08:59:59Z
+2025-10-09 09:00:01,497 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:00:01,612 - basicLogger - DEBUG - Storing 1760025599000797700 to the database
+2025-10-09 09:00:01,624 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025599000797700
+2025-10-09 09:00:02,448 - basicLogger - DEBUG - Storing 1760025599181439000 to the database
+2025-10-09 09:00:02,455 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025599181439000
+2025-10-09 09:00:02,464 - basicLogger - DEBUG - Storing 1760025599194776200 to the database
+2025-10-09 09:00:02,476 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025599194776200
+2025-10-09 09:00:02,586 - basicLogger - DEBUG - Storing 1760025599226973700 to the database
+2025-10-09 09:00:02,601 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025599226973700
+2025-10-09 09:00:02,618 - basicLogger - DEBUG - Storing 1760025599223988500 to the database
+2025-10-09 09:00:02,621 - basicLogger - DEBUG - Storing 1760025599272761400 to the database
+2025-10-09 09:00:02,634 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025599223988500
+2025-10-09 09:00:02,636 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025599272761400
+2025-10-09 09:00:03,151 - basicLogger - DEBUG - Storing 1760025599808780800 to the database
+2025-10-09 09:00:03,163 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025599808780800
+2025-10-09 09:00:03,436 - basicLogger - DEBUG - Storing 1760025600143192100 to the database
+2025-10-09 09:00:03,450 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025600143192100
+2025-10-09 09:00:03,528 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:59:54Z and 2025-10-09T08:59:59Z
+2025-10-09 09:00:03,532 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:00:03,777 - basicLogger - DEBUG - Storing 1760025600706442100 to the database
+2025-10-09 09:00:03,784 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025600706442100
+2025-10-09 09:00:03,977 - basicLogger - DEBUG - Storing 1760025601006020000 to the database
+2025-10-09 09:00:03,988 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025601006020000
+2025-10-09 09:00:04,284 - basicLogger - DEBUG - Storing 1760025601631201400 to the database
+2025-10-09 09:00:04,290 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025601631201400
+2025-10-09 09:00:05,265 - basicLogger - DEBUG - Storing 1760025602459682000 to the database
+2025-10-09 09:00:05,290 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025602459682000
+2025-10-09 09:00:05,327 - basicLogger - DEBUG - Storing 1760025602480986900 to the database
+2025-10-09 09:00:05,335 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025602480986900
+2025-10-09 09:00:05,531 - basicLogger - DEBUG - Storing 1760025602607045600 to the database
+2025-10-09 09:00:05,540 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025602607045600
+2025-10-09 09:00:05,593 - basicLogger - DEBUG - Storing 1760025602643949100 to the database
+2025-10-09 09:00:05,593 - basicLogger - DEBUG - Storing 1760025602644722400 to the database
+2025-10-09 09:00:05,598 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025602644722400
+2025-10-09 09:00:05,599 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025602643949100
+2025-10-09 09:00:06,482 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T08:59:59Z and 2025-10-09T09:00:04Z
+2025-10-09 09:00:06,486 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:00:07,618 - basicLogger - INFO - Query for Air Quality readings between 2025-10-08T08:00:00Z and 2025-10-09T08:05:00Z
+2025-10-09 09:00:07,622 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:00:08,521 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T08:59:59Z and 2025-10-09T09:00:04Z
+2025-10-09 09:00:08,524 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:00:11,494 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:00:04Z and 2025-10-09T09:00:09Z
+2025-10-09 09:00:11,496 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:00:13,537 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:00:04Z and 2025-10-09T09:00:09Z
+2025-10-09 09:00:13,539 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:00:16,484 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:00:09Z and 2025-10-09T09:00:14Z
+2025-10-09 09:00:16,489 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:00:18,539 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:00:09Z and 2025-10-09T09:00:14Z
+2025-10-09 09:00:18,543 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:00:21,488 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:00:14Z and 2025-10-09T09:00:19Z
+2025-10-09 09:00:21,493 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:00:23,542 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:00:14Z and 2025-10-09T09:00:19Z
+2025-10-09 09:00:23,545 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:00:26,501 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:00:19Z and 2025-10-09T09:00:24Z
+2025-10-09 09:00:26,504 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:00:28,528 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:00:19Z and 2025-10-09T09:00:24Z
+2025-10-09 09:00:28,531 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:00:31,492 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:00:24Z and 2025-10-09T09:00:29Z
+2025-10-09 09:00:31,496 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:00:33,544 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:00:24Z and 2025-10-09T09:00:29Z
+2025-10-09 09:00:33,548 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:00:36,503 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:00:29Z and 2025-10-09T09:00:34Z
+2025-10-09 09:00:36,508 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:00:38,560 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:00:29Z and 2025-10-09T09:00:34Z
+2025-10-09 09:00:38,569 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:00:41,498 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:00:34Z and 2025-10-09T09:00:39Z
+2025-10-09 09:00:41,505 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:00:43,561 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:00:34Z and 2025-10-09T09:00:39Z
+2025-10-09 09:00:43,567 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:00:46,490 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:00:39Z and 2025-10-09T09:00:44Z
+2025-10-09 09:00:46,495 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:00:48,551 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:00:39Z and 2025-10-09T09:00:44Z
+2025-10-09 09:00:48,556 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:00:51,592 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:00:44Z and 2025-10-09T09:00:49Z
+2025-10-09 09:00:51,604 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:00:53,685 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:00:44Z and 2025-10-09T09:00:49Z
+2025-10-09 09:00:53,694 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:00:56,523 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:00:49Z and 2025-10-09T09:00:54Z
+2025-10-09 09:00:56,553 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:00:58,639 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:00:49Z and 2025-10-09T09:00:54Z
+2025-10-09 09:00:58,646 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:01:01,514 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:00:54Z and 2025-10-09T09:00:59Z
+2025-10-09 09:01:01,519 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:01:03,574 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:00:54Z and 2025-10-09T09:00:59Z
+2025-10-09 09:01:03,580 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:01:06,502 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:00:59Z and 2025-10-09T09:01:04Z
+2025-10-09 09:01:06,508 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:01:08,559 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:00:59Z and 2025-10-09T09:01:04Z
+2025-10-09 09:01:08,564 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:01:11,481 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:01:04Z and 2025-10-09T09:01:09Z
+2025-10-09 09:01:11,484 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:01:13,524 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:01:04Z and 2025-10-09T09:01:09Z
+2025-10-09 09:01:13,527 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:01:16,491 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:01:09Z and 2025-10-09T09:01:14Z
+2025-10-09 09:01:16,494 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:01:18,536 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:01:09Z and 2025-10-09T09:01:14Z
+2025-10-09 09:01:18,539 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:01:21,480 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:01:14Z and 2025-10-09T09:01:19Z
+2025-10-09 09:01:21,483 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:01:23,514 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:01:14Z and 2025-10-09T09:01:19Z
+2025-10-09 09:01:23,516 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:01:26,484 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:01:19Z and 2025-10-09T09:01:24Z
+2025-10-09 09:01:26,488 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:01:28,522 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:01:19Z and 2025-10-09T09:01:24Z
+2025-10-09 09:01:28,526 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:01:31,494 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:01:24Z and 2025-10-09T09:01:29Z
+2025-10-09 09:01:31,497 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:01:33,547 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:01:24Z and 2025-10-09T09:01:29Z
+2025-10-09 09:01:33,551 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:01:35,735 - basicLogger - DEBUG - Storing 1760025693368830900 to the database
+2025-10-09 09:01:35,744 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025693368830900
+2025-10-09 09:01:35,936 - basicLogger - DEBUG - Storing 1760025693472726500 to the database
+2025-10-09 09:01:35,943 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025693472726500
+2025-10-09 09:01:36,167 - basicLogger - DEBUG - Storing 1760025693580036400 to the database
+2025-10-09 09:01:36,178 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025693580036400
+2025-10-09 09:01:36,289 - basicLogger - DEBUG - Storing 1760025693677184500 to the database
+2025-10-09 09:01:36,298 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025693677184500
+2025-10-09 09:01:36,388 - basicLogger - DEBUG - Storing 1760025693767714400 to the database
+2025-10-09 09:01:36,397 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025693767714400
+2025-10-09 09:01:36,493 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:01:29Z and 2025-10-09T09:01:34Z
+2025-10-09 09:01:36,498 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:01:36,511 - basicLogger - DEBUG - Storing 1760025693874570900 to the database
+2025-10-09 09:01:36,521 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025693874570900
+2025-10-09 09:01:36,587 - basicLogger - DEBUG - Storing 1760025693982905200 to the database
+2025-10-09 09:01:36,597 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025693982905200
+2025-10-09 09:01:36,694 - basicLogger - DEBUG - Storing 1760025694112112100 to the database
+2025-10-09 09:01:36,702 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025694112112100
+2025-10-09 09:01:36,743 - basicLogger - DEBUG - Storing 1760025694181081700 to the database
+2025-10-09 09:01:36,754 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025694181081700
+2025-10-09 09:01:36,773 - basicLogger - DEBUG - Storing 1760025694272756300 to the database
+2025-10-09 09:01:36,786 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025694272756300
+2025-10-09 09:01:38,532 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:01:29Z and 2025-10-09T09:01:34Z
+2025-10-09 09:01:38,540 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:01:38,671 - basicLogger - DEBUG - Storing 1760025695751335800 to the database
+2025-10-09 09:01:38,680 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025695751335800
+2025-10-09 09:01:39,351 - basicLogger - DEBUG - Storing 1760025695950097400 to the database
+2025-10-09 09:01:39,361 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025695950097400
+2025-10-09 09:01:39,989 - basicLogger - DEBUG - Storing 1760025696184972300 to the database
+2025-10-09 09:01:39,997 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025696184972300
+2025-10-09 09:01:40,175 - basicLogger - DEBUG - Storing 1760025696304598400 to the database
+2025-10-09 09:01:40,183 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025696304598400
+2025-10-09 09:01:40,362 - basicLogger - DEBUG - Storing 1760025696403333400 to the database
+2025-10-09 09:01:40,370 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025696403333400
+2025-10-09 09:01:40,442 - basicLogger - DEBUG - Storing 1760025696530595400 to the database
+2025-10-09 09:01:40,451 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025696530595400
+2025-10-09 09:01:40,458 - basicLogger - DEBUG - Storing 1760025696603413300 to the database
+2025-10-09 09:01:40,467 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025696603413300
+2025-10-09 09:01:40,580 - basicLogger - DEBUG - Storing 1760025696707922700 to the database
+2025-10-09 09:01:40,590 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025696707922700
+2025-10-09 09:01:40,644 - basicLogger - DEBUG - Storing 1760025696764048600 to the database
+2025-10-09 09:01:40,644 - basicLogger - DEBUG - Storing 1760025696793008100 to the database
+2025-10-09 09:01:40,651 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025696764048600
+2025-10-09 09:01:40,653 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025696793008100
+2025-10-09 09:01:41,499 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:01:34Z and 2025-10-09T09:01:39Z
+2025-10-09 09:01:41,510 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:01:41,579 - basicLogger - DEBUG - Storing 1760025698693378400 to the database
+2025-10-09 09:01:41,588 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025698693378400
+2025-10-09 09:01:42,152 - basicLogger - DEBUG - Storing 1760025699375717300 to the database
+2025-10-09 09:01:42,164 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025699375717300
+2025-10-09 09:01:43,230 - basicLogger - DEBUG - Storing 1760025700008665300 to the database
+2025-10-09 09:01:43,239 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025700008665300
+2025-10-09 09:01:43,545 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:01:34Z and 2025-10-09T09:01:39Z
+2025-10-09 09:01:43,550 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:01:43,590 - basicLogger - DEBUG - Storing 1760025700195247400 to the database
+2025-10-09 09:01:43,596 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025700195247400
+2025-10-09 09:01:44,015 - basicLogger - DEBUG - Storing 1760025700379788600 to the database
+2025-10-09 09:01:44,035 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025700379788600
+2025-10-09 09:01:44,164 - basicLogger - DEBUG - Storing 1760025700463694600 to the database
+2025-10-09 09:01:44,177 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025700463694600
+2025-10-09 09:01:44,241 - basicLogger - DEBUG - Storing 1760025700477941500 to the database
+2025-10-09 09:01:44,252 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025700477941500
+2025-10-09 09:01:44,364 - basicLogger - DEBUG - Storing 1760025700601932800 to the database
+2025-10-09 09:01:44,374 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025700601932800
+2025-10-09 09:01:44,396 - basicLogger - DEBUG - Storing 1760025700667537400 to the database
+2025-10-09 09:01:44,409 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025700667537400
+2025-10-09 09:01:44,490 - basicLogger - DEBUG - Storing 1760025700666858300 to the database
+2025-10-09 09:01:44,499 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025700666858300
+2025-10-09 09:01:44,912 - basicLogger - DEBUG - Storing 1760025701594217600 to the database
+2025-10-09 09:01:44,921 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025701594217600
+2025-10-09 09:01:45,142 - basicLogger - DEBUG - Storing 1760025702171959700 to the database
+2025-10-09 09:01:45,152 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025702171959700
+2025-10-09 09:01:45,887 - basicLogger - DEBUG - Storing 1760025703247066800 to the database
+2025-10-09 09:01:45,900 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025703247066800
+2025-10-09 09:01:46,149 - basicLogger - DEBUG - Storing 1760025703601790100 to the database
+2025-10-09 09:01:46,159 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025703601790100
+2025-10-09 09:01:46,488 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:01:39Z and 2025-10-09T09:01:44Z
+2025-10-09 09:01:46,493 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:01:47,076 - basicLogger - DEBUG - Storing 1760025704044156600 to the database
+2025-10-09 09:01:47,082 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025704044156600
+2025-10-09 09:01:47,387 - basicLogger - DEBUG - Storing 1760025704184937600 to the database
+2025-10-09 09:01:47,393 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025704184937600
+2025-10-09 09:01:47,527 - basicLogger - DEBUG - Storing 1760025704259734700 to the database
+2025-10-09 09:01:47,534 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025704259734700
+2025-10-09 09:01:47,699 - basicLogger - DEBUG - Storing 1760025704381439000 to the database
+2025-10-09 09:01:47,711 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025704381439000
+2025-10-09 09:01:47,717 - basicLogger - DEBUG - Storing 1760025704415550500 to the database
+2025-10-09 09:01:47,731 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025704415550500
+2025-10-09 09:01:47,763 - basicLogger - DEBUG - Storing 1760025704506724500 to the database
+2025-10-09 09:01:47,773 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025704506724500
+2025-10-09 09:01:48,010 - basicLogger - DEBUG - Storing 1760025704935022800 to the database
+2025-10-09 09:01:48,023 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025704935022800
+2025-10-09 09:01:48,107 - basicLogger - DEBUG - Storing 1760025705167254600 to the database
+2025-10-09 09:01:48,120 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025705167254600
+2025-10-09 09:01:48,427 - basicLogger - DEBUG - Storing 1760025705912970500 to the database
+2025-10-09 09:01:48,459 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025705912970500
+2025-10-09 09:01:48,540 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:01:39Z and 2025-10-09T09:01:44Z
+2025-10-09 09:01:48,545 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:01:48,613 - basicLogger - DEBUG - Storing 1760025706185904600 to the database
+2025-10-09 09:01:48,628 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025706185904600
+2025-10-09 09:01:49,438 - basicLogger - DEBUG - Storing 1760025707091449200 to the database
+2025-10-09 09:01:49,445 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025707091449200
+2025-10-09 09:01:49,856 - basicLogger - DEBUG - Storing 1760025707401826000 to the database
+2025-10-09 09:01:49,864 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025707401826000
+2025-10-09 09:01:50,242 - basicLogger - DEBUG - Storing 1760025707544536600 to the database
+2025-10-09 09:01:50,248 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025707544536600
+2025-10-09 09:01:50,613 - basicLogger - DEBUG - Storing 1760025707726514600 to the database
+2025-10-09 09:01:50,618 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025707726514600
+2025-10-09 09:01:50,630 - basicLogger - DEBUG - Storing 1760025707742198200 to the database
+2025-10-09 09:01:50,640 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025707742198200
+2025-10-09 09:01:50,708 - basicLogger - DEBUG - Storing 1760025707784858600 to the database
+2025-10-09 09:01:50,718 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025707784858600
+2025-10-09 09:01:51,005 - basicLogger - DEBUG - Storing 1760025708029439900 to the database
+2025-10-09 09:01:51,016 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025708029439900
+2025-10-09 09:01:51,052 - basicLogger - DEBUG - Storing 1760025708126161300 to the database
+2025-10-09 09:01:51,063 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025708126161300
+2025-10-09 09:01:51,270 - basicLogger - DEBUG - Storing 1760025708465732500 to the database
+2025-10-09 09:01:51,283 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025708465732500
+2025-10-09 09:01:51,329 - basicLogger - DEBUG - Storing 1760025708635063500 to the database
+2025-10-09 09:01:51,341 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025708635063500
+2025-10-09 09:01:51,469 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:01:44Z and 2025-10-09T09:01:49Z
+2025-10-09 09:01:51,475 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:01:51,872 - basicLogger - DEBUG - Storing 1760025709450376900 to the database
+2025-10-09 09:01:51,902 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025709450376900
+2025-10-09 09:01:52,274 - basicLogger - DEBUG - Storing 1760025709868780200 to the database
+2025-10-09 09:01:52,290 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025709868780200
+2025-10-09 09:01:52,648 - basicLogger - DEBUG - Storing 1760025710253955000 to the database
+2025-10-09 09:01:52,658 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025710253955000
+2025-10-09 09:01:53,305 - basicLogger - DEBUG - Storing 1760025710645340600 to the database
+2025-10-09 09:01:53,310 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025710645340600
+2025-10-09 09:01:53,381 - basicLogger - DEBUG - Storing 1760025710622603600 to the database
+2025-10-09 09:01:53,392 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025710622603600
+2025-10-09 09:01:53,519 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:01:44Z and 2025-10-09T09:01:49Z
+2025-10-09 09:01:53,525 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:01:53,550 - basicLogger - DEBUG - Storing 1760025710724198300 to the database
+2025-10-09 09:01:53,560 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025710724198300
+2025-10-09 09:01:54,050 - basicLogger - DEBUG - Storing 1760025711028200900 to the database
+2025-10-09 09:01:54,062 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025711028200900
+2025-10-09 09:01:54,155 - basicLogger - DEBUG - Storing 1760025711075032100 to the database
+2025-10-09 09:01:54,167 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025711075032100
+2025-10-09 09:01:54,328 - basicLogger - DEBUG - Storing 1760025711315478300 to the database
+2025-10-09 09:01:54,339 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025711315478300
+2025-10-09 09:01:54,360 - basicLogger - DEBUG - Storing 1760025711354427300 to the database
+2025-10-09 09:01:54,372 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025711354427300
+2025-10-09 09:01:54,682 - basicLogger - DEBUG - Storing 1760025711915071300 to the database
+2025-10-09 09:01:54,694 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025711915071300
+2025-10-09 09:01:54,853 - basicLogger - DEBUG - Storing 1760025712304101100 to the database
+2025-10-09 09:01:54,867 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025712304101100
+2025-10-09 09:01:55,113 - basicLogger - DEBUG - Storing 1760025712671678100 to the database
+2025-10-09 09:01:55,125 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025712671678100
+2025-10-09 09:01:55,807 - basicLogger - DEBUG - Storing 1760025713317464200 to the database
+2025-10-09 09:01:55,821 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025713317464200
+2025-10-09 09:01:55,977 - basicLogger - DEBUG - Storing 1760025713402763000 to the database
+2025-10-09 09:01:55,989 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025713402763000
+2025-10-09 09:01:56,240 - basicLogger - DEBUG - Storing 1760025713570415800 to the database
+2025-10-09 09:01:56,254 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025713570415800
+2025-10-09 09:01:56,489 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:01:49Z and 2025-10-09T09:01:54Z
+2025-10-09 09:01:56,494 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:01:57,144 - basicLogger - DEBUG - Storing 1760025714070276100 to the database
+2025-10-09 09:01:57,169 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025714070276100
+2025-10-09 09:01:57,267 - basicLogger - DEBUG - Storing 1760025714173533500 to the database
+2025-10-09 09:01:57,275 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025714173533500
+2025-10-09 09:01:57,550 - basicLogger - DEBUG - Storing 1760025714379844600 to the database
+2025-10-09 09:01:57,551 - basicLogger - DEBUG - Storing 1760025714346069400 to the database
+2025-10-09 09:01:57,557 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025714346069400
+2025-10-09 09:01:57,559 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025714379844600
+2025-10-09 09:01:57,798 - basicLogger - DEBUG - Storing 1760025714701515400 to the database
+2025-10-09 09:01:57,812 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025714701515400
+2025-10-09 09:01:57,990 - basicLogger - DEBUG - Storing 1760025714874354100 to the database
+2025-10-09 09:01:58,002 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025714874354100
+2025-10-09 09:01:58,054 - basicLogger - DEBUG - Storing 1760025715132025400 to the database
+2025-10-09 09:01:58,064 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025715132025400
+2025-10-09 09:01:58,445 - basicLogger - DEBUG - Storing 1760025715827320300 to the database
+2025-10-09 09:01:58,457 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025715827320300
+2025-10-09 09:01:58,553 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:01:49Z and 2025-10-09T09:01:54Z
+2025-10-09 09:01:58,558 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:01:58,630 - basicLogger - DEBUG - Storing 1760025715995869800 to the database
+2025-10-09 09:01:58,640 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025715995869800
+2025-10-09 09:01:58,787 - basicLogger - DEBUG - Storing 1760025716260195700 to the database
+2025-10-09 09:01:58,799 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025716260195700
+2025-10-09 09:01:59,545 - basicLogger - DEBUG - Storing 1760025717179316000 to the database
+2025-10-09 09:01:59,553 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025717179316000
+2025-10-09 09:01:59,731 - basicLogger - DEBUG - Storing 1760025717282853300 to the database
+2025-10-09 09:01:59,743 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025717282853300
+2025-10-09 09:02:00,306 - basicLogger - DEBUG - Storing 1760025717573134700 to the database
+2025-10-09 09:02:00,324 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025717573134700
+2025-10-09 09:02:00,399 - basicLogger - DEBUG - Storing 1760025717569145100 to the database
+2025-10-09 09:02:00,415 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025717569145100
+2025-10-09 09:02:00,739 - basicLogger - DEBUG - Storing 1760025717824956100 to the database
+2025-10-09 09:02:00,754 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025717824956100
+2025-10-09 09:02:00,955 - basicLogger - DEBUG - Storing 1760025718024579900 to the database
+2025-10-09 09:02:00,968 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025718024579900
+2025-10-09 09:02:01,046 - basicLogger - DEBUG - Storing 1760025718077374800 to the database
+2025-10-09 09:02:01,058 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025718077374800
+2025-10-09 09:02:01,294 - basicLogger - DEBUG - Storing 1760025718485875500 to the database
+2025-10-09 09:02:01,307 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025718485875500
+2025-10-09 09:02:01,444 - basicLogger - DEBUG - Storing 1760025718654145600 to the database
+2025-10-09 09:02:01,455 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025718654145600
+2025-10-09 09:02:01,498 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:01:54Z and 2025-10-09T09:01:59Z
+2025-10-09 09:02:01,506 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:02:01,530 - basicLogger - DEBUG - Storing 1760025718811120800 to the database
+2025-10-09 09:02:01,546 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025718811120800
+2025-10-09 09:02:02,235 - basicLogger - DEBUG - Storing 1760025719558998000 to the database
+2025-10-09 09:02:02,249 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025719558998000
+2025-10-09 09:02:02,806 - basicLogger - DEBUG - Storing 1760025719749098600 to the database
+2025-10-09 09:02:02,817 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025719749098600
+2025-10-09 09:02:03,540 - basicLogger - DEBUG - Storing 1760025720333026400 to the database
+2025-10-09 09:02:03,546 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025720333026400
+2025-10-09 09:02:03,570 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:01:54Z and 2025-10-09T09:01:59Z
+2025-10-09 09:02:03,574 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:02:03,663 - basicLogger - DEBUG - Storing 1760025720423971200 to the database
+2025-10-09 09:02:03,678 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025720423971200
+2025-10-09 09:02:03,961 - basicLogger - DEBUG - Storing 1760025720761970600 to the database
+2025-10-09 09:02:03,979 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025720761970600
+2025-10-09 09:02:04,268 - basicLogger - DEBUG - Storing 1760025720975415300 to the database
+2025-10-09 09:02:04,280 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025720975415300
+2025-10-09 09:02:04,378 - basicLogger - DEBUG - Storing 1760025721065336500 to the database
+2025-10-09 09:02:04,390 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025721065336500
+2025-10-09 09:02:04,529 - basicLogger - DEBUG - Storing 1760025721313739400 to the database
+2025-10-09 09:02:04,540 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025721313739400
+2025-10-09 09:02:04,669 - basicLogger - DEBUG - Storing 1760025721555880400 to the database
+2025-10-09 09:02:04,683 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025721555880400
+2025-10-09 09:02:04,686 - basicLogger - DEBUG - Storing 1760025721462670700 to the database
+2025-10-09 09:02:04,698 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025721462670700
+2025-10-09 09:02:04,918 - basicLogger - DEBUG - Storing 1760025722263750100 to the database
+2025-10-09 09:02:04,948 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025722263750100
+2025-10-09 09:02:05,252 - basicLogger - DEBUG - Storing 1760025722828847000 to the database
+2025-10-09 09:02:05,264 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025722828847000
+2025-10-09 09:02:05,973 - basicLogger - DEBUG - Storing 1760025723553752400 to the database
+2025-10-09 09:02:05,985 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025723553752400
+2025-10-09 09:02:06,360 - basicLogger - DEBUG - Storing 1760025723686736200 to the database
+2025-10-09 09:02:06,370 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025723686736200
+2025-10-09 09:02:06,498 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:01:59Z and 2025-10-09T09:02:04Z
+2025-10-09 09:02:06,505 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:02:06,977 - basicLogger - DEBUG - Storing 1760025723995644600 to the database
+2025-10-09 09:02:06,991 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025723995644600
+2025-10-09 09:02:07,393 - basicLogger - DEBUG - Storing 1760025724294393200 to the database
+2025-10-09 09:02:07,402 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025724294393200
+2025-10-09 09:02:07,549 - basicLogger - DEBUG - Storing 1760025724406925200 to the database
+2025-10-09 09:02:07,556 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025724406925200
+2025-10-09 09:02:07,708 - basicLogger - DEBUG - Storing 1760025724553894100 to the database
+2025-10-09 09:02:07,734 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025724553894100
+2025-10-09 09:02:07,894 - basicLogger - DEBUG - Storing 1760025724698755100 to the database
+2025-10-09 09:02:07,905 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025724698755100
+2025-10-09 09:02:07,912 - basicLogger - DEBUG - Storing 1760025724710840100 to the database
+2025-10-09 09:02:07,925 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025724710840100
+2025-10-09 09:02:08,026 - basicLogger - DEBUG - Storing 1760025724954538400 to the database
+2025-10-09 09:02:08,048 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025724954538400
+2025-10-09 09:02:08,223 - basicLogger - DEBUG - Storing 1760025725270783400 to the database
+2025-10-09 09:02:08,233 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025725270783400
+2025-10-09 09:02:08,547 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:01:59Z and 2025-10-09T09:02:04Z
+2025-10-09 09:02:08,554 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:02:08,579 - basicLogger - DEBUG - Storing 1760025725991801300 to the database
+2025-10-09 09:02:08,611 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025725991801300
+2025-10-09 09:02:08,965 - basicLogger - DEBUG - Storing 1760025726375481100 to the database
+2025-10-09 09:02:08,978 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025726375481100
+2025-10-09 09:02:09,506 - basicLogger - DEBUG - Storing 1760025726998559400 to the database
+2025-10-09 09:02:09,519 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025726998559400
+2025-10-09 09:02:09,990 - basicLogger - DEBUG - Storing 1760025727407025000 to the database
+2025-10-09 09:02:10,002 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025727407025000
+2025-10-09 09:02:10,391 - basicLogger - DEBUG - Storing 1760025727562656400 to the database
+2025-10-09 09:02:10,402 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025727562656400
+2025-10-09 09:02:10,776 - basicLogger - DEBUG - Storing 1760025727740040300 to the database
+2025-10-09 09:02:10,786 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025727740040300
+2025-10-09 09:02:11,100 - basicLogger - DEBUG - Storing 1760025727931025300 to the database
+2025-10-09 09:02:11,110 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025727931025300
+2025-10-09 09:02:11,117 - basicLogger - DEBUG - Storing 1760025727913371400 to the database
+2025-10-09 09:02:11,131 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025727913371400
+2025-10-09 09:02:11,300 - basicLogger - DEBUG - Storing 1760025728060400500 to the database
+2025-10-09 09:02:11,312 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025728060400500
+2025-10-09 09:02:11,425 - basicLogger - DEBUG - Storing 1760025728246340500 to the database
+2025-10-09 09:02:11,441 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025728246340500
+2025-10-09 09:02:11,486 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:02:04Z and 2025-10-09T09:02:09Z
+2025-10-09 09:02:11,493 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:02:11,685 - basicLogger - DEBUG - Storing 1760025728629986400 to the database
+2025-10-09 09:02:11,698 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025728629986400
+2025-10-09 09:02:11,966 - basicLogger - DEBUG - Storing 1760025728997473600 to the database
+2025-10-09 09:02:11,978 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025728997473600
+2025-10-09 09:02:12,357 - basicLogger - DEBUG - Storing 1760025729532256800 to the database
+2025-10-09 09:02:12,374 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025729532256800
+2025-10-09 09:02:12,635 - basicLogger - DEBUG - Storing 1760025730015618600 to the database
+2025-10-09 09:02:12,661 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025730015618600
+2025-10-09 09:02:13,005 - basicLogger - DEBUG - Storing 1760025730415499600 to the database
+2025-10-09 09:02:13,020 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025730415499600
+2025-10-09 09:02:13,527 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:02:04Z and 2025-10-09T09:02:09Z
+2025-10-09 09:02:13,533 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:02:13,681 - basicLogger - DEBUG - Storing 1760025730798915400 to the database
+2025-10-09 09:02:13,695 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025730798915400
+2025-10-09 09:02:14,360 - basicLogger - DEBUG - Storing 1760025731124260200 to the database
+2025-10-09 09:02:14,373 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025731124260200
+2025-10-09 09:02:14,453 - basicLogger - DEBUG - Storing 1760025731144250100 to the database
+2025-10-09 09:02:14,465 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025731144250100
+2025-10-09 09:02:14,684 - basicLogger - DEBUG - Storing 1760025731320444300 to the database
+2025-10-09 09:02:14,694 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025731320444300
+2025-10-09 09:02:14,778 - basicLogger - DEBUG - Storing 1760025731452480000 to the database
+2025-10-09 09:02:14,793 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025731452480000
+2025-10-09 09:02:14,978 - basicLogger - DEBUG - Storing 1760025731708003600 to the database
+2025-10-09 09:02:14,991 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025731708003600
+2025-10-09 09:02:15,243 - basicLogger - DEBUG - Storing 1760025731986384000 to the database
+2025-10-09 09:02:15,259 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025731986384000
+2025-10-09 09:02:15,487 - basicLogger - DEBUG - Storing 1760025732384800400 to the database
+2025-10-09 09:02:15,500 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025732384800400
+2025-10-09 09:02:15,703 - basicLogger - DEBUG - Storing 1760025732716378600 to the database
+2025-10-09 09:02:15,716 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025732716378600
+2025-10-09 09:02:15,857 - basicLogger - DEBUG - Storing 1760025733028115900 to the database
+2025-10-09 09:02:15,873 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025733028115900
+2025-10-09 09:02:16,416 - basicLogger - DEBUG - Storing 1760025733703036600 to the database
+2025-10-09 09:02:16,433 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025733703036600
+2025-10-09 09:02:16,501 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:02:09Z and 2025-10-09T09:02:14Z
+2025-10-09 09:02:16,510 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:02:17,633 - basicLogger - DEBUG - Storing 1760025734382539100 to the database
+2025-10-09 09:02:17,640 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025734382539100
+2025-10-09 09:02:17,727 - basicLogger - DEBUG - Storing 1760025734472535800 to the database
+2025-10-09 09:02:17,769 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025734472535800
+2025-10-09 09:02:18,189 - basicLogger - DEBUG - Storing 1760025734708597500 to the database
+2025-10-09 09:02:18,219 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025734708597500
+2025-10-09 09:02:18,453 - basicLogger - DEBUG - Storing 1760025734876339400 to the database
+2025-10-09 09:02:18,466 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025734876339400
+2025-10-09 09:02:18,565 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:02:09Z and 2025-10-09T09:02:14Z
+2025-10-09 09:02:18,572 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:02:18,595 - basicLogger - DEBUG - Storing 1760025735008364500 to the database
+2025-10-09 09:02:18,607 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025735008364500
+2025-10-09 09:02:18,842 - basicLogger - DEBUG - Storing 1760025735274750100 to the database
+2025-10-09 09:02:18,855 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025735274750100
+2025-10-09 09:02:18,999 - basicLogger - DEBUG - Storing 1760025735517208700 to the database
+2025-10-09 09:02:19,015 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025735517208700
+2025-10-09 09:02:19,138 - basicLogger - DEBUG - Storing 1760025735731156700 to the database
+2025-10-09 09:02:19,149 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025735731156700
+2025-10-09 09:02:19,187 - basicLogger - DEBUG - Storing 1760025735890146700 to the database
+2025-10-09 09:02:19,205 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025735890146700
+2025-10-09 09:02:19,322 - basicLogger - DEBUG - Storing 1760025736452541300 to the database
+2025-10-09 09:02:19,334 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025736452541300
+2025-10-09 09:02:20,338 - basicLogger - DEBUG - Storing 1760025737650294700 to the database
+2025-10-09 09:02:20,353 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025737650294700
+2025-10-09 09:02:20,508 - basicLogger - DEBUG - Storing 1760025737790790700 to the database
+2025-10-09 09:02:20,519 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025737790790700
+2025-10-09 09:02:21,032 - basicLogger - DEBUG - Storing 1760025738225310100 to the database
+2025-10-09 09:02:21,040 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025738225310100
+2025-10-09 09:02:21,482 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:02:14Z and 2025-10-09T09:02:19Z
+2025-10-09 09:02:21,486 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:02:21,592 - basicLogger - DEBUG - Storing 1760025738472871500 to the database
+2025-10-09 09:02:21,598 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025738472871500
+2025-10-09 09:02:21,885 - basicLogger - DEBUG - Storing 1760025738613031000 to the database
+2025-10-09 09:02:21,912 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025738613031000
+2025-10-09 09:02:22,306 - basicLogger - DEBUG - Storing 1760025738863182300 to the database
+2025-10-09 09:02:22,313 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025738863182300
+2025-10-09 09:02:22,382 - basicLogger - DEBUG - Storing 1760025739026909100 to the database
+2025-10-09 09:02:22,389 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025739026909100
+2025-10-09 09:02:22,431 - basicLogger - DEBUG - Storing 1760025739156975100 to the database
+2025-10-09 09:02:22,442 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025739156975100
+2025-10-09 09:02:22,525 - basicLogger - DEBUG - Storing 1760025739341547100 to the database
+2025-10-09 09:02:22,525 - basicLogger - DEBUG - Storing 1760025739214647500 to the database
+2025-10-09 09:02:22,540 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025739341547100
+2025-10-09 09:02:22,544 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025739214647500
+2025-10-09 09:02:22,963 - basicLogger - DEBUG - Storing 1760025740359256700 to the database
+2025-10-09 09:02:22,973 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025740359256700
+2025-10-09 09:02:23,085 - basicLogger - DEBUG - Storing 1760025740525872300 to the database
+2025-10-09 09:02:23,097 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025740525872300
+2025-10-09 09:02:23,431 - basicLogger - DEBUG - Storing 1760025741052271400 to the database
+2025-10-09 09:02:23,444 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025741052271400
+2025-10-09 09:02:23,537 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:02:14Z and 2025-10-09T09:02:19Z
+2025-10-09 09:02:23,543 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:02:23,974 - basicLogger - DEBUG - Storing 1760025741607775600 to the database
+2025-10-09 09:02:23,989 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025741607775600
+2025-10-09 09:02:24,295 - basicLogger - DEBUG - Storing 1760025741920271400 to the database
+2025-10-09 09:02:24,308 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025741920271400
+2025-10-09 09:02:24,949 - basicLogger - DEBUG - Storing 1760025742322037400 to the database
+2025-10-09 09:02:24,978 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025742322037400
+2025-10-09 09:02:25,139 - basicLogger - DEBUG - Storing 1760025742398375800 to the database
+2025-10-09 09:02:25,148 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025742398375800
+2025-10-09 09:02:25,311 - basicLogger - DEBUG - Storing 1760025742485081200 to the database
+2025-10-09 09:02:25,319 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025742485081200
+2025-10-09 09:02:25,469 - basicLogger - DEBUG - Storing 1760025742552798600 to the database
+2025-10-09 09:02:25,471 - basicLogger - DEBUG - Storing 1760025742558612800 to the database
+2025-10-09 09:02:25,484 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025742552798600
+2025-10-09 09:02:25,486 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025742558612800
+2025-10-09 09:02:25,872 - basicLogger - DEBUG - Storing 1760025743109962700 to the database
+2025-10-09 09:02:25,884 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025743109962700
+2025-10-09 09:02:25,901 - basicLogger - DEBUG - Storing 1760025743010126100 to the database
+2025-10-09 09:02:25,911 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025743010126100
+2025-10-09 09:02:26,299 - basicLogger - DEBUG - Storing 1760025743449403400 to the database
+2025-10-09 09:02:26,310 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025743449403400
+2025-10-09 09:02:26,486 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:02:19Z and 2025-10-09T09:02:24Z
+2025-10-09 09:02:26,492 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:02:26,979 - basicLogger - DEBUG - Storing 1760025743998406000 to the database
+2025-10-09 09:02:26,985 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025743998406000
+2025-10-09 09:02:27,105 - basicLogger - DEBUG - Storing 1760025744327545300 to the database
+2025-10-09 09:02:27,112 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025744327545300
+2025-10-09 09:02:27,579 - basicLogger - DEBUG - Storing 1760025744984065700 to the database
+2025-10-09 09:02:27,586 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025744984065700
+2025-10-09 09:02:27,876 - basicLogger - DEBUG - Storing 1760025745154653800 to the database
+2025-10-09 09:02:27,884 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025745154653800
+2025-10-09 09:02:28,214 - basicLogger - DEBUG - Storing 1760025745325197600 to the database
+2025-10-09 09:02:28,224 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025745325197600
+2025-10-09 09:02:28,445 - basicLogger - DEBUG - Storing 1760025745494865000 to the database
+2025-10-09 09:02:28,451 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025745494865000
+2025-10-09 09:02:28,477 - basicLogger - DEBUG - Storing 1760025745492704300 to the database
+2025-10-09 09:02:28,486 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025745492704300
+2025-10-09 09:02:28,538 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:02:19Z and 2025-10-09T09:02:24Z
+2025-10-09 09:02:28,543 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:02:28,753 - basicLogger - DEBUG - Storing 1760025745890872300 to the database
+2025-10-09 09:02:28,760 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025745890872300
+2025-10-09 09:02:28,769 - basicLogger - DEBUG - Storing 1760025745917694800 to the database
+2025-10-09 09:02:28,777 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1760025745917694800
+2025-10-09 09:02:28,939 - basicLogger - DEBUG - Storing 1760025746322868200 to the database
+2025-10-09 09:02:28,948 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1760025746322868200
+2025-10-09 09:02:59,118 - basicLogger - INFO - Connected to the database
+2025-10-09 09:02:59,203 - basicLogger - INFO - Connected to the database
+2025-10-09 09:03:00,040 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:02:24Z and 2025-10-09T09:02:57Z
+2025-10-09 09:03:00,071 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:03:02,128 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:02:24Z and 2025-10-09T09:02:57Z
+2025-10-09 09:03:02,133 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:03:05,032 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:02:57Z and 2025-10-09T09:03:02Z
+2025-10-09 09:03:05,034 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:03:07,070 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:02:57Z and 2025-10-09T09:03:02Z
+2025-10-09 09:03:07,074 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:03:10,040 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:03:02Z and 2025-10-09T09:03:07Z
+2025-10-09 09:03:10,043 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:03:12,098 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:03:02Z and 2025-10-09T09:03:07Z
+2025-10-09 09:03:12,102 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:03:15,025 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:03:07Z and 2025-10-09T09:03:12Z
+2025-10-09 09:03:15,029 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:03:17,078 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:03:07Z and 2025-10-09T09:03:12Z
+2025-10-09 09:03:17,081 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:03:20,037 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:03:12Z and 2025-10-09T09:03:17Z
+2025-10-09 09:03:20,041 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:03:22,093 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:03:12Z and 2025-10-09T09:03:17Z
+2025-10-09 09:03:22,096 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:03:25,033 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:03:17Z and 2025-10-09T09:03:22Z
+2025-10-09 09:03:25,036 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:03:27,076 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:03:17Z and 2025-10-09T09:03:22Z
+2025-10-09 09:03:27,081 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:03:30,034 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:03:22Z and 2025-10-09T09:03:27Z
+2025-10-09 09:03:30,039 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:03:32,088 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:03:22Z and 2025-10-09T09:03:27Z
+2025-10-09 09:03:32,094 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:03:35,022 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:03:27Z and 2025-10-09T09:03:32Z
+2025-10-09 09:03:35,027 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:03:37,082 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:03:27Z and 2025-10-09T09:03:32Z
+2025-10-09 09:03:37,090 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:03:45,774 - basicLogger - INFO - Connected to the database
+2025-10-09 09:03:45,908 - basicLogger - INFO - Connected to the database
+2025-10-09 09:03:48,457 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:03:32Z and 2025-10-09T09:03:46Z
+2025-10-09 09:03:48,494 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:03:50,554 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:03:32Z and 2025-10-09T09:03:46Z
+2025-10-09 09:03:50,561 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:03:53,463 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:03:46Z and 2025-10-09T09:03:51Z
+2025-10-09 09:03:53,467 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:03:55,510 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:03:46Z and 2025-10-09T09:03:51Z
+2025-10-09 09:03:55,515 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:03:58,446 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:03:51Z and 2025-10-09T09:03:56Z
+2025-10-09 09:03:58,450 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:04:00,508 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:03:51Z and 2025-10-09T09:03:56Z
+2025-10-09 09:04:00,512 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:04:03,441 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:03:56Z and 2025-10-09T09:04:01Z
+2025-10-09 09:04:03,445 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:04:05,494 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:03:56Z and 2025-10-09T09:04:01Z
+2025-10-09 09:04:05,497 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:04:08,421 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:04:01Z and 2025-10-09T09:04:06Z
+2025-10-09 09:04:08,424 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:04:10,461 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:04:01Z and 2025-10-09T09:04:06Z
+2025-10-09 09:04:10,463 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:04:13,453 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:04:06Z and 2025-10-09T09:04:11Z
+2025-10-09 09:04:13,456 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:04:15,492 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:04:06Z and 2025-10-09T09:04:11Z
+2025-10-09 09:04:15,495 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:04:18,457 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:04:11Z and 2025-10-09T09:04:16Z
+2025-10-09 09:04:18,459 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:04:20,490 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:04:11Z and 2025-10-09T09:04:16Z
+2025-10-09 09:04:20,494 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:04:23,452 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:04:16Z and 2025-10-09T09:04:21Z
+2025-10-09 09:04:23,455 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:04:25,499 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:04:16Z and 2025-10-09T09:04:21Z
+2025-10-09 09:04:25,503 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:04:28,435 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:04:21Z and 2025-10-09T09:04:26Z
+2025-10-09 09:04:28,439 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:04:30,473 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:04:21Z and 2025-10-09T09:04:26Z
+2025-10-09 09:04:30,476 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:04:33,448 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:04:26Z and 2025-10-09T09:04:31Z
+2025-10-09 09:04:33,452 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:04:35,501 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:04:26Z and 2025-10-09T09:04:31Z
+2025-10-09 09:04:35,504 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:04:38,438 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:04:31Z and 2025-10-09T09:04:36Z
+2025-10-09 09:04:38,442 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:04:40,482 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:04:31Z and 2025-10-09T09:04:36Z
+2025-10-09 09:04:40,485 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:04:43,437 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:04:36Z and 2025-10-09T09:04:41Z
+2025-10-09 09:04:43,442 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:04:45,505 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:04:36Z and 2025-10-09T09:04:41Z
+2025-10-09 09:04:45,509 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:04:48,450 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:04:41Z and 2025-10-09T09:04:46Z
+2025-10-09 09:04:48,455 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:04:50,506 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:04:41Z and 2025-10-09T09:04:46Z
+2025-10-09 09:04:50,509 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:04:53,442 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:04:46Z and 2025-10-09T09:04:51Z
+2025-10-09 09:04:53,446 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:04:55,482 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:04:46Z and 2025-10-09T09:04:51Z
+2025-10-09 09:04:55,486 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:04:58,440 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:04:51Z and 2025-10-09T09:04:56Z
+2025-10-09 09:04:58,445 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:05:00,489 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:04:51Z and 2025-10-09T09:04:56Z
+2025-10-09 09:05:00,493 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:05:03,454 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:04:56Z and 2025-10-09T09:05:01Z
+2025-10-09 09:05:03,458 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:05:05,492 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:04:56Z and 2025-10-09T09:05:01Z
+2025-10-09 09:05:05,496 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:05:08,448 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:05:01Z and 2025-10-09T09:05:06Z
+2025-10-09 09:05:08,451 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:05:10,500 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:05:01Z and 2025-10-09T09:05:06Z
+2025-10-09 09:05:10,502 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:05:13,420 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:05:06Z and 2025-10-09T09:05:11Z
+2025-10-09 09:05:13,424 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:05:15,445 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:05:06Z and 2025-10-09T09:05:11Z
+2025-10-09 09:05:15,448 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:05:18,458 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:05:11Z and 2025-10-09T09:05:16Z
+2025-10-09 09:05:18,461 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:05:20,498 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:05:11Z and 2025-10-09T09:05:16Z
+2025-10-09 09:05:20,501 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:05:23,455 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:05:16Z and 2025-10-09T09:05:21Z
+2025-10-09 09:05:23,458 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:05:25,502 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:05:16Z and 2025-10-09T09:05:21Z
+2025-10-09 09:05:25,506 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:05:28,452 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:05:21Z and 2025-10-09T09:05:26Z
+2025-10-09 09:05:28,456 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:05:30,492 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:05:21Z and 2025-10-09T09:05:26Z
+2025-10-09 09:05:30,495 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:05:33,454 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:05:26Z and 2025-10-09T09:05:31Z
+2025-10-09 09:05:33,457 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:05:35,491 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:05:26Z and 2025-10-09T09:05:31Z
+2025-10-09 09:05:35,495 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:05:38,447 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:05:31Z and 2025-10-09T09:05:36Z
+2025-10-09 09:05:38,452 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:05:40,501 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:05:31Z and 2025-10-09T09:05:36Z
+2025-10-09 09:05:40,505 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:05:43,448 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:05:36Z and 2025-10-09T09:05:41Z
+2025-10-09 09:05:43,452 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:05:45,496 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:05:36Z and 2025-10-09T09:05:41Z
+2025-10-09 09:05:45,499 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:05:48,428 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:05:41Z and 2025-10-09T09:05:46Z
+2025-10-09 09:05:48,432 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:05:50,469 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:05:41Z and 2025-10-09T09:05:46Z
+2025-10-09 09:05:50,474 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:05:53,443 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:05:46Z and 2025-10-09T09:05:51Z
+2025-10-09 09:05:53,446 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:05:55,498 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:05:46Z and 2025-10-09T09:05:51Z
+2025-10-09 09:05:55,501 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:05:58,463 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:05:51Z and 2025-10-09T09:05:56Z
+2025-10-09 09:05:58,467 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:06:00,510 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:05:51Z and 2025-10-09T09:05:56Z
+2025-10-09 09:06:00,513 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:06:03,434 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:05:56Z and 2025-10-09T09:06:01Z
+2025-10-09 09:06:03,437 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:06:05,484 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:05:56Z and 2025-10-09T09:06:01Z
+2025-10-09 09:06:05,487 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:06:08,437 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:06:01Z and 2025-10-09T09:06:06Z
+2025-10-09 09:06:08,442 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:06:10,476 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:06:01Z and 2025-10-09T09:06:06Z
+2025-10-09 09:06:10,479 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:06:13,443 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:06:06Z and 2025-10-09T09:06:11Z
+2025-10-09 09:06:13,446 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:06:15,492 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:06:06Z and 2025-10-09T09:06:11Z
+2025-10-09 09:06:15,495 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:06:18,419 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:06:11Z and 2025-10-09T09:06:16Z
+2025-10-09 09:06:18,423 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:06:20,453 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:06:11Z and 2025-10-09T09:06:16Z
+2025-10-09 09:06:20,457 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:06:23,441 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:06:16Z and 2025-10-09T09:06:21Z
+2025-10-09 09:06:23,444 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:06:25,477 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:06:16Z and 2025-10-09T09:06:21Z
+2025-10-09 09:06:25,480 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:06:28,460 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:06:21Z and 2025-10-09T09:06:26Z
+2025-10-09 09:06:28,463 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:06:30,512 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:06:21Z and 2025-10-09T09:06:26Z
+2025-10-09 09:06:30,516 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:06:33,436 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:06:26Z and 2025-10-09T09:06:31Z
+2025-10-09 09:06:33,439 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:06:35,482 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:06:26Z and 2025-10-09T09:06:31Z
+2025-10-09 09:06:35,489 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:06:38,446 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:06:31Z and 2025-10-09T09:06:36Z
+2025-10-09 09:06:38,449 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:06:40,486 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:06:31Z and 2025-10-09T09:06:36Z
+2025-10-09 09:06:40,492 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:06:43,449 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:06:36Z and 2025-10-09T09:06:41Z
+2025-10-09 09:06:43,456 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:06:45,510 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:06:36Z and 2025-10-09T09:06:41Z
+2025-10-09 09:06:45,516 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:06:48,441 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:06:41Z and 2025-10-09T09:06:46Z
+2025-10-09 09:06:48,444 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:06:50,493 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:06:41Z and 2025-10-09T09:06:46Z
+2025-10-09 09:06:50,496 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:06:53,467 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:06:46Z and 2025-10-09T09:06:51Z
+2025-10-09 09:06:53,473 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:13:29,318 - basicLogger - INFO - Connected to the database
+2025-10-09 09:13:29,447 - basicLogger - INFO - Connected to the database
+2025-10-09 09:13:30,951 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T00:00:00Z and 2025-10-09T09:13:28Z
+2025-10-09 09:13:37,663 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T00:00:00Z and 2025-10-09T09:13:28Z
+2025-10-09 09:13:45,928 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:13:28Z and 2025-10-09T09:13:43Z
+2025-10-09 09:13:52,069 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:13:28Z and 2025-10-09T09:13:43Z
+2025-10-09 09:14:00,956 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:13:43Z and 2025-10-09T09:13:58Z
+2025-10-09 09:14:07,110 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:13:43Z and 2025-10-09T09:13:58Z
+2025-10-09 09:14:15,951 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:13:58Z and 2025-10-09T09:14:13Z
+2025-10-09 09:14:16,061 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:14:18,125 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:13:58Z and 2025-10-09T09:14:13Z
+2025-10-09 09:14:18,133 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:14:20,940 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:14:13Z and 2025-10-09T09:14:18Z
+2025-10-09 09:14:20,945 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:14:22,998 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:14:13Z and 2025-10-09T09:14:18Z
+2025-10-09 09:14:23,001 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:14:25,938 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:14:18Z and 2025-10-09T09:14:23Z
+2025-10-09 09:14:25,942 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:14:27,988 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:14:18Z and 2025-10-09T09:14:23Z
+2025-10-09 09:14:27,991 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:14:30,947 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:14:23Z and 2025-10-09T09:14:28Z
+2025-10-09 09:14:30,951 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:14:33,010 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:14:23Z and 2025-10-09T09:14:28Z
+2025-10-09 09:14:33,014 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:14:35,932 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:14:28Z and 2025-10-09T09:14:33Z
+2025-10-09 09:14:35,936 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:14:37,983 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:14:28Z and 2025-10-09T09:14:33Z
+2025-10-09 09:14:37,986 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:14:40,960 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:14:33Z and 2025-10-09T09:14:38Z
+2025-10-09 09:14:40,964 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:15:01,872 - basicLogger - INFO - Connected to the database
+2025-10-09 09:15:01,982 - basicLogger - INFO - Connected to the database
+2025-10-09 09:15:13,375 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:14:33Z and 2025-10-09T09:15:11Z
+2025-10-09 09:15:13,418 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:15:15,465 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:14:33Z and 2025-10-09T09:15:11Z
+2025-10-09 09:15:15,472 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:15:18,364 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:15:11Z and 2025-10-09T09:15:16Z
+2025-10-09 09:15:18,369 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:15:20,418 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:15:11Z and 2025-10-09T09:15:16Z
+2025-10-09 09:15:20,422 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:15:23,369 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:15:16Z and 2025-10-09T09:15:21Z
+2025-10-09 09:15:23,374 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:15:25,426 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:15:16Z and 2025-10-09T09:15:21Z
+2025-10-09 09:15:25,433 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:15:28,365 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:15:21Z and 2025-10-09T09:15:26Z
+2025-10-09 09:15:28,368 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:15:30,417 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:15:21Z and 2025-10-09T09:15:26Z
+2025-10-09 09:15:30,425 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:15:33,380 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:15:26Z and 2025-10-09T09:15:31Z
+2025-10-09 09:15:33,387 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:15:35,436 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:15:26Z and 2025-10-09T09:15:31Z
+2025-10-09 09:15:35,442 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:15:38,341 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:15:31Z and 2025-10-09T09:15:36Z
+2025-10-09 09:15:38,346 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:15:40,408 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:15:31Z and 2025-10-09T09:15:36Z
+2025-10-09 09:15:40,414 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:15:43,374 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:15:36Z and 2025-10-09T09:15:41Z
+2025-10-09 09:15:43,384 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:15:45,432 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:15:36Z and 2025-10-09T09:15:41Z
+2025-10-09 09:15:45,438 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:15:48,368 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:15:41Z and 2025-10-09T09:15:46Z
+2025-10-09 09:15:48,375 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:15:50,418 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:15:41Z and 2025-10-09T09:15:46Z
+2025-10-09 09:15:50,423 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:15:53,387 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:15:46Z and 2025-10-09T09:15:51Z
+2025-10-09 09:15:53,394 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:15:55,454 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:15:46Z and 2025-10-09T09:15:51Z
+2025-10-09 09:15:55,461 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:15:58,374 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:15:51Z and 2025-10-09T09:15:56Z
+2025-10-09 09:15:58,380 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:16:00,441 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:15:51Z and 2025-10-09T09:15:56Z
+2025-10-09 09:16:00,446 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:16:03,369 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:15:56Z and 2025-10-09T09:16:01Z
+2025-10-09 09:16:03,373 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:16:05,417 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:15:56Z and 2025-10-09T09:16:01Z
+2025-10-09 09:16:05,420 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:16:08,388 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:16:01Z and 2025-10-09T09:16:06Z
+2025-10-09 09:16:08,393 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:16:10,437 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:16:01Z and 2025-10-09T09:16:06Z
+2025-10-09 09:16:10,441 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:16:13,379 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:16:06Z and 2025-10-09T09:16:11Z
+2025-10-09 09:16:13,384 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:16:15,431 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:16:06Z and 2025-10-09T09:16:11Z
+2025-10-09 09:16:15,435 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:16:18,351 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:16:11Z and 2025-10-09T09:16:16Z
+2025-10-09 09:16:18,355 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:16:20,384 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:16:11Z and 2025-10-09T09:16:16Z
+2025-10-09 09:16:20,391 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:16:23,377 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:16:16Z and 2025-10-09T09:16:21Z
+2025-10-09 09:16:23,380 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-09 09:16:25,423 - basicLogger - INFO - Query for Air Quality readings between 2025-10-09T09:16:16Z and 2025-10-09T09:16:21Z
+2025-10-09 09:16:25,427 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-09 09:16:28,374 - basicLogger - INFO - Query for Temperature readings between 2025-10-09T09:16:21Z and 2025-10-09T09:16:26Z
+2025-10-09 09:16:28,379 - basicLogger - INFO - Query for Temperature readings returns 0 results
