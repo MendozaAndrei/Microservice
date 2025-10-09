@@ -122,11 +122,14 @@ GET http://localhost:8090/temperature?start_timestamp=2000-01-01T00:00:00Z&end_t
 
 **Step 3:** Storage service receives request and queries MySQL
 ```python
-# storage/app.py line 161
+# storage/app.py - get_temperature_readings function
+start_datetime = datetime.fromisoformat(start_timestamp.replace('Z', '+00:00'))
+end_datetime = datetime.fromisoformat(end_timestamp.replace('Z', '+00:00'))
+
 statement = select(Temperature).where(
-    Temperature.date_created >= datetime(2000, 1, 1)
+    Temperature.date_created >= start_datetime
 ).where(
-    Temperature.date_created < datetime(2025, 10, 9, 16, 0, 0)
+    Temperature.date_created < end_datetime
 )
 
 results = session.execute(statement).scalars().all()
@@ -137,6 +140,7 @@ results = session.execute(statement).scalars().all()
 SELECT * FROM temperature 
 WHERE date_created >= '2000-01-01 00:00:00' 
 AND date_created < '2025-10-09 16:00:00'
+-- Actual timestamps depend on the start_timestamp and end_timestamp parameters
 ```
 
 **Step 5:** Storage service formats results as JSON and returns
@@ -305,13 +309,13 @@ Statistics should now reflect the data in MySQL!
 
 ### To understand MySQL queries:
 **File:** `storage/app.py`
-**Lines:** 150-205 (get_temperature_readings and get_airquality_readings functions)
+**Functions:** `get_temperature_readings()` and `get_airquality_readings()`
 **Look for:** `select(Temperature).where(...)` and `session.execute(...)`
 
 ### To understand HTTP requests:
 **File:** `processing/app.py`
-**Lines:** 159-162 and 185-188
-**Look for:** `requests.get(app_config['eventstores']['temperature']['url'], ...)`
+**Function:** `populate_stats()` - Look in Steps 3 and 4
+**Look for:** `requests.get(app_config['eventstores']['temperature']['url'], params={...})`
 
 ### To understand data flow:
 **File:** `processing/app.py`
