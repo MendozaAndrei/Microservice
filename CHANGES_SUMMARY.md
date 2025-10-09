@@ -1,7 +1,7 @@
 # Summary of Changes - Processing Service Documentation
 
 ## Your Question
-> "hold on. Where exactly is it grabbing its data from? How come when I read the code, I am seeing nothing that it is grabbing from the database itself."
+> "hold on. Where exactly is it grabbing its data from? How come when I read the code, I am seeing nothing that it is grabbing from the database itself.""
 
 ## The Answer
 **The Processing service does NOT directly access the MySQL database!** 
@@ -227,6 +227,7 @@ session.execute(select(Temperature).where(...))  ✅ Actual MySQL query
 
 1. **Check MySQL has data:**
    ```bash
+   # Note: Replace with your actual MySQL credentials from docker-compose.yml
    docker exec -it microservice-db-1 mysql -u skibidi -phelpme fire_data \
      -e "SELECT COUNT(*) FROM temperature; SELECT COUNT(*) FROM airquality;"
    ```
