@@ -1,3 +1,8 @@
-version: 1
-eventstore:
-  url: http://localhost:8090
+version: 2
+# eventstore:
+#   url: http://localhost:8090
+
+events:
+  hostname: 143.198.72.207
+  port: 9092
+  topic: events

@@ -2,6 +2,11 @@ version: 1
 datastore:
   user: skibidi
   password: helpme
-  hostname: localhost
-  port: 3307
+  hostname: 143.198.72.207
+  port: 3306  # Changed from 3307 to 3306 to match your docker-compose
   db: fire_data
+
+events:
+  hostname: 143.198.72.207
+  port: 9092
+  topic: events

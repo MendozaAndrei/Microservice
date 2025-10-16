@@ -1035,3 +1035,5 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2025-10-02 09:28:21,483 - basicLogger - INFO - Response for event airquality_reading (id: 1759422499010892800) has status 201
 2025-10-02 09:28:21,489 - basicLogger - INFO - Response for event airquality_reading (id: 1759422499011375400) has status 201
 2025-10-02 09:28:21,490 - basicLogger - INFO - Response for event airquality_reading (id: 1759422499010481000) has status 201
+2025-10-15 22:56:14,241 - basicLogger - INFO - Received event temperature_reading with a trace id of 1760594174241171300
+2025-10-15 22:58:43,761 - basicLogger - INFO - Received event temperature_reading with a trace id of 1760594323761172500

@@ -5,6 +5,11 @@ from datetime import datetime
 import pymysql
 import yaml
 import logging.config
+from pykafka import KafkaClient
+from pykafka.common import OffsetType
+from threading import Thread
+import json
+
 
 #================= Lab 4 Code Added ==============================
 #Opens the app_conf.yml configuration to load. 
@@ -145,6 +150,57 @@ def create_airquality_reading(body):
     # Log message when event is successfully stored (after DB session is closed)
     logger.debug(f"Stored event airquality_reading with a trace id of {body['trace_id']}")
     return {"message": "stored"}, 201
+
+# =============================== Lab 6 
+def process_messages():
+    """ Process event messages from Kafka """
+    hostname = f"{app_config['events']['hostname']}:{app_config['events']['port']}"
+    topic_name = app_config['events']['topic']
+    
+    logger.info(f"Connecting to Kafka at {hostname}")
+    
+    client = KafkaClient(hosts=hostname)
+    topic = client.topics[str.encode(topic_name)]
+    
+    # Create a consumer on a consumer group
+    consumer = topic.get_simple_consumer(
+        consumer_group=b'event_group',
+        reset_offset_on_start=False,
+        auto_offset_reset=OffsetType.LATEST
+    )
+    
+    logger.info("Kafka consumer started, waiting for messages...")
+    
+    # This is blocking - it will wait for new messages
+    for msg in consumer:
+        msg_str = msg.value.decode('utf-8')
+        msg = json.loads(msg_str)
+        logger.info(f"Message: {msg}")
+        
+        payload = msg["payload"]
+        
+        if msg["type"] == "temperature_reading":
+            # Store the temperature reading to the DB
+            create_temperature_reading(payload)
+            logger.info(f"Stored temperature_reading event with trace_id: {payload['trace_id']}")
+            
+        elif msg["type"] == "airquality_reading":
+            # Store the air quality reading to the DB
+            create_airquality_reading(payload)
+            logger.info(f"Stored airquality_reading event with trace_id: {payload['trace_id']}")
+        
+        # Commit the new message as being read
+        consumer.commit_offsets()
+
+
+def setup_kafka_thread():
+    """Setup Kafka consumer thread"""
+    t1 = Thread(target=process_messages)
+    t1.setDaemon(True)
+    t1.start()
+    logger.info("Kafka consumer thread started")
+
+
 
 
 def get_temperature_readings(start_timestamp, end_timestamp):

@@ -9,3 +9,748 @@
 2025-10-08 23:04:09,887 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-08T23:03:57Z'}
 2025-10-08 23:04:09,887 - basicLogger - INFO - Periodic processing has ended
 2025-10-08 23:04:12,625 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:50:41,283 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:50:46,274 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:50:51,278 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:50:56,287 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:51:01,272 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:51:06,286 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:51:11,275 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:51:16,274 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:51:22,627 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:51:28,777 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:51:28,778 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:51:16Z'}
+2025-10-15 22:51:28,778 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:51:31,277 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:51:37,410 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:51:43,537 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:51:43,538 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:51:31Z'}
+2025-10-15 22:51:43,538 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:51:46,282 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:51:52,416 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:51:58,546 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:51:58,546 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:51:46Z'}
+2025-10-15 22:51:58,547 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:52:01,286 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:52:07,435 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:52:13,574 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:52:13,575 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:52:01Z'}
+2025-10-15 22:52:13,575 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:52:16,279 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:52:22,426 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:52:28,566 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:52:28,566 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:52:16Z'}
+2025-10-15 22:52:28,566 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:52:31,272 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:52:37,415 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:52:43,541 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:52:43,541 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:52:31Z'}
+2025-10-15 22:52:43,541 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:52:46,284 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:52:52,441 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:52:58,583 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:52:58,584 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:52:46Z'}
+2025-10-15 22:52:58,584 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:53:01,282 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:53:07,430 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:53:13,584 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:53:13,585 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:53:01Z'}
+2025-10-15 22:53:13,585 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:53:16,277 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:53:22,441 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:53:28,607 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:53:28,607 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:53:16Z'}
+2025-10-15 22:53:28,607 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:53:31,286 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:53:37,418 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:53:43,557 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:53:43,557 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:53:31Z'}
+2025-10-15 22:53:43,558 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:53:46,285 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:53:52,437 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:53:58,577 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:53:58,578 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:53:46Z'}
+2025-10-15 22:53:58,578 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:54:01,282 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:54:07,440 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:54:13,595 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:54:13,596 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:54:01Z'}
+2025-10-15 22:54:13,596 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:54:16,281 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:54:22,425 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:54:28,558 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:54:28,559 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:54:16Z'}
+2025-10-15 22:54:28,559 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:54:31,279 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:54:37,427 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:54:43,558 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:54:43,559 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:54:31Z'}
+2025-10-15 22:54:43,559 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:54:46,283 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:54:52,426 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:54:58,573 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:54:58,574 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:54:46Z'}
+2025-10-15 22:54:58,574 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:55:01,284 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:55:07,421 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:55:13,552 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:55:13,553 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:55:01Z'}
+2025-10-15 22:55:13,553 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:55:16,276 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:55:22,421 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:55:28,545 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:55:28,545 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:55:16Z'}
+2025-10-15 22:55:28,545 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:55:31,274 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:55:37,418 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:55:43,544 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:55:43,545 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:55:31Z'}
+2025-10-15 22:55:43,545 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:55:46,287 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:55:52,447 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:55:58,559 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:55:58,559 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:55:46Z'}
+2025-10-15 22:55:58,560 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:56:01,273 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:56:07,430 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:56:13,569 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:56:13,570 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:56:01Z'}
+2025-10-15 22:56:13,570 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:56:16,279 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:56:22,415 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:56:28,553 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:56:28,554 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:56:16Z'}
+2025-10-15 22:56:28,554 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:56:31,280 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:56:37,422 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:56:43,588 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:56:43,588 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:56:31Z'}
+2025-10-15 22:56:43,588 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:56:46,276 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:56:52,420 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:56:58,559 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:56:58,559 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:56:46Z'}
+2025-10-15 22:56:58,559 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:57:01,273 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:57:07,423 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:57:13,574 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:57:13,575 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:57:01Z'}
+2025-10-15 22:57:13,575 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:57:16,274 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:57:22,420 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:57:28,566 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:57:28,567 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:57:16Z'}
+2025-10-15 22:57:28,567 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:57:31,279 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:57:37,429 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:57:43,585 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:57:43,586 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:57:31Z'}
+2025-10-15 22:57:43,586 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:57:46,278 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:57:52,424 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:57:58,563 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:57:58,564 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:57:46Z'}
+2025-10-15 22:57:58,564 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:58:01,276 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:58:07,416 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:58:13,555 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:58:13,556 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:58:01Z'}
+2025-10-15 22:58:13,556 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:58:16,284 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:58:22,427 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:58:28,574 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:58:28,574 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:58:16Z'}
+2025-10-15 22:58:28,575 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:58:31,283 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:58:37,408 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:58:43,550 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:58:43,551 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:58:31Z'}
+2025-10-15 22:58:43,551 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:58:46,272 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:58:52,436 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:58:58,555 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:58:58,555 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:58:46Z'}
+2025-10-15 22:58:58,555 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:59:01,275 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:59:07,426 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:59:13,570 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:59:13,570 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:59:01Z'}
+2025-10-15 22:59:13,571 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:59:16,274 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:59:22,422 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:59:28,575 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:59:28,576 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:59:16Z'}
+2025-10-15 22:59:28,576 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:59:31,282 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:59:37,426 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:59:43,580 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:59:43,580 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:59:31Z'}
+2025-10-15 22:59:43,580 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 22:59:46,279 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 22:59:52,419 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 22:59:58,546 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 22:59:58,547 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T22:59:46Z'}
+2025-10-15 22:59:58,547 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:00:01,280 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:00:07,408 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:00:13,503 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:00:13,504 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:00:01Z'}
+2025-10-15 23:00:13,504 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:00:16,283 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:00:22,427 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:00:28,567 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:00:28,568 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:00:16Z'}
+2025-10-15 23:00:28,568 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:00:31,274 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:00:37,418 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:00:43,546 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:00:43,546 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:00:31Z'}
+2025-10-15 23:00:43,547 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:00:46,272 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:00:52,425 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:00:58,561 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:00:58,562 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:00:46Z'}
+2025-10-15 23:00:58,562 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:01:01,278 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:01:07,415 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:01:13,565 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:01:13,566 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:01:01Z'}
+2025-10-15 23:01:13,566 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:01:16,284 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:01:22,433 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:01:28,570 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:01:28,571 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:01:16Z'}
+2025-10-15 23:01:28,571 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:01:31,284 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:01:37,421 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:01:43,564 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:01:43,564 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:01:31Z'}
+2025-10-15 23:01:43,565 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:01:46,283 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:01:52,437 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:01:58,591 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:01:58,591 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:01:46Z'}
+2025-10-15 23:01:58,592 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:02:01,277 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:02:07,433 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:02:13,552 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:02:13,553 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:02:01Z'}
+2025-10-15 23:02:13,553 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:02:16,282 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:02:22,416 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:02:28,557 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:02:28,558 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:02:16Z'}
+2025-10-15 23:02:28,558 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:02:31,284 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:02:37,429 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:02:43,571 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:02:43,572 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:02:31Z'}
+2025-10-15 23:02:43,572 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:02:46,282 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:02:52,438 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:02:58,583 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:02:58,583 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:02:46Z'}
+2025-10-15 23:02:58,584 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:03:01,286 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:03:07,432 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:03:13,561 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:03:13,561 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:03:01Z'}
+2025-10-15 23:03:13,561 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:03:16,276 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:03:22,436 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:03:28,575 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:03:28,575 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:03:16Z'}
+2025-10-15 23:03:28,575 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:03:31,285 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:03:37,420 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:03:43,564 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:03:43,565 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:03:31Z'}
+2025-10-15 23:03:43,565 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:03:46,276 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:03:52,396 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:03:58,522 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:03:58,523 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:03:46Z'}
+2025-10-15 23:03:58,523 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:04:01,277 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:04:07,454 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:04:13,572 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:04:13,573 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:04:01Z'}
+2025-10-15 23:04:13,573 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:04:16,277 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:04:22,417 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:04:28,558 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:04:28,558 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:04:16Z'}
+2025-10-15 23:04:28,558 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:04:31,272 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:04:37,414 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:04:43,560 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:04:43,561 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:04:31Z'}
+2025-10-15 23:04:43,561 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:04:46,272 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:04:52,425 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:04:58,567 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:04:58,567 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:04:46Z'}
+2025-10-15 23:04:58,567 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:05:01,285 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:05:07,443 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:05:13,582 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:05:13,582 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:05:01Z'}
+2025-10-15 23:05:13,583 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:05:16,282 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:05:22,413 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:05:28,588 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:05:28,589 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:05:16Z'}
+2025-10-15 23:05:28,589 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:05:31,275 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:05:37,441 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:05:43,567 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:05:43,568 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:05:31Z'}
+2025-10-15 23:05:43,568 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:05:46,279 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:05:52,429 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:05:58,572 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:05:58,572 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:05:46Z'}
+2025-10-15 23:05:58,572 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:06:01,280 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:06:07,424 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:06:13,555 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:06:13,556 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:06:01Z'}
+2025-10-15 23:06:13,556 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:06:16,274 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:06:22,425 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:06:28,555 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:06:28,555 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:06:16Z'}
+2025-10-15 23:06:28,555 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:06:31,282 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:06:37,433 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:06:43,586 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:06:43,586 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:06:31Z'}
+2025-10-15 23:06:43,586 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:06:46,285 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:06:52,413 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:06:58,561 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:06:58,561 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:06:46Z'}
+2025-10-15 23:06:58,561 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:07:01,272 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:07:07,427 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:07:13,563 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:07:13,563 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:07:01Z'}
+2025-10-15 23:07:13,563 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:07:16,280 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:07:22,437 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:07:28,585 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:07:28,585 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:07:16Z'}
+2025-10-15 23:07:28,585 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:07:31,279 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:07:37,453 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:07:43,570 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:07:43,570 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:07:31Z'}
+2025-10-15 23:07:43,570 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:07:46,274 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:07:52,414 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:07:58,544 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:07:58,544 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:07:46Z'}
+2025-10-15 23:07:58,545 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:08:01,285 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:08:07,429 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:08:13,581 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:08:13,582 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:08:01Z'}
+2025-10-15 23:08:13,582 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:08:16,286 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:08:21,276 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:08:26,286 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:08:31,280 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:08:36,282 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:08:41,279 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:08:46,284 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:08:51,286 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:08:56,279 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:09:01,282 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:09:06,275 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:09:12,410 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:09:18,547 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:09:18,547 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:09:06Z'}
+2025-10-15 23:09:18,547 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:09:21,286 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:09:27,436 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:09:33,579 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:09:33,580 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:09:21Z'}
+2025-10-15 23:09:33,580 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:09:36,283 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:09:42,452 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:09:48,579 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:09:48,580 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:09:36Z'}
+2025-10-15 23:09:48,580 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:09:51,284 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:09:57,446 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:10:03,578 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:10:03,579 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:09:51Z'}
+2025-10-15 23:10:03,579 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:10:06,285 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:10:12,443 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:10:18,585 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:10:18,586 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:10:06Z'}
+2025-10-15 23:10:18,586 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:10:21,284 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:10:27,398 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:10:36,277 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:10:41,273 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:10:46,284 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:10:51,275 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:10:56,272 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:11:01,286 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:11:06,283 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:11:12,428 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:11:18,596 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:11:18,596 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:11:06Z'}
+2025-10-15 23:11:18,596 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:11:21,281 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:11:27,424 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:11:33,561 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:11:33,561 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:11:21Z'}
+2025-10-15 23:11:33,561 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:11:36,283 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:11:42,431 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:11:48,566 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:11:48,566 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:11:36Z'}
+2025-10-15 23:11:48,566 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:11:51,276 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:11:57,425 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:12:03,570 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:12:03,571 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:11:51Z'}
+2025-10-15 23:12:03,571 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:12:06,283 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:12:12,419 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:12:18,568 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:12:18,569 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:12:06Z'}
+2025-10-15 23:12:18,569 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:12:21,284 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:12:27,415 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:12:33,541 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:12:33,542 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:12:21Z'}
+2025-10-15 23:12:33,542 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:12:36,280 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:12:42,397 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:12:48,538 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:12:48,539 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:12:36Z'}
+2025-10-15 23:12:48,539 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:12:51,276 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:12:57,428 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:13:03,547 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:13:03,547 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:12:51Z'}
+2025-10-15 23:13:03,547 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:13:06,283 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:13:12,429 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:13:18,564 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:13:18,565 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:13:06Z'}
+2025-10-15 23:13:18,565 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:13:21,287 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:13:27,445 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:13:33,591 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:13:33,591 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:13:21Z'}
+2025-10-15 23:13:33,591 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:13:36,274 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:13:42,419 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:13:48,548 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:13:48,549 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:13:36Z'}
+2025-10-15 23:13:48,549 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:13:51,283 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:13:57,444 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:14:03,598 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:14:03,598 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:13:51Z'}
+2025-10-15 23:14:03,598 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:14:06,283 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:14:12,417 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:14:18,569 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:14:18,569 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:14:06Z'}
+2025-10-15 23:14:18,569 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:14:21,281 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:14:27,416 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:14:33,560 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:14:33,560 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:14:21Z'}
+2025-10-15 23:14:33,560 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:14:36,285 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:14:42,440 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:14:48,574 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:14:48,575 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:14:36Z'}
+2025-10-15 23:14:48,575 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:14:51,279 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:14:57,426 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:15:03,550 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:15:03,551 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:14:51Z'}
+2025-10-15 23:15:03,551 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:15:06,275 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:15:12,410 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:15:18,555 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:15:18,556 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:15:06Z'}
+2025-10-15 23:15:18,556 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:15:21,278 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:15:27,439 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:15:33,570 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:15:33,571 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:15:21Z'}
+2025-10-15 23:15:33,571 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:15:36,286 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:15:42,428 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:15:48,560 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:15:48,561 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:15:36Z'}
+2025-10-15 23:15:48,561 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:15:51,277 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:15:57,413 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:16:03,556 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:16:03,556 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:15:51Z'}
+2025-10-15 23:16:03,557 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:16:06,284 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:16:12,430 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:16:18,557 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:16:18,558 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:16:06Z'}
+2025-10-15 23:16:18,558 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:16:21,284 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:16:27,435 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:16:33,569 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:16:33,569 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:16:21Z'}
+2025-10-15 23:16:33,570 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:16:36,283 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:16:42,423 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:16:48,557 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:16:48,558 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:16:36Z'}
+2025-10-15 23:16:48,558 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:16:51,280 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:16:57,445 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:17:03,588 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:17:03,588 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:16:51Z'}
+2025-10-15 23:17:03,588 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:17:06,286 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:17:12,431 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:17:18,571 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:17:18,571 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:17:06Z'}
+2025-10-15 23:17:18,571 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:17:21,281 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:17:27,437 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:17:33,578 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:17:33,578 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:17:21Z'}
+2025-10-15 23:17:33,579 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:17:36,279 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:17:42,440 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:17:48,563 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:17:48,564 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:17:36Z'}
+2025-10-15 23:17:48,564 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:17:51,273 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:17:57,408 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:18:03,537 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:18:03,538 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:17:51Z'}
+2025-10-15 23:18:03,538 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:18:06,276 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:18:12,412 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:18:18,523 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:18:18,523 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:18:06Z'}
+2025-10-15 23:18:18,523 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:18:21,274 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:18:27,424 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:18:31,291 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:18:31,292 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:18:21Z'}
+2025-10-15 23:18:31,292 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:18:36,280 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:18:38,462 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:18:40,953 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:18:40,954 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:18:36Z'}
+2025-10-15 23:18:40,954 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:18:41,274 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:18:43,677 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:18:46,069 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:18:46,069 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:18:41Z'}
+2025-10-15 23:18:46,069 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:18:46,273 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:18:48,735 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:18:51,230 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:18:51,231 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:18:46Z'}
+2025-10-15 23:18:51,231 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:18:51,283 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:18:53,503 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:18:55,714 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:18:55,714 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:18:51Z'}
+2025-10-15 23:18:55,715 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:18:56,282 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:18:58,594 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:19:00,988 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:19:00,989 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:18:56Z'}
+2025-10-15 23:19:00,989 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:19:01,274 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:19:03,686 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:19:05,894 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:19:05,895 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:19:01Z'}
+2025-10-15 23:19:05,895 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:19:06,286 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:19:09,064 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:19:11,305 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:19:11,306 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:19:06Z'}
+2025-10-15 23:19:11,306 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:19:16,274 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:19:18,739 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:19:21,198 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:19:21,199 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:19:16Z'}
+2025-10-15 23:19:21,199 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:19:21,286 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:19:23,758 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:19:26,215 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:19:26,215 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:19:21Z'}
+2025-10-15 23:19:26,215 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:19:26,283 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:19:28,543 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:19:30,736 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:19:30,737 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:19:26Z'}
+2025-10-15 23:19:30,737 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:19:31,273 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:19:33,783 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:19:36,139 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:19:36,140 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:19:31Z'}
+2025-10-15 23:19:36,140 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:19:36,279 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:19:38,776 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:19:41,269 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:19:41,269 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:19:36Z'}
+2025-10-15 23:19:41,269 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:19:41,284 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:19:46,278 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:19:51,283 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:19:56,285 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:20:01,185 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:20:04,106 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:20:04,107 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:19:56Z'}
+2025-10-15 23:20:04,107 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:20:06,284 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:20:09,020 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:20:16,273 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:20:19,472 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:20:22,278 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:20:22,279 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:20:16Z'}
+2025-10-15 23:20:22,279 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:20:26,275 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:20:29,068 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:20:31,557 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:20:31,558 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:20:26Z'}
+2025-10-15 23:20:31,558 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:20:36,279 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:20:39,736 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:20:42,915 - basicLogger - ERROR - Failed to get air quality readings. Status code: 500
+2025-10-15 23:20:42,916 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:20:36Z'}
+2025-10-15 23:20:42,916 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:20:46,281 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:20:49,318 - basicLogger - ERROR - Failed to get temperature readings. Status code: 500
+2025-10-15 23:20:56,285 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:21:01,281 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:21:06,284 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:21:08,905 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:21:11,210 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:21:11,211 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:21:06Z'}
+2025-10-15 23:21:11,211 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:21:11,278 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:21:13,432 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:21:15,887 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:21:15,887 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:21:11Z'}
+2025-10-15 23:21:15,887 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:21:16,272 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:21:18,763 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:21:21,122 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:21:21,123 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:21:16Z'}
+2025-10-15 23:21:21,123 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:21:21,283 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:21:23,563 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:21:25,773 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:21:25,773 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:21:21Z'}
+2025-10-15 23:21:25,773 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:21:26,272 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:21:28,623 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:21:30,936 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:21:30,937 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:21:26Z'}
+2025-10-15 23:21:30,937 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:21:31,275 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:21:33,429 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:21:35,617 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:21:35,617 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:21:31Z'}
+2025-10-15 23:21:35,617 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:21:36,275 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:21:38,623 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:21:40,972 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:21:40,972 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:21:36Z'}
+2025-10-15 23:21:40,973 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:21:41,279 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:21:43,839 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:21:46,115 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:21:46,115 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:21:41Z'}
+2025-10-15 23:21:46,116 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:21:46,279 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:21:48,652 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:21:51,012 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:21:51,013 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:21:46Z'}
+2025-10-15 23:21:51,013 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:21:51,286 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:21:53,625 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:21:55,956 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:21:55,957 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:21:51Z'}
+2025-10-15 23:21:55,957 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:21:56,276 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:21:58,606 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:22:00,941 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:22:00,941 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:21:56Z'}
+2025-10-15 23:22:00,942 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:22:01,278 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:22:03,706 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:22:05,857 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:22:05,857 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:22:01Z'}
+2025-10-15 23:22:05,857 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:22:06,286 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:22:08,622 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:22:10,923 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:22:10,924 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:22:06Z'}
+2025-10-15 23:22:10,924 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:22:11,284 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:22:13,458 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:22:15,791 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:22:15,792 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:22:11Z'}
+2025-10-15 23:22:15,792 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:22:16,273 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:22:18,463 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:22:20,801 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:22:20,801 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:22:16Z'}
+2025-10-15 23:22:20,802 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:22:21,274 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:22:23,674 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:22:25,963 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:22:25,963 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:22:21Z'}
+2025-10-15 23:22:25,963 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:22:26,282 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:22:28,896 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:22:31,151 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:22:31,152 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:22:26Z'}
+2025-10-15 23:22:31,152 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:22:31,277 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:22:33,613 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:22:35,897 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:22:35,898 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:22:31Z'}
+2025-10-15 23:22:35,898 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:22:36,282 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:22:38,583 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:22:40,877 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:22:40,878 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:22:36Z'}
+2025-10-15 23:22:40,878 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:22:41,278 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:22:43,643 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:22:45,937 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:22:45,937 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:22:41Z'}
+2025-10-15 23:22:45,937 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:22:46,272 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:22:48,558 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:22:50,913 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:22:50,914 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:22:46Z'}
+2025-10-15 23:22:50,914 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:22:51,276 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:22:53,576 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:22:55,930 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:22:55,931 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:22:51Z'}
+2025-10-15 23:22:55,931 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:22:56,279 - basicLogger - INFO - Started Periodic Processing
+2025-10-15 23:22:58,669 - basicLogger - INFO - Received 0 temperature readings
+2025-10-15 23:23:01,050 - basicLogger - INFO - Received 0 air quality readings
+2025-10-15 23:23:01,051 - basicLogger - DEBUG - Updated statistics: {'num_temp_readings': 0, 'max_temperature_celsius': 0, 'num_airquality_readings': 0, 'max_air_quality': 0, 'last_updated': '2025-10-15T23:22:56Z'}
+2025-10-15 23:23:01,051 - basicLogger - INFO - Periodic processing has ended
+2025-10-15 23:23:01,272 - basicLogger - INFO - Started Periodic Processing

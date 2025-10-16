@@ -1,9 +1,13 @@
+import datetime
+import json
 import connexion
 from connexion import NoContent
 import httpx
 import time
 import yaml
 import logging.config
+from pykafka import KafkaClient
+import datetime
 
 # Load configuration
 with open('app_conf.yml', 'r') as f:
@@ -16,12 +20,29 @@ logging.config.dictConfig(LOG_CONFIG)
 
 logger = logging.getLogger('basicLogger')
 
-STORAGE_URL = app_config['eventstore']['url']
+# Since we are not using the STORAGE_URL from app_conf.yml, I commented it out. We will be sing kafka
+# STORAGE_URL = app_config['eventstore']['url']
+
+# name used to be eventstore, but now it is events. 
+KAFKA_HOSTNAME = app_config['events']['hostname']
+KAFKA_PORT = app_config['events']['port']
+KAFKA_TOPIC = app_config['events']['topic']
+
+
 
 def report_temperature_readings(body):
     readings = body.get("readings", [])
 
     try:
+
+        # We'd have to connect it all over again here, to connect it over to the thingy 
+        client = KafkaClient(hosts=f'{KAFKA_HOSTNAME}:{KAFKA_PORT}')
+        topic = client.topics[str.encode(KAFKA_TOPIC)]
+        producer = topic.get_sync_producer()
+
+
+
+
         for r in readings:
             #This autogenerates the traceid using the time in nanosecons so I don't have to add another 
             #value in the jmeter
@@ -42,8 +63,22 @@ def report_temperature_readings(body):
             }
             
             # The HTTPX post that sends it over to storage app.py API
-            resp = httpx.post(f"{STORAGE_URL}/temperature", json=data)
+            # We don't need this anymore. getting rid of this 
+            # resp = httpx.post(f"{STORAGE_URL}/temperature", json=data)
             
+
+            # New code to send the data to Kafka
+            msg = {
+                "type": "temperature_reading",
+                "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+                "payload": data
+            }
+            msg_str = json.dumps(msg)
+            producer.produce(msg_str.encode('utf-8'))
+            
+
+
+
             # Log the response of the storage service
             logger.info(f"Response for event temperature_reading (id: {trace_id}) has status {resp.status_code}")
             
@@ -59,6 +94,10 @@ def report_airquality_reading(body):
     readings = body.get("readings", [])
 
     try:
+
+        client = KafkaClient(hosts=f'{KAFKA_HOSTNAME}:{KAFKA_PORT}')
+        topic = client.topics[str.encode(KAFKA_TOPIC)]
+        producer = topic.get_sync_producer()
         for r in readings:
             # Just added this and into the "data" sheet
             trace_id = time.time_ns()
@@ -78,8 +117,22 @@ def report_airquality_reading(body):
             }
 
             # The HTTPX post that sends it over to storage app.py API 
-            resp = httpx.post(f"{STORAGE_URL}/airquality", json=data)
+            # resp = httpx.post(f"{STORAGE_URL}/airquality", json=data)
             
+
+
+            msg = {
+                "type": "airquality_reading",
+                "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+                "payload": data
+            }
+            msg_str = json.dumps(msg)
+            producer.produce(msg_str.encode('utf-8'))
+
+
+
+
+
             # Log the response of the storage service
             logger.info(f"Response for event airquality_reading (id: {trace_id}) has status {resp.status_code}")
             

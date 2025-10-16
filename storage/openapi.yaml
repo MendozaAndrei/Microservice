@@ -6,20 +6,20 @@ info:
 
 paths:
   /temperature:
-    post:
-      summary: Store one temperature reading
-      operationId: app.create_temperature_reading
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/TemperatureReading'
-      responses:
-        '201':
-          description: Stored
-        '400':
-          description: Invalid input
+    # post:
+    #   summary: Store one temperature reading
+    #   operationId: app.create_temperature_reading
+    #   requestBody:
+    #     required: true
+    #     content:
+    #       application/json:
+    #         schema:
+    #           $ref: '#/components/schemas/TemperatureReading'
+    #   responses:
+    #     '201':
+    #       description: Stored
+    #     '400':
+    #       description: Invalid input
     get:
       summary: Gets temperature readings within a time range
       operationId: app.get_temperature_readings
@@ -59,20 +59,20 @@ paths:
                     type: string
 
   /airquality:
-    post:
-      summary: Store one air quality reading
-      operationId: app.create_airquality_reading
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/AirQualityReading'
-      responses:
-        '201':
-          description: Stored
-        '400':
-          description: Invalid input
+    # post:
+    #   summary: Store one air quality reading
+    #   operationId: app.create_airquality_reading
+    #   requestBody:
+    #     required: true
+    #     content:
+    #       application/json:
+    #         schema:
+    #           $ref: '#/components/schemas/AirQualityReading'
+    #   responses:
+    #     '201':
+    #       description: Stored
+    #     '400':
+    #       description: Invalid input
     get:
       summary: Gets air quality readings within a time range
       operationId: app.get_airquality_readings
