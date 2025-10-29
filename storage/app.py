@@ -19,13 +19,20 @@ with open('app_conf.yml', 'r') as f:
 #Opens the log_conf.yml for configuration
 with open("log_conf.yml", "r") as f:
     LOG_CONFIG = yaml.safe_load(f.read())
-logging.config.dictConfig(LOG_CONFIG)
 
+#Sets up logging from the configuration file. 
+#Creates a logging instance to write logs basically. 
+logging.config.dictConfig(LOG_CONFIG)
 logger = logging.getLogger('basicLogger')
 
-# MySQL connection Grabbed from app_conf.yml
-# Storage.db will be completely useless and all. 
+#This is the Database Configuration setup
+#This is where we set up the database connection details.
+# This is where the database, like the user and such is created and set.
 db_config = app_config['datastore']
+
+
+
+# This verifies the connection to the database using the configuration details provided. 
 try:
     #Uses "keys" to grab the value and to create the things needed to connect to the network. 
     connection_string = f"mysql+pymysql://{db_config['user']}:{db_config['password']}@{db_config['hostname']}:{db_config['port']}/{db_config['db']}"

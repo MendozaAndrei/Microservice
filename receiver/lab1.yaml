@@ -1,18 +1,18 @@
 openapi: 3.0.0
-info:
+info: #This is the METADATA about the API
   title: Forest Fire API
   version: "1.0.0"
   description: This API receives forest fire sensor readings from fire stations and satellites around the world.
-  contact:
+  contact: #Completely fucking optional
     email: amendoza39@my.bcit.ca
 
 paths:
-  /forest_fire/temperatures:
-    post:
+  /forest_fire/temperatures: #Endpoint for reporting temperature readings
+    post: #Receiver doesn't retrieve data, it only accepts the POST requests thats coming in
       summary: Reports a batch of temperature sensor readings
       description: Adds a batch of temperature readings.
-      operationId: app.report_temperature_readings
-      requestBody:
+      operationId: app.report_temperature_readings #Maps to the function in receivers app.py
+      requestBody: 
         required: true
         content:
           application/json:
@@ -43,9 +43,9 @@ paths:
 
 components:
   schemas:
-    TemperatureReadingBatch:
+    TemperatureReadingBatch:  #Just readings with specific data. 
       type: object
-      required:
+      required: #These are the required fields for this schema. If any of them are missing, it will result in an error. 
         - fire_id
         - reporting_timestamp
         - longitude

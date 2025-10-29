@@ -1,32 +1,32 @@
 openapi: 3.0.0
-info:
-  title: Forest Fire Storage API
-  version: "1.0.0"
-  description: Persists single readings to SQLite via SQLAlchemy.
+info: #Metadata regarding the API
+  title: Forest Fire Storage API # name of the API or what will be shown in Swagger UI
+  version: "1.0.0" # API's version number
+  description: Persists single readings to SQLite via SQLAlchemy. #What the API does
 
 paths:
-  /temperature:
-    # post:
+  /temperature: #This is an endpoint for the temperature readings
+    # post: | This is for creating and storing data.
     #   summary: Store one temperature reading
-    #   operationId: app.create_temperature_reading
-    #   requestBody:
-    #     required: true
+    #   operationId: app.create_temperature_reading #Points to this one, but not really functional or needed really.
+    #   requestBody: #This kind of defines what data must be sent in the request
+    #     required: true #This makes it required, or it will fail
     #     content:
     #       application/json:
     #         schema:
-    #           $ref: '#/components/schemas/TemperatureReading'
+    #           $ref: '#/components/schemas/TemperatureReading' - References the schema definition at the bottom of the file
     #   responses:
     #     '201':
     #       description: Stored
     #     '400':
     #       description: Invalid input
-    get:
-      summary: Gets temperature readings within a time range
-      operationId: app.get_temperature_readings
+    get: #Retrieves stored temperature readings
+      summary: Gets temperature readings within a time range 
+      operationId: app.get_temperature_readings #Name of the function that will handle this request
       description: Gets temperature readings received between start and end timestamps
       parameters:
-        - name: start_timestamp
-          in: query
+        - name: start_timestamp 
+          in: query #This goes in the link = ?start_timestamp=...
           description: Start of the timespan
           schema:
             type: string
@@ -34,7 +34,7 @@ paths:
             example: 2016-08-29T09:12:33.001Z
         - name: end_timestamp
           in: query
-          description: End of the timespan
+          description: End of the timespan #This goes in the link = &end_timestamp=...
           schema:
             type: string
             format: date-time
@@ -111,13 +111,15 @@ paths:
                   message:
                     type: string
 
-components:
+components: #This section basically defines the structure of a TEMPERATURE/AIR QUALITY reading
   schemas:
     # Single object schema (flattened) per lab Part 1 example
     # (batch/common fields + reading-specific fields) :contentReference[oaicite:5]{index=5}
     TemperatureReading:
+    # This is the schema for a temperature reading
       type: object
       required:
+      # These are all the required fields that MUST be present or else we will get a 400 error. 
       #Added the trace_id here to have it added into the database. Without this, error would rise up.
         - trace_id
         - fire_id
@@ -126,7 +128,7 @@ components:
         - temperature_celsius
         - batch_timestamp
         - reading_timestamp
-      properties:
+      properties: #Defines each field in the schema
         trace_id:
           type: integer
           format: int64

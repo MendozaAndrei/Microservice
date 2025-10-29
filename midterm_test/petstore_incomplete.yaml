@@ -1,0 +1,130 @@
+openapi: 3.0.0
+info:
+  title: Pet Store API
+  version: "1.0.0"
+  description: An API for managing a pet store inventory and adoptions
+
+paths:
+  /pets:
+    # TODO: Fill in the POST endpoint
+    # Should accept a pet object (name, species, age, price)
+    # operationId should point to app.add_pet
+    # Should return 201 on success, 400 on invalid input
+    post:
+      summary: This accepts a pet object 
+      operationId: app.add_pet
+      requestBody:
+        required: true 
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Pet'
+      responses:
+        '201':
+          description: Pet added successfully
+        '400':
+          description: Invalid pet data
+
+  /pets/{pet_id}:
+    # TODO: Fill in the GET endpoint
+    # Should retrieve a single pet by ID
+    # pet_id is a path parameter (integer)
+    # operationId should point to app.get_pet_by_id
+    # Should return 200 with pet data, 404 if not found
+    get:
+      summary: Retrieves a single pet by the ID
+      operationId: app.get_pet_by_id
+      parameters:
+        - name: pet_id
+          in: query
+          required: true
+          schema:
+            type: integer
+      responses:
+        '201':
+          description: Successfully retrieved pet
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/pet'
+        '400':
+          description: Pet not found
+
+  /adoptions:
+    # TODO: Fill in the POST endpoint for pet adoptions
+    # Should accept adopter_name, adopter_email, pet_id, adoption_date
+    # operationId should point to app.create_adoption
+    post:
+      summary: Posts information about the adopter of the pet
+      operationId: app.create_adoption
+      parameters:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/adopter'
+      responses:
+        '201':
+          description: Successfully retrieved User
+        '400':
+          description: Failed
+
+components:
+  schemas:
+    # TODO: Fill in the Pet schema
+    # Required fields: name, species, age, price
+    # Optional field: description
+    Pet:
+      type: object
+      required:
+        - name
+        - species
+        - age
+        - price
+      properties:
+        pet_id:
+          type: integer
+          example: 1
+        name:
+          type: string
+          example: "Fluffy"
+        species:
+          type: string
+          example: "Cat"
+        age:
+          type: integer
+          example: 3
+        price:
+          type: float
+          example: 150.00
+        description:
+          type: string
+          example: "A friendly orange tabby cat"
+
+    # TODO: Fill in the Adoption schema
+    # Required fields: adopter_name, adopter_email, pet_id, adoption_date
+    Adoption:
+      type: object
+      required:
+        - adopter_name
+        - adopter_email
+        - pet_id
+        - adoption_date
+      properties:
+        adoption_id:
+          type: integer
+          example: 1
+        adopter_name:
+          type: string
+          example: "John Smith"
+        adopter_email:
+          type: string
+          format: None (not sure, I don't think this is really necessary)
+          example: "john.smith@email.com"
+        pet_id:
+          type: integer
+          example: 5
+        adoption_date:
+          type: string
+          format: date-time
+          example: "2025-10-21T14:30:00Z"
