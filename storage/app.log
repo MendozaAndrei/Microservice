@@ -888,3 +888,421 @@
 2025-10-15 23:22:58,668 - basicLogger - INFO - Query for Temperature readings returns 0 results
 2025-10-15 23:23:00,711 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:22:51Z and 2025-10-15T23:22:56Z
 2025-10-15 23:23:01,049 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-29 23:02:29,427 - basicLogger - INFO - Connected to the database
+2025-10-29 23:02:29,506 - basicLogger - INFO - Connected to the database
+2025-10-29 23:27:50,694 - basicLogger - INFO - Connected to the database
+2025-10-29 23:27:50,764 - basicLogger - INFO - Connected to the database
+2025-10-30 00:10:39,380 - basicLogger - INFO - Connected to the database
+2025-10-30 00:10:39,450 - basicLogger - INFO - Connected to the database
+2025-10-30 08:46:41,229 - basicLogger - INFO - Connected to the database
+2025-10-30 08:46:41,293 - basicLogger - INFO - Connected to the database
+2025-10-30 09:12:16,277 - basicLogger - INFO - Connected to the database
+2025-10-30 09:12:24,501 - basicLogger - INFO - Connected to the database
+2025-10-30 10:18:49,872 - basicLogger - INFO - Connected to the database
+2025-10-30 10:18:49,938 - basicLogger - INFO - Connected to the database
+2025-10-30 10:21:42,350 - basicLogger - INFO - Connected to the database
+2025-10-30 10:21:42,364 - basicLogger - INFO - Database tables created/verified
+2025-10-30 10:21:42,365 - basicLogger - INFO - Connecting to Kafka at 143.198.72.207:9092
+2025-10-30 10:21:42,365 - basicLogger - INFO - Kafka consumer thread started
+2025-10-30 10:21:42,422 - basicLogger - INFO - Connected to the database
+2025-10-30 10:21:42,868 - basicLogger - INFO - Kafka consumer started, waiting for messages...
+2025-10-30 10:22:23,786 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:23', 'payload': {'trace_id': 1761844943745966700, 'fire_id': '2aa70e1e-9a4c-45b0-b640-27789f494a4d', 'latitude': 72.327348, 'longitude': -31.768211, 'temperature_celsius': 48.8, 'humidity_level': 99.8, 'batch_timestamp': '2025-10-30T10:22:23.742Z', 'reading_timestamp': '2025-10-30T10:22:23.742Z'}}
+2025-10-30 10:22:23,786 - basicLogger - DEBUG - Storing 1761844943745966700 to the database
+2025-10-30 10:22:24,433 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844943745966700
+2025-10-30 10:22:24,434 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844943745966700
+2025-10-30 10:22:24,494 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:23', 'payload': {'trace_id': 1761844943789052500, 'fire_id': 'f8ed717e-f65e-4164-8953-701c2edf7a6e', 'location_name': 'Monitoring Station 6', 'particulate_level': 47.28, 'air_quality': 50, 'smoke_opacity': 45.3, 'batch_timestamp': '2025-10-30T10:22:23.786Z', 'reading_timestamp': '2025-10-30T10:22:23.786Z'}}
+2025-10-30 10:22:24,494 - basicLogger - DEBUG - Storing 1761844943789052500 to the database
+2025-10-30 10:22:24,629 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844943789052500
+2025-10-30 10:22:24,629 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844943789052500
+2025-10-30 10:22:24,683 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:23', 'payload': {'trace_id': 1761844943840398000, 'fire_id': 'd66e8973-e398-4f4e-a4ec-6e834e0791ff', 'latitude': -73.715883, 'longitude': 17.637539, 'temperature_celsius': 54.2, 'humidity_level': 46.6, 'batch_timestamp': '2025-10-30T10:22:23.838Z', 'reading_timestamp': '2025-10-30T10:22:23.838Z'}}
+2025-10-30 10:22:24,684 - basicLogger - DEBUG - Storing 1761844943840398000 to the database
+2025-10-30 10:22:24,810 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844943840398000
+2025-10-30 10:22:24,810 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844943840398000
+2025-10-30 10:22:24,855 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:23', 'payload': {'trace_id': 1761844943848363200, 'fire_id': '2183ee55-d92e-4ada-af96-d39c797646ac', 'latitude': 17.639095, 'longitude': -74.364747, 'temperature_celsius': 93.9, 'humidity_level': 58.8, 'batch_timestamp': '2025-10-30T10:22:23.846Z', 'reading_timestamp': '2025-10-30T10:22:23.846Z'}}
+2025-10-30 10:22:24,855 - basicLogger - DEBUG - Storing 1761844943848363200 to the database
+2025-10-30 10:22:25,010 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844943848363200
+2025-10-30 10:22:25,010 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844943848363200
+2025-10-30 10:22:25,054 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:23', 'payload': {'trace_id': 1761844943884734400, 'fire_id': 'aee75e3f-ab20-4b7a-acb5-c06ebf8d9253', 'location_name': 'Monitoring Station 43', 'particulate_level': 432.37, 'air_quality': 96, 'smoke_opacity': 99.42, 'batch_timestamp': '2025-10-30T10:22:23.883Z', 'reading_timestamp': '2025-10-30T10:22:23.883Z'}}
+2025-10-30 10:22:25,054 - basicLogger - DEBUG - Storing 1761844943884734400 to the database
+2025-10-30 10:22:25,201 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844943884734400
+2025-10-30 10:22:25,201 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844943884734400
+2025-10-30 10:22:25,249 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:23', 'payload': {'trace_id': 1761844943928436500, 'fire_id': 'ddd1af7d-ffcf-4391-8899-eae91adffcb9', 'location_name': 'Monitoring Station 86', 'particulate_level': 379.81, 'air_quality': 193, 'smoke_opacity': 30.85, 'batch_timestamp': '2025-10-30T10:22:23.926Z', 'reading_timestamp': '2025-10-30T10:22:23.926Z'}}
+2025-10-30 10:22:25,250 - basicLogger - DEBUG - Storing 1761844943928436500 to the database
+2025-10-30 10:22:25,376 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844943928436500
+2025-10-30 10:22:25,376 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844943928436500
+2025-10-30 10:22:25,422 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:23', 'payload': {'trace_id': 1761844943959071400, 'fire_id': '66369749-71dc-43cc-9075-118e8a387b8f', 'latitude': 0.9881, 'longitude': 86.359148, 'temperature_celsius': 125.3, 'humidity_level': 84.3, 'batch_timestamp': '2025-10-30T10:22:23.956Z', 'reading_timestamp': '2025-10-30T10:22:23.956Z'}}
+2025-10-30 10:22:25,422 - basicLogger - DEBUG - Storing 1761844943959071400 to the database
+2025-10-30 10:22:25,551 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844943959071400
+2025-10-30 10:22:25,551 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844943959071400
+2025-10-30 10:22:25,593 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:23', 'payload': {'trace_id': 1761844943978490900, 'fire_id': '65a2f63f-9f6b-419f-bc5e-4b5b32c8a0b9', 'latitude': -14.254405, 'longitude': 11.639965, 'temperature_celsius': 194.2, 'humidity_level': 34.1, 'batch_timestamp': '2025-10-30T10:22:23.976Z', 'reading_timestamp': '2025-10-30T10:22:23.976Z'}}
+2025-10-30 10:22:25,593 - basicLogger - DEBUG - Storing 1761844943978490900 to the database
+2025-10-30 10:22:25,718 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844943978490900
+2025-10-30 10:22:25,719 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844943978490900
+2025-10-30 10:22:25,770 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944024632100, 'fire_id': '68a15b3e-9aae-4093-8b50-e17623ba6e91', 'location_name': 'Monitoring Station 84', 'particulate_level': 173.56, 'air_quality': 185, 'smoke_opacity': 57.81, 'batch_timestamp': '2025-10-30T10:22:24.021Z', 'reading_timestamp': '2025-10-30T10:22:24.021Z'}}
+2025-10-30 10:22:25,770 - basicLogger - DEBUG - Storing 1761844944024632100 to the database
+2025-10-30 10:22:25,908 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944024632100
+2025-10-30 10:22:25,908 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944024632100
+2025-10-30 10:22:25,959 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944024821800, 'fire_id': 'a6e78ae0-82fc-4f5f-9410-5f03f3f9ed87', 'latitude': 41.33926, 'longitude': 49.712771, 'temperature_celsius': 130.2, 'humidity_level': 66.2, 'batch_timestamp': '2025-10-30T10:22:24.021Z', 'reading_timestamp': '2025-10-30T10:22:24.021Z'}}
+2025-10-30 10:22:25,959 - basicLogger - DEBUG - Storing 1761844944024821800 to the database
+2025-10-30 10:22:26,106 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944024821800
+2025-10-30 10:22:26,107 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944024821800
+2025-10-30 10:22:26,154 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944044256500, 'fire_id': '0357b24c-13d7-40b6-9e60-d95e26cf7fb3', 'latitude': 25.321072, 'longitude': 116.568526, 'temperature_celsius': 69.1, 'humidity_level': 51.2, 'batch_timestamp': '2025-10-30T10:22:24.040Z', 'reading_timestamp': '2025-10-30T10:22:24.041Z'}}
+2025-10-30 10:22:26,154 - basicLogger - DEBUG - Storing 1761844944044256500 to the database
+2025-10-30 10:22:26,275 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944044256500
+2025-10-30 10:22:26,276 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944044256500
+2025-10-30 10:22:26,315 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944080662600, 'fire_id': '4b44cf31-3d7c-464c-adda-bc17259cc8db', 'location_name': 'Monitoring Station 48', 'particulate_level': 441.18, 'air_quality': 120, 'smoke_opacity': 32.61, 'batch_timestamp': '2025-10-30T10:22:24.078Z', 'reading_timestamp': '2025-10-30T10:22:24.078Z'}}
+2025-10-30 10:22:26,316 - basicLogger - DEBUG - Storing 1761844944080662600 to the database
+2025-10-30 10:22:26,436 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944080662600
+2025-10-30 10:22:26,436 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944080662600
+2025-10-30 10:22:26,485 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944127228300, 'fire_id': 'b67a15ac-b857-4a06-bd36-362c3cbbc613', 'location_name': 'Monitoring Station 24', 'particulate_level': 74.57, 'air_quality': 160, 'smoke_opacity': 58.75, 'batch_timestamp': '2025-10-30T10:22:24.123Z', 'reading_timestamp': '2025-10-30T10:22:24.123Z'}}
+2025-10-30 10:22:26,485 - basicLogger - DEBUG - Storing 1761844944127228300 to the database
+2025-10-30 10:22:26,616 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944127228300
+2025-10-30 10:22:26,616 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944127228300
+2025-10-30 10:22:26,657 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944127699400, 'fire_id': '5317da88-f5a3-4425-aac4-91c697d83d72', 'location_name': 'Monitoring Station 44', 'particulate_level': 191.62, 'air_quality': 205, 'smoke_opacity': 9.82, 'batch_timestamp': '2025-10-30T10:22:24.124Z', 'reading_timestamp': '2025-10-30T10:22:24.124Z'}}
+2025-10-30 10:22:26,657 - basicLogger - DEBUG - Storing 1761844944127699400 to the database
+2025-10-30 10:22:26,801 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944127699400
+2025-10-30 10:22:26,801 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944127699400
+2025-10-30 10:22:26,842 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944127827700, 'fire_id': '6041927a-f63e-46de-9ce0-297b07a4e0ba', 'latitude': 44.795854, 'longitude': -10.266908, 'temperature_celsius': 69.8, 'humidity_level': 99.6, 'batch_timestamp': '2025-10-30T10:22:24.124Z', 'reading_timestamp': '2025-10-30T10:22:24.124Z'}}
+2025-10-30 10:22:26,842 - basicLogger - DEBUG - Storing 1761844944127827700 to the database
+2025-10-30 10:22:26,970 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944127827700
+2025-10-30 10:22:26,970 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944127827700
+2025-10-30 10:22:27,017 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944144814300, 'fire_id': '8626ea77-315c-46dd-9176-d6a0f29118fe', 'latitude': 72.12891, 'longitude': 127.16233, 'temperature_celsius': 194.2, 'humidity_level': 10.3, 'batch_timestamp': '2025-10-30T10:22:24.141Z', 'reading_timestamp': '2025-10-30T10:22:24.141Z'}}
+2025-10-30 10:22:27,018 - basicLogger - DEBUG - Storing 1761844944144814300 to the database
+2025-10-30 10:22:27,138 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944144814300
+2025-10-30 10:22:27,139 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944144814300
+2025-10-30 10:22:27,184 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944164288300, 'fire_id': '7dbdb3dd-4bde-4ad0-9862-0b04abf6148d', 'latitude': 14.876247, 'longitude': 85.338065, 'temperature_celsius': 155.1, 'humidity_level': 24.2, 'batch_timestamp': '2025-10-30T10:22:24.162Z', 'reading_timestamp': '2025-10-30T10:22:24.162Z'}}
+2025-10-30 10:22:27,184 - basicLogger - DEBUG - Storing 1761844944164288300 to the database
+2025-10-30 10:22:27,317 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944164288300
+2025-10-30 10:22:27,317 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944164288300
+2025-10-30 10:22:27,361 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944226709600, 'fire_id': '40c76b02-ff7c-494c-a5fe-dada972e5978', 'location_name': 'Monitoring Station 11', 'particulate_level': 162.43, 'air_quality': 322, 'smoke_opacity': 62.18, 'batch_timestamp': '2025-10-30T10:22:24.222Z', 'reading_timestamp': '2025-10-30T10:22:24.222Z'}}
+2025-10-30 10:22:27,362 - basicLogger - DEBUG - Storing 1761844944226709600 to the database
+2025-10-30 10:22:27,480 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944226709600
+2025-10-30 10:22:27,481 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944226709600
+2025-10-30 10:22:27,521 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944227674400, 'fire_id': '5fed8122-fcab-42c2-889d-47152a44da6d', 'latitude': -51.488786, 'longitude': 162.783628, 'temperature_celsius': 142.3, 'humidity_level': 58.8, 'batch_timestamp': '2025-10-30T10:22:24.223Z', 'reading_timestamp': '2025-10-30T10:22:24.223Z'}}
+2025-10-30 10:22:27,521 - basicLogger - DEBUG - Storing 1761844944227674400 to the database
+2025-10-30 10:22:27,645 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944227674400
+2025-10-30 10:22:27,645 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944227674400
+2025-10-30 10:22:27,683 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944227868000, 'fire_id': 'f7a133f2-ac96-45e8-a0ed-41a509610bbd', 'location_name': 'Monitoring Station 21', 'particulate_level': 445.32, 'air_quality': 354, 'smoke_opacity': 94.48, 'batch_timestamp': '2025-10-30T10:22:24.222Z', 'reading_timestamp': '2025-10-30T10:22:24.222Z'}}
+2025-10-30 10:22:27,683 - basicLogger - DEBUG - Storing 1761844944227868000 to the database
+2025-10-30 10:22:27,810 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944227868000
+2025-10-30 10:22:27,810 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944227868000
+2025-10-30 10:22:27,867 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944227968000, 'fire_id': '889b0677-18be-4f3f-b5f8-f4e763bbe6cd', 'latitude': 70.724733, 'longitude': -71.811511, 'temperature_celsius': 76.2, 'humidity_level': 70.5, 'batch_timestamp': '2025-10-30T10:22:24.225Z', 'reading_timestamp': '2025-10-30T10:22:24.225Z'}}
+2025-10-30 10:22:27,867 - basicLogger - DEBUG - Storing 1761844944227968000 to the database
+2025-10-30 10:22:28,000 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944227968000
+2025-10-30 10:22:28,000 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944227968000
+2025-10-30 10:22:28,039 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944244262700, 'fire_id': 'd585b27e-8233-4da2-87db-3d4caef9e554', 'latitude': 60.886941, 'longitude': -126.218477, 'temperature_celsius': 94.1, 'humidity_level': 78.9, 'batch_timestamp': '2025-10-30T10:22:24.240Z', 'reading_timestamp': '2025-10-30T10:22:24.240Z'}}
+2025-10-30 10:22:28,039 - basicLogger - DEBUG - Storing 1761844944244262700 to the database
+2025-10-30 10:22:28,172 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944244262700
+2025-10-30 10:22:28,172 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944244262700
+2025-10-30 10:22:28,213 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944262531900, 'fire_id': '8e8201e1-937c-49fc-8f14-5b491bb17015', 'location_name': 'Monitoring Station 28', 'particulate_level': 271.6, 'air_quality': 126, 'smoke_opacity': 43.1, 'batch_timestamp': '2025-10-30T10:22:24.260Z', 'reading_timestamp': '2025-10-30T10:22:24.260Z'}}
+2025-10-30 10:22:28,214 - basicLogger - DEBUG - Storing 1761844944262531900 to the database
+2025-10-30 10:22:28,337 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944262531900
+2025-10-30 10:22:28,337 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944262531900
+2025-10-30 10:22:28,385 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944310221800, 'fire_id': '5dd25fd2-c690-435a-9eec-2e9f4ed331e0', 'latitude': -89.492203, 'longitude': 56.634545, 'temperature_celsius': 89.4, 'humidity_level': 21.9, 'batch_timestamp': '2025-10-30T10:22:24.305Z', 'reading_timestamp': '2025-10-30T10:22:24.306Z'}}
+2025-10-30 10:22:28,386 - basicLogger - DEBUG - Storing 1761844944310221800 to the database
+2025-10-30 10:22:28,507 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944310221800
+2025-10-30 10:22:28,507 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944310221800
+2025-10-30 10:22:28,550 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944311068400, 'fire_id': 'cacece62-f93f-44b5-a2bf-fa392426d852', 'location_name': 'Monitoring Station 11', 'particulate_level': 351.95, 'air_quality': 403, 'smoke_opacity': 48.91, 'batch_timestamp': '2025-10-30T10:22:24.306Z', 'reading_timestamp': '2025-10-30T10:22:24.306Z'}}
+2025-10-30 10:22:28,550 - basicLogger - DEBUG - Storing 1761844944311068400 to the database
+2025-10-30 10:22:28,683 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944311068400
+2025-10-30 10:22:28,683 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944311068400
+2025-10-30 10:22:28,724 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944312687000, 'fire_id': 'fed45858-ab96-4114-abda-7e56da2bbec6', 'location_name': 'Monitoring Station 16', 'particulate_level': 483.79, 'air_quality': 55, 'smoke_opacity': 27.96, 'batch_timestamp': '2025-10-30T10:22:24.307Z', 'reading_timestamp': '2025-10-30T10:22:24.307Z'}}
+2025-10-30 10:22:28,724 - basicLogger - DEBUG - Storing 1761844944312687000 to the database
+2025-10-30 10:22:28,848 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944312687000
+2025-10-30 10:22:28,848 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944312687000
+2025-10-30 10:22:28,895 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944312857700, 'fire_id': 'a912b680-f14c-46ad-b2ad-67e374c36182', 'location_name': 'Monitoring Station 69', 'particulate_level': 235.55, 'air_quality': 494, 'smoke_opacity': 96.4, 'batch_timestamp': '2025-10-30T10:22:24.308Z', 'reading_timestamp': '2025-10-30T10:22:24.308Z'}}
+2025-10-30 10:22:28,895 - basicLogger - DEBUG - Storing 1761844944312857700 to the database
+2025-10-30 10:22:29,019 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944312857700
+2025-10-30 10:22:29,019 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944312857700
+2025-10-30 10:22:29,061 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944312989900, 'fire_id': '3c06bb07-841b-4b6f-ae87-10cf81fce8d2', 'latitude': -19.841735, 'longitude': 145.827387, 'temperature_celsius': 147.4, 'humidity_level': 60.9, 'batch_timestamp': '2025-10-30T10:22:24.308Z', 'reading_timestamp': '2025-10-30T10:22:24.308Z'}}
+2025-10-30 10:22:29,061 - basicLogger - DEBUG - Storing 1761844944312989900 to the database
+2025-10-30 10:22:29,204 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944312989900
+2025-10-30 10:22:29,204 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944312989900
+2025-10-30 10:22:29,248 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944345733700, 'fire_id': '72923be9-41ee-4a28-986d-a7f01f0cc117', 'latitude': 56.34604, 'longitude': -113.747879, 'temperature_celsius': 58.2, 'humidity_level': 37.2, 'batch_timestamp': '2025-10-30T10:22:24.343Z', 'reading_timestamp': '2025-10-30T10:22:24.343Z'}}
+2025-10-30 10:22:29,249 - basicLogger - DEBUG - Storing 1761844944345733700 to the database
+2025-10-30 10:22:29,370 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944345733700
+2025-10-30 10:22:29,370 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944345733700
+2025-10-30 10:22:29,412 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944353414300, 'fire_id': '48a607f9-f168-46c2-ac47-91fe0aef8323', 'latitude': 37.417109, 'longitude': 129.449436, 'temperature_celsius': 184.4, 'humidity_level': 89.9, 'batch_timestamp': '2025-10-30T10:22:24.351Z', 'reading_timestamp': '2025-10-30T10:22:24.351Z'}}
+2025-10-30 10:22:29,412 - basicLogger - DEBUG - Storing 1761844944353414300 to the database
+2025-10-30 10:22:29,537 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944353414300
+2025-10-30 10:22:29,537 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944353414300
+2025-10-30 10:22:29,585 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944399562700, 'fire_id': '1965cc6a-5d27-4582-9584-014183b0d1f7', 'latitude': 1.835359, 'longitude': -54.986685, 'temperature_celsius': 172.9, 'humidity_level': 87.1, 'batch_timestamp': '2025-10-30T10:22:24.394Z', 'reading_timestamp': '2025-10-30T10:22:24.394Z'}}
+2025-10-30 10:22:29,585 - basicLogger - DEBUG - Storing 1761844944399562700 to the database
+2025-10-30 10:22:29,713 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944399562700
+2025-10-30 10:22:29,713 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944399562700
+2025-10-30 10:22:29,772 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944400180600, 'fire_id': '81bfb841-b77b-4e47-b591-eb963b7d87a8', 'location_name': 'Monitoring Station 61', 'particulate_level': 266.82, 'air_quality': 458, 'smoke_opacity': 88.8, 'batch_timestamp': '2025-10-30T10:22:24.395Z', 'reading_timestamp': '2025-10-30T10:22:24.395Z'}}
+2025-10-30 10:22:29,773 - basicLogger - DEBUG - Storing 1761844944400180600 to the database
+2025-10-30 10:22:29,903 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944400180600
+2025-10-30 10:22:29,904 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944400180600
+2025-10-30 10:22:29,947 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944399688100, 'fire_id': '3f35b87c-211a-4578-92ab-9dbf51ef39dd', 'latitude': -79.353949, 'longitude': 75.24748, 'temperature_celsius': 72.3, 'humidity_level': 33.6, 'batch_timestamp': '2025-10-30T10:22:24.394Z', 'reading_timestamp': '2025-10-30T10:22:24.394Z'}}
+2025-10-30 10:22:29,947 - basicLogger - DEBUG - Storing 1761844944399688100 to the database
+2025-10-30 10:22:30,072 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944399688100
+2025-10-30 10:22:30,072 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944399688100
+2025-10-30 10:22:30,118 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944402139900, 'fire_id': '7a7bbc69-20cd-4a2c-b349-36da956c72e2', 'location_name': 'Monitoring Station 98', 'particulate_level': 44.72, 'air_quality': 70, 'smoke_opacity': 55.11, 'batch_timestamp': '2025-10-30T10:22:24.395Z', 'reading_timestamp': '2025-10-30T10:22:24.395Z'}}
+2025-10-30 10:22:30,119 - basicLogger - DEBUG - Storing 1761844944402139900 to the database
+2025-10-30 10:22:30,245 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944402139900
+2025-10-30 10:22:30,245 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944402139900
+2025-10-30 10:22:30,292 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944402306900, 'fire_id': '669fc135-a687-4b81-b194-68ff3d92c3e0', 'location_name': 'Monitoring Station 19', 'particulate_level': 341.89, 'air_quality': 178, 'smoke_opacity': 68.12, 'batch_timestamp': '2025-10-30T10:22:24.398Z', 'reading_timestamp': '2025-10-30T10:22:24.398Z'}}
+2025-10-30 10:22:30,298 - basicLogger - DEBUG - Storing 1761844944402306900 to the database
+2025-10-30 10:22:30,414 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944402306900
+2025-10-30 10:22:30,414 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944402306900
+2025-10-30 10:22:30,460 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944402458000, 'fire_id': '0181a99a-adb9-43ae-8976-6e2c2d028aea', 'latitude': -19.293597, 'longitude': 158.790639, 'temperature_celsius': 79.1, 'humidity_level': 19.1, 'batch_timestamp': '2025-10-30T10:22:24.398Z', 'reading_timestamp': '2025-10-30T10:22:24.398Z'}}
+2025-10-30 10:22:30,461 - basicLogger - DEBUG - Storing 1761844944402458000 to the database
+2025-10-30 10:22:30,586 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944402458000
+2025-10-30 10:22:30,586 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944402458000
+2025-10-30 10:22:30,631 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944439388700, 'fire_id': 'f336dee5-bc5b-46d5-9774-5351a7325a6e', 'location_name': 'Monitoring Station 12', 'particulate_level': 400.41, 'air_quality': 437, 'smoke_opacity': 88.74, 'batch_timestamp': '2025-10-30T10:22:24.437Z', 'reading_timestamp': '2025-10-30T10:22:24.437Z'}}
+2025-10-30 10:22:30,631 - basicLogger - DEBUG - Storing 1761844944439388700 to the database
+2025-10-30 10:22:30,753 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944439388700
+2025-10-30 10:22:30,754 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944439388700
+2025-10-30 10:22:30,795 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944444495800, 'fire_id': '97995485-6378-44c2-a147-1631226b8ce0', 'latitude': -3.726508, 'longitude': -42.712385, 'temperature_celsius': 121.6, 'humidity_level': 43.2, 'batch_timestamp': '2025-10-30T10:22:24.441Z', 'reading_timestamp': '2025-10-30T10:22:24.441Z'}}
+2025-10-30 10:22:30,796 - basicLogger - DEBUG - Storing 1761844944444495800 to the database
+2025-10-30 10:22:30,920 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944444495800
+2025-10-30 10:22:30,920 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944444495800
+2025-10-30 10:22:30,961 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944502173100, 'fire_id': '1e4decc8-3797-4233-a62f-0f71422e3fa9', 'location_name': 'Monitoring Station 10', 'particulate_level': 375.8, 'air_quality': 141, 'smoke_opacity': 10.58, 'batch_timestamp': '2025-10-30T10:22:24.495Z', 'reading_timestamp': '2025-10-30T10:22:24.495Z'}}
+2025-10-30 10:22:30,961 - basicLogger - DEBUG - Storing 1761844944502173100 to the database
+2025-10-30 10:22:31,093 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944502173100
+2025-10-30 10:22:31,093 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944502173100
+2025-10-30 10:22:31,144 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944502784900, 'fire_id': '9bd51faa-e750-4388-996e-40d01e061b50', 'latitude': 64.832839, 'longitude': 19.98546, 'temperature_celsius': 29.3, 'humidity_level': 32.7, 'batch_timestamp': '2025-10-30T10:22:24.496Z', 'reading_timestamp': '2025-10-30T10:22:24.496Z'}}
+2025-10-30 10:22:31,144 - basicLogger - DEBUG - Storing 1761844944502784900 to the database
+2025-10-30 10:22:31,265 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944502784900
+2025-10-30 10:22:31,265 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944502784900
+2025-10-30 10:22:31,305 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944502283000, 'fire_id': '4a8a6eff-465f-4f51-abef-7182e5a33eac', 'latitude': -89.745738, 'longitude': -72.229524, 'temperature_celsius': 178.9, 'humidity_level': 38.1, 'batch_timestamp': '2025-10-30T10:22:24.495Z', 'reading_timestamp': '2025-10-30T10:22:24.495Z'}}
+2025-10-30 10:22:31,305 - basicLogger - DEBUG - Storing 1761844944502283000 to the database
+2025-10-30 10:22:31,436 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944502283000
+2025-10-30 10:22:31,436 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944502283000
+2025-10-30 10:22:31,479 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944504570600, 'fire_id': '031b62f1-0e43-42e5-8f0e-93b51b02ae8a', 'location_name': 'Monitoring Station 18', 'particulate_level': 251.48, 'air_quality': 127, 'smoke_opacity': 66.53, 'batch_timestamp': '2025-10-30T10:22:24.501Z', 'reading_timestamp': '2025-10-30T10:22:24.501Z'}}
+2025-10-30 10:22:31,480 - basicLogger - DEBUG - Storing 1761844944504570600 to the database
+2025-10-30 10:22:31,602 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944504570600
+2025-10-30 10:22:31,603 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944504570600
+2025-10-30 10:22:31,641 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944504709400, 'fire_id': 'fa82ed6d-f07a-4e9f-9ab1-f4e157e21004', 'location_name': 'Monitoring Station 78', 'particulate_level': 26.57, 'air_quality': 201, 'smoke_opacity': 56.13, 'batch_timestamp': '2025-10-30T10:22:24.501Z', 'reading_timestamp': '2025-10-30T10:22:24.501Z'}}
+2025-10-30 10:22:31,641 - basicLogger - DEBUG - Storing 1761844944504709400 to the database
+2025-10-30 10:22:31,760 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944504709400
+2025-10-30 10:22:31,760 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944504709400
+2025-10-30 10:22:31,803 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944504841700, 'fire_id': '8a1a65d1-c6fb-4458-a1fb-c592b78762ba', 'latitude': 26.740369, 'longitude': -20.633107, 'temperature_celsius': 83.4, 'humidity_level': 22.8, 'batch_timestamp': '2025-10-30T10:22:24.496Z', 'reading_timestamp': '2025-10-30T10:22:24.497Z'}}
+2025-10-30 10:22:31,803 - basicLogger - DEBUG - Storing 1761844944504841700 to the database
+2025-10-30 10:22:31,924 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944504841700
+2025-10-30 10:22:31,924 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944504841700
+2025-10-30 10:22:31,968 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944545292700, 'fire_id': '636d7635-7587-4731-bae6-d41f324a1b56', 'latitude': -64.924005, 'longitude': -45.772745, 'temperature_celsius': 73.6, 'humidity_level': 100.5, 'batch_timestamp': '2025-10-30T10:22:24.540Z', 'reading_timestamp': '2025-10-30T10:22:24.541Z'}}
+2025-10-30 10:22:31,968 - basicLogger - DEBUG - Storing 1761844944545292700 to the database
+2025-10-30 10:22:32,086 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944545292700
+2025-10-30 10:22:32,086 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944545292700
+2025-10-30 10:22:32,128 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944545402100, 'fire_id': '8b0f8a02-33dd-4e4c-88a6-90c7fe4fd2c8', 'location_name': 'Monitoring Station 72', 'particulate_level': 444.25, 'air_quality': 91, 'smoke_opacity': 0.6, 'batch_timestamp': '2025-10-30T10:22:24.542Z', 'reading_timestamp': '2025-10-30T10:22:24.542Z'}}
+2025-10-30 10:22:32,128 - basicLogger - DEBUG - Storing 1761844944545402100 to the database
+2025-10-30 10:22:32,269 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944545402100
+2025-10-30 10:22:32,269 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944545402100
+2025-10-30 10:22:32,311 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944604503200, 'fire_id': '9f6624eb-d3fd-49e3-92f6-5bc5c1127eb6', 'latitude': -58.744634, 'longitude': -161.710782, 'temperature_celsius': 98.4, 'humidity_level': 32.6, 'batch_timestamp': '2025-10-30T10:22:24.597Z', 'reading_timestamp': '2025-10-30T10:22:24.597Z'}}
+2025-10-30 10:22:32,311 - basicLogger - DEBUG - Storing 1761844944604503200 to the database
+2025-10-30 10:22:32,429 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944604503200
+2025-10-30 10:22:32,429 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944604503200
+2025-10-30 10:22:32,474 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944604835600, 'fire_id': '4edd865f-0661-4135-b781-c90b158218b4', 'location_name': 'Monitoring Station 2', 'particulate_level': 34.2, 'air_quality': 42, 'smoke_opacity': 45.63, 'batch_timestamp': '2025-10-30T10:22:24.598Z', 'reading_timestamp': '2025-10-30T10:22:24.598Z'}}
+2025-10-30 10:22:32,474 - basicLogger - DEBUG - Storing 1761844944604835600 to the database
+2025-10-30 10:22:32,607 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944604835600
+2025-10-30 10:22:32,607 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944604835600
+2025-10-30 10:22:32,645 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944603805300, 'fire_id': 'ada0e814-1949-42d6-83d4-2f5b8fb35f03', 'location_name': 'Monitoring Station 96', 'particulate_level': 254.26, 'air_quality': 486, 'smoke_opacity': 87.21, 'batch_timestamp': '2025-10-30T10:22:24.597Z', 'reading_timestamp': '2025-10-30T10:22:24.597Z'}}
+2025-10-30 10:22:32,645 - basicLogger - DEBUG - Storing 1761844944603805300 to the database
+2025-10-30 10:22:32,785 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944603805300
+2025-10-30 10:22:32,785 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944603805300
+2025-10-30 10:22:32,824 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944604988200, 'fire_id': '27511928-1c17-419b-b1b5-c4b1d81b52e6', 'latitude': 20.900811, 'longitude': -77.626617, 'temperature_celsius': 93.7, 'humidity_level': 93.5, 'batch_timestamp': '2025-10-30T10:22:24.597Z', 'reading_timestamp': '2025-10-30T10:22:24.597Z'}}
+2025-10-30 10:22:32,825 - basicLogger - DEBUG - Storing 1761844944604988200 to the database
+2025-10-30 10:22:32,938 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944604988200
+2025-10-30 10:22:32,938 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944604988200
+2025-10-30 10:22:32,993 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944605238900, 'fire_id': 'd9e07a37-e173-4407-afe2-e8d0cdfb13b7', 'location_name': 'Monitoring Station 50', 'particulate_level': 166.19, 'air_quality': 428, 'smoke_opacity': 30.1, 'batch_timestamp': '2025-10-30T10:22:24.599Z', 'reading_timestamp': '2025-10-30T10:22:24.599Z'}}
+2025-10-30 10:22:32,993 - basicLogger - DEBUG - Storing 1761844944605238900 to the database
+2025-10-30 10:22:33,119 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944605238900
+2025-10-30 10:22:33,119 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944605238900
+2025-10-30 10:22:33,166 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944605393400, 'fire_id': '8fe506cd-d94d-498b-ac4d-ecd3349260ae', 'latitude': -20.187761, 'longitude': 169.779568, 'temperature_celsius': 73.4, 'humidity_level': 61.3, 'batch_timestamp': '2025-10-30T10:22:24.601Z', 'reading_timestamp': '2025-10-30T10:22:24.601Z'}}
+2025-10-30 10:22:33,166 - basicLogger - DEBUG - Storing 1761844944605393400 to the database
+2025-10-30 10:22:33,293 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944605393400
+2025-10-30 10:22:33,293 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944605393400
+2025-10-30 10:22:33,335 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944644222300, 'fire_id': 'fbbbd2cb-f1e4-49da-81c4-691b819ea055', 'latitude': -83.709298, 'longitude': 18.903646, 'temperature_celsius': 45.4, 'humidity_level': 69.2, 'batch_timestamp': '2025-10-30T10:22:24.640Z', 'reading_timestamp': '2025-10-30T10:22:24.641Z'}}
+2025-10-30 10:22:33,335 - basicLogger - DEBUG - Storing 1761844944644222300 to the database
+2025-10-30 10:22:33,446 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944644222300
+2025-10-30 10:22:33,446 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944644222300
+2025-10-30 10:22:33,499 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944649145800, 'fire_id': 'b5c96f72-2e81-4e23-9869-677018399084', 'location_name': 'Monitoring Station 37', 'particulate_level': 56.19, 'air_quality': 212, 'smoke_opacity': 18.81, 'batch_timestamp': '2025-10-30T10:22:24.646Z', 'reading_timestamp': '2025-10-30T10:22:24.646Z'}}
+2025-10-30 10:22:33,499 - basicLogger - DEBUG - Storing 1761844944649145800 to the database
+2025-10-30 10:22:33,619 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944649145800
+2025-10-30 10:22:33,619 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944649145800
+2025-10-30 10:22:33,660 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944649312900, 'fire_id': '151cea42-a8e5-4cdc-bb29-dd6c653f35fb', 'latitude': 76.937207, 'longitude': 115.802555, 'temperature_celsius': 64.2, 'humidity_level': 30.1, 'batch_timestamp': '2025-10-30T10:22:24.646Z', 'reading_timestamp': '2025-10-30T10:22:24.646Z'}}
+2025-10-30 10:22:33,661 - basicLogger - DEBUG - Storing 1761844944649312900 to the database
+2025-10-30 10:22:33,786 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944649312900
+2025-10-30 10:22:33,787 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944649312900
+2025-10-30 10:22:33,834 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944702635100, 'fire_id': '8a846b5c-562a-47d3-9862-bcc5d2d38910', 'location_name': 'Monitoring Station 9', 'particulate_level': 5.15, 'air_quality': 80, 'smoke_opacity': 20.73, 'batch_timestamp': '2025-10-30T10:22:24.695Z', 'reading_timestamp': '2025-10-30T10:22:24.695Z'}}
+2025-10-30 10:22:33,834 - basicLogger - DEBUG - Storing 1761844944702635100 to the database
+2025-10-30 10:22:33,959 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944702635100
+2025-10-30 10:22:33,960 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944702635100
+2025-10-30 10:22:34,011 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944705092400, 'fire_id': '2574585c-8dbd-4551-ba63-d3c42be2ad22', 'latitude': -45.865265, 'longitude': 86.100616, 'temperature_celsius': 112.5, 'humidity_level': 58.4, 'batch_timestamp': '2025-10-30T10:22:24.695Z', 'reading_timestamp': '2025-10-30T10:22:24.695Z'}}
+2025-10-30 10:22:34,011 - basicLogger - DEBUG - Storing 1761844944705092400 to the database
+2025-10-30 10:22:34,161 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944705092400
+2025-10-30 10:22:34,162 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944705092400
+2025-10-30 10:22:34,216 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944705271100, 'fire_id': '2d2c6a6f-d9c6-451f-9e44-b35aae31f3cd', 'latitude': -28.219155, 'longitude': 77.317285, 'temperature_celsius': 100.9, 'humidity_level': 57.6, 'batch_timestamp': '2025-10-30T10:22:24.696Z', 'reading_timestamp': '2025-10-30T10:22:24.696Z'}}
+2025-10-30 10:22:34,216 - basicLogger - DEBUG - Storing 1761844944705271100 to the database
+2025-10-30 10:22:34,342 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944705271100
+2025-10-30 10:22:34,343 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944705271100
+2025-10-30 10:22:34,384 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944705399800, 'fire_id': '1fc1e541-7d4f-4fa8-b67b-4ceee2e2f3fd', 'location_name': 'Monitoring Station 26', 'particulate_level': 78.31, 'air_quality': 446, 'smoke_opacity': 71.79, 'batch_timestamp': '2025-10-30T10:22:24.698Z', 'reading_timestamp': '2025-10-30T10:22:24.698Z'}}
+2025-10-30 10:22:34,388 - basicLogger - DEBUG - Storing 1761844944705399800 to the database
+2025-10-30 10:22:34,510 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944705399800
+2025-10-30 10:22:34,510 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944705399800
+2025-10-30 10:22:34,554 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944705539900, 'fire_id': 'd10c9670-1f89-4ae2-9f27-5d7e5ea4d856', 'location_name': 'Monitoring Station 60', 'particulate_level': 65.38, 'air_quality': 471, 'smoke_opacity': 50.43, 'batch_timestamp': '2025-10-30T10:22:24.700Z', 'reading_timestamp': '2025-10-30T10:22:24.700Z'}}
+2025-10-30 10:22:34,554 - basicLogger - DEBUG - Storing 1761844944705539900 to the database
+2025-10-30 10:22:34,692 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944705539900
+2025-10-30 10:22:34,692 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944705539900
+2025-10-30 10:22:34,738 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944705669100, 'fire_id': '511338a6-b38f-4f0f-ba26-065413c355c2', 'location_name': 'Monitoring Station 90', 'particulate_level': 97.94, 'air_quality': 239, 'smoke_opacity': 60.23, 'batch_timestamp': '2025-10-30T10:22:24.699Z', 'reading_timestamp': '2025-10-30T10:22:24.699Z'}}
+2025-10-30 10:22:34,739 - basicLogger - DEBUG - Storing 1761844944705669100 to the database
+2025-10-30 10:22:34,856 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944705669100
+2025-10-30 10:22:34,856 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944705669100
+2025-10-30 10:22:34,903 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944705810600, 'fire_id': 'd3fb4bdf-7b4e-4898-bef3-00135e4d5083', 'latitude': 65.165824, 'longitude': 91.10862, 'temperature_celsius': 190.7, 'humidity_level': 46.6, 'batch_timestamp': '2025-10-30T10:22:24.699Z', 'reading_timestamp': '2025-10-30T10:22:24.699Z'}}
+2025-10-30 10:22:34,903 - basicLogger - DEBUG - Storing 1761844944705810600 to the database
+2025-10-30 10:22:35,022 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944705810600
+2025-10-30 10:22:35,022 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944705810600
+2025-10-30 10:22:35,062 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944747949100, 'fire_id': '9658443c-8ece-4bdc-914c-29b4b3483915', 'latitude': -37.991894, 'longitude': -121.687929, 'temperature_celsius': 200.1, 'humidity_level': 78.7, 'batch_timestamp': '2025-10-30T10:22:24.745Z', 'reading_timestamp': '2025-10-30T10:22:24.745Z'}}
+2025-10-30 10:22:35,062 - basicLogger - DEBUG - Storing 1761844944747949100 to the database
+2025-10-30 10:22:35,186 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944747949100
+2025-10-30 10:22:35,186 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944747949100
+2025-10-30 10:22:35,230 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944748076100, 'fire_id': '4777dc76-bdd5-46f8-9efe-3e0c8ef95fc9', 'location_name': 'Monitoring Station 32', 'particulate_level': 232.48, 'air_quality': 64, 'smoke_opacity': 23.57, 'batch_timestamp': '2025-10-30T10:22:24.745Z', 'reading_timestamp': '2025-10-30T10:22:24.745Z'}}
+2025-10-30 10:22:35,230 - basicLogger - DEBUG - Storing 1761844944748076100 to the database
+2025-10-30 10:22:35,350 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944748076100
+2025-10-30 10:22:35,350 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944748076100
+2025-10-30 10:22:35,392 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944808132400, 'fire_id': '71708621-67e8-41df-9602-042ae72603d0', 'location_name': 'Monitoring Station 94', 'particulate_level': 475.55, 'air_quality': 382, 'smoke_opacity': 63.98, 'batch_timestamp': '2025-10-30T10:22:24.804Z', 'reading_timestamp': '2025-10-30T10:22:24.804Z'}}
+2025-10-30 10:22:35,392 - basicLogger - DEBUG - Storing 1761844944808132400 to the database
+2025-10-30 10:22:35,518 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944808132400
+2025-10-30 10:22:35,519 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944808132400
+2025-10-30 10:22:35,558 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944810147000, 'fire_id': '80aad204-335d-4524-9346-1456e165a37f', 'latitude': -22.93514, 'longitude': -24.432675, 'temperature_celsius': 192.5, 'humidity_level': 90.7, 'batch_timestamp': '2025-10-30T10:22:24.805Z', 'reading_timestamp': '2025-10-30T10:22:24.805Z'}}
+2025-10-30 10:22:35,558 - basicLogger - DEBUG - Storing 1761844944810147000 to the database
+2025-10-30 10:22:35,698 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944810147000
+2025-10-30 10:22:35,698 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944810147000
+2025-10-30 10:22:35,736 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944811493300, 'fire_id': 'bb4c4620-fac3-4bfb-890f-fa54f2f96c5d', 'latitude': -84.922639, 'longitude': -128.670919, 'temperature_celsius': 128.7, 'humidity_level': 49.9, 'batch_timestamp': '2025-10-30T10:22:24.806Z', 'reading_timestamp': '2025-10-30T10:22:24.806Z'}}
+2025-10-30 10:22:35,737 - basicLogger - DEBUG - Storing 1761844944811493300 to the database
+2025-10-30 10:22:35,856 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944811493300
+2025-10-30 10:22:35,857 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944811493300
+2025-10-30 10:22:35,895 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944812053300, 'fire_id': 'f84bce6d-9c85-421b-ba68-87fe76a68e18', 'latitude': 68.161948, 'longitude': -143.449279, 'temperature_celsius': 30.9, 'humidity_level': 87.1, 'batch_timestamp': '2025-10-30T10:22:24.808Z', 'reading_timestamp': '2025-10-30T10:22:24.808Z'}}
+2025-10-30 10:22:35,895 - basicLogger - DEBUG - Storing 1761844944812053300 to the database
+2025-10-30 10:22:36,010 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944812053300
+2025-10-30 10:22:36,010 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944812053300
+2025-10-30 10:22:36,058 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944812235700, 'fire_id': 'e2332c37-bba2-4531-8df1-ff181479af84', 'location_name': 'Monitoring Station 46', 'particulate_level': 102.46, 'air_quality': 161, 'smoke_opacity': 46.6, 'batch_timestamp': '2025-10-30T10:22:24.808Z', 'reading_timestamp': '2025-10-30T10:22:24.808Z'}}
+2025-10-30 10:22:36,058 - basicLogger - DEBUG - Storing 1761844944812235700 to the database
+2025-10-30 10:22:36,188 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944812235700
+2025-10-30 10:22:36,188 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944812235700
+2025-10-30 10:22:36,232 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944812399300, 'fire_id': 'e310cbc2-c819-4ceb-a59c-e6bd8b7837b2', 'location_name': 'Monitoring Station 69', 'particulate_level': 318.8, 'air_quality': 417, 'smoke_opacity': 100.35, 'batch_timestamp': '2025-10-30T10:22:24.806Z', 'reading_timestamp': '2025-10-30T10:22:24.806Z'}}
+2025-10-30 10:22:36,232 - basicLogger - DEBUG - Storing 1761844944812399300 to the database
+2025-10-30 10:22:36,371 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944812399300
+2025-10-30 10:22:36,371 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944812399300
+2025-10-30 10:22:36,412 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944846784100, 'fire_id': '8c5c2961-5aff-4f5e-9596-58fc08b15076', 'location_name': 'Monitoring Station 26', 'particulate_level': 287.2, 'air_quality': 269, 'smoke_opacity': 31.51, 'batch_timestamp': '2025-10-30T10:22:24.843Z', 'reading_timestamp': '2025-10-30T10:22:24.843Z'}}
+2025-10-30 10:22:36,413 - basicLogger - DEBUG - Storing 1761844944846784100 to the database
+2025-10-30 10:22:36,532 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944846784100
+2025-10-30 10:22:36,532 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944846784100
+2025-10-30 10:22:36,577 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944846945100, 'fire_id': 'ca202539-d3b2-4e46-b7ae-cfa676bf4c9f', 'latitude': 14.670613, 'longitude': 171.775617, 'temperature_celsius': 122.8, 'humidity_level': 39.9, 'batch_timestamp': '2025-10-30T10:22:24.843Z', 'reading_timestamp': '2025-10-30T10:22:24.843Z'}}
+2025-10-30 10:22:36,577 - basicLogger - DEBUG - Storing 1761844944846945100 to the database
+2025-10-30 10:22:36,703 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944846945100
+2025-10-30 10:22:36,703 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944846945100
+2025-10-30 10:22:36,746 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944893303900, 'fire_id': 'c6f70466-9dfe-485e-81f4-8f509ad6534a', 'location_name': 'Monitoring Station 48', 'particulate_level': 380.41, 'air_quality': 399, 'smoke_opacity': 21.1, 'batch_timestamp': '2025-10-30T10:22:24.888Z', 'reading_timestamp': '2025-10-30T10:22:24.888Z'}}
+2025-10-30 10:22:36,746 - basicLogger - DEBUG - Storing 1761844944893303900 to the database
+2025-10-30 10:22:36,876 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944893303900
+2025-10-30 10:22:36,876 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944893303900
+2025-10-30 10:22:36,920 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944894947200, 'fire_id': '0107237b-5415-4051-a0c0-d37a05500c41', 'location_name': 'Monitoring Station 55', 'particulate_level': 247.93, 'air_quality': 112, 'smoke_opacity': 59.76, 'batch_timestamp': '2025-10-30T10:22:24.889Z', 'reading_timestamp': '2025-10-30T10:22:24.889Z'}}
+2025-10-30 10:22:36,920 - basicLogger - DEBUG - Storing 1761844944894947200 to the database
+2025-10-30 10:22:37,039 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944894947200
+2025-10-30 10:22:37,040 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944894947200
+2025-10-30 10:22:37,089 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944895160300, 'fire_id': '31dbeb91-2f87-4bf3-b220-33bd8dc0c710', 'location_name': 'Monitoring Station 28', 'particulate_level': 258.1, 'air_quality': 91, 'smoke_opacity': 65.28, 'batch_timestamp': '2025-10-30T10:22:24.889Z', 'reading_timestamp': '2025-10-30T10:22:24.889Z'}}
+2025-10-30 10:22:37,089 - basicLogger - DEBUG - Storing 1761844944895160300 to the database
+2025-10-30 10:22:37,211 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944895160300
+2025-10-30 10:22:37,212 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944895160300
+2025-10-30 10:22:37,254 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944895308000, 'fire_id': 'e4697b38-2b95-48b4-a963-5207af327815', 'latitude': -47.857113, 'longitude': 135.916378, 'temperature_celsius': 157.4, 'humidity_level': 79.2, 'batch_timestamp': '2025-10-30T10:22:24.892Z', 'reading_timestamp': '2025-10-30T10:22:24.892Z'}}
+2025-10-30 10:22:37,255 - basicLogger - DEBUG - Storing 1761844944895308000 to the database
+2025-10-30 10:22:37,376 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944895308000
+2025-10-30 10:22:37,376 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944895308000
+2025-10-30 10:22:37,422 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944895500200, 'fire_id': 'd3fc59a7-e0c3-4fb2-ade0-a1a71aa74c6a', 'latitude': -19.332951, 'longitude': -46.432441, 'temperature_celsius': 115.9, 'humidity_level': 17.2, 'batch_timestamp': '2025-10-30T10:22:24.891Z', 'reading_timestamp': '2025-10-30T10:22:24.891Z'}}
+2025-10-30 10:22:37,422 - basicLogger - DEBUG - Storing 1761844944895500200 to the database
+2025-10-30 10:22:37,542 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944895500200
+2025-10-30 10:22:37,543 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944895500200
+2025-10-30 10:22:37,598 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944936915700, 'fire_id': 'fd095f5f-1cd3-4893-b420-2cabf6ed81bb', 'latitude': 2.86703, 'longitude': -78.392053, 'temperature_celsius': 34.5, 'humidity_level': 34.5, 'batch_timestamp': '2025-10-30T10:22:24.933Z', 'reading_timestamp': '2025-10-30T10:22:24.933Z'}}
+2025-10-30 10:22:37,598 - basicLogger - DEBUG - Storing 1761844944936915700 to the database
+2025-10-30 10:22:37,734 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944936915700
+2025-10-30 10:22:37,734 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944936915700
+2025-10-30 10:22:37,779 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944937056900, 'fire_id': 'f5b15f30-3435-4076-bd32-896bcac55584', 'location_name': 'Monitoring Station 38', 'particulate_level': 38.21, 'air_quality': 488, 'smoke_opacity': 58.74, 'batch_timestamp': '2025-10-30T10:22:24.933Z', 'reading_timestamp': '2025-10-30T10:22:24.933Z'}}
+2025-10-30 10:22:37,780 - basicLogger - DEBUG - Storing 1761844944937056900 to the database
+2025-10-30 10:22:37,905 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944937056900
+2025-10-30 10:22:37,905 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944937056900
+2025-10-30 10:22:37,953 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944979414700, 'fire_id': 'ef097238-7bb7-48dc-a184-fb25b3a5e8d0', 'location_name': 'Monitoring Station 86', 'particulate_level': 351.88, 'air_quality': 385, 'smoke_opacity': 19.13, 'batch_timestamp': '2025-10-30T10:22:24.974Z', 'reading_timestamp': '2025-10-30T10:22:24.974Z'}}
+2025-10-30 10:22:37,953 - basicLogger - DEBUG - Storing 1761844944979414700 to the database
+2025-10-30 10:22:38,086 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944979414700
+2025-10-30 10:22:38,086 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944979414700
+2025-10-30 10:22:38,129 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944979513100, 'fire_id': '834bd692-8b62-47d9-b804-1f52e50ec2d0', 'latitude': -87.841613, 'longitude': 133.905412, 'temperature_celsius': 156.5, 'humidity_level': 62.7, 'batch_timestamp': '2025-10-30T10:22:24.975Z', 'reading_timestamp': '2025-10-30T10:22:24.975Z'}}
+2025-10-30 10:22:38,130 - basicLogger - DEBUG - Storing 1761844944979513100 to the database
+2025-10-30 10:22:38,258 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944979513100
+2025-10-30 10:22:38,259 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944979513100
+2025-10-30 10:22:38,312 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944979627300, 'fire_id': 'e38da024-f526-46bc-9fcc-78e467f56acb', 'location_name': 'Monitoring Station 25', 'particulate_level': 471.38, 'air_quality': 460, 'smoke_opacity': 14.52, 'batch_timestamp': '2025-10-30T10:22:24.973Z', 'reading_timestamp': '2025-10-30T10:22:24.973Z'}}
+2025-10-30 10:22:38,312 - basicLogger - DEBUG - Storing 1761844944979627300 to the database
+2025-10-30 10:22:38,429 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944979627300
+2025-10-30 10:22:38,429 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944979627300
+2025-10-30 10:22:38,470 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944979732700, 'fire_id': 'f79dd760-5f28-457c-af20-960b86e95736', 'latitude': -85.133168, 'longitude': -120.414541, 'temperature_celsius': 129.9, 'humidity_level': 86.8, 'batch_timestamp': '2025-10-30T10:22:24.975Z', 'reading_timestamp': '2025-10-30T10:22:24.975Z'}}
+2025-10-30 10:22:38,471 - basicLogger - DEBUG - Storing 1761844944979732700 to the database
+2025-10-30 10:22:38,616 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944979732700
+2025-10-30 10:22:38,616 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944979732700
+2025-10-30 10:22:38,656 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945032757600, 'fire_id': '584d24c9-e974-433a-864f-39c4b1d603f7', 'latitude': 70.115453, 'longitude': -58.395763, 'temperature_celsius': 113.7, 'humidity_level': 94.1, 'batch_timestamp': '2025-10-30T10:22:25.030Z', 'reading_timestamp': '2025-10-30T10:22:25.030Z'}}
+2025-10-30 10:22:38,656 - basicLogger - DEBUG - Storing 1761844945032757600 to the database
+2025-10-30 10:22:38,773 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844945032757600
+2025-10-30 10:22:38,773 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844945032757600
+2025-10-30 10:22:38,822 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945033338200, 'fire_id': '2d7ff5d5-9f00-48e3-84c5-1b4f93c63339', 'location_name': 'Monitoring Station 73', 'particulate_level': 77.5, 'air_quality': 408, 'smoke_opacity': 30.84, 'batch_timestamp': '2025-10-30T10:22:25.030Z', 'reading_timestamp': '2025-10-30T10:22:25.030Z'}}
+2025-10-30 10:22:38,822 - basicLogger - DEBUG - Storing 1761844945033338200 to the database
+2025-10-30 10:22:38,942 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945033338200
+2025-10-30 10:22:38,942 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945033338200
+2025-10-30 10:22:38,987 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945076189800, 'fire_id': 'f90162e1-ba2a-4a17-ac80-dbab51e76e46', 'location_name': 'Monitoring Station 52', 'particulate_level': 292.26, 'air_quality': 230, 'smoke_opacity': 43.49, 'batch_timestamp': '2025-10-30T10:22:25.071Z', 'reading_timestamp': '2025-10-30T10:22:25.071Z'}}
+2025-10-30 10:22:38,988 - basicLogger - DEBUG - Storing 1761844945076189800 to the database
+2025-10-30 10:22:39,128 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945076189800
+2025-10-30 10:22:39,129 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945076189800
+2025-10-30 10:22:39,171 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945076626200, 'fire_id': 'eea625bf-2969-46ab-a057-d95a79ff7706', 'latitude': -76.650576, 'longitude': 92.91877, 'temperature_celsius': 143.4, 'humidity_level': 53.6, 'batch_timestamp': '2025-10-30T10:22:25.072Z', 'reading_timestamp': '2025-10-30T10:22:25.072Z'}}
+2025-10-30 10:22:39,171 - basicLogger - DEBUG - Storing 1761844945076626200 to the database
+2025-10-30 10:22:39,294 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844945076626200
+2025-10-30 10:22:39,294 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844945076626200
+2025-10-30 10:22:39,342 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945076746500, 'fire_id': '67729306-ce70-4815-8d17-b50783463663', 'location_name': 'Monitoring Station 50', 'particulate_level': 411.62, 'air_quality': 5, 'smoke_opacity': 94.51, 'batch_timestamp': '2025-10-30T10:22:25.071Z', 'reading_timestamp': '2025-10-30T10:22:25.071Z'}}
+2025-10-30 10:22:39,342 - basicLogger - DEBUG - Storing 1761844945076746500 to the database
+2025-10-30 10:22:39,469 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945076746500
+2025-10-30 10:22:39,469 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945076746500
+2025-10-30 10:22:39,519 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945117851600, 'fire_id': '5d97636a-543b-4fe2-88fb-948bc95a3019', 'location_name': 'Monitoring Station 55', 'particulate_level': 171.31, 'air_quality': 273, 'smoke_opacity': 99.86, 'batch_timestamp': '2025-10-30T10:22:25.115Z', 'reading_timestamp': '2025-10-30T10:22:25.115Z'}}
+2025-10-30 10:22:39,519 - basicLogger - DEBUG - Storing 1761844945117851600 to the database
+2025-10-30 10:22:39,646 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945117851600
+2025-10-30 10:22:39,646 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945117851600
+2025-10-30 10:22:39,683 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945117931100, 'fire_id': '7ef15065-4265-40e7-95fc-04bb2043f165', 'latitude': -63.873874, 'longitude': -20.367612, 'temperature_celsius': 115.4, 'humidity_level': 27.4, 'batch_timestamp': '2025-10-30T10:22:25.115Z', 'reading_timestamp': '2025-10-30T10:22:25.115Z'}}
+2025-10-30 10:22:39,683 - basicLogger - DEBUG - Storing 1761844945117931100 to the database
+2025-10-30 10:22:39,809 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844945117931100
+2025-10-30 10:22:39,810 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844945117931100
+2025-10-30 10:22:39,854 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945165713300, 'fire_id': 'b9c8249c-3e4b-4253-8003-ce4897a46ba1', 'location_name': 'Monitoring Station 19', 'particulate_level': 385.1, 'air_quality': 494, 'smoke_opacity': 21.95, 'batch_timestamp': '2025-10-30T10:22:25.162Z', 'reading_timestamp': '2025-10-30T10:22:25.162Z'}}
+2025-10-30 10:22:39,854 - basicLogger - DEBUG - Storing 1761844945165713300 to the database
+2025-10-30 10:22:39,974 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945165713300
+2025-10-30 10:22:39,975 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945165713300
+2025-10-30 10:22:40,024 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945166441500, 'fire_id': 'a7680c73-c080-46ff-97fc-e181743c34ac', 'latitude': -53.304249, 'longitude': -91.782487, 'temperature_celsius': 85.3, 'humidity_level': 53.5, 'batch_timestamp': '2025-10-30T10:22:25.163Z', 'reading_timestamp': '2025-10-30T10:22:25.163Z'}}
+2025-10-30 10:22:40,024 - basicLogger - DEBUG - Storing 1761844945166441500 to the database
+2025-10-30 10:22:40,161 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844945166441500
+2025-10-30 10:22:40,161 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844945166441500
+2025-10-30 10:22:40,204 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945219546200, 'fire_id': 'e9387dbd-fa1d-4056-9d17-cd10ee34e82d', 'latitude': -24.128792, 'longitude': 151.37286, 'temperature_celsius': 126.9, 'humidity_level': 73.9, 'batch_timestamp': '2025-10-30T10:22:25.217Z', 'reading_timestamp': '2025-10-30T10:22:25.217Z'}}
+2025-10-30 10:22:40,204 - basicLogger - DEBUG - Storing 1761844945219546200 to the database
+2025-10-30 10:22:40,327 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844945219546200
+2025-10-30 10:22:40,327 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844945219546200
+2025-10-30 10:22:40,369 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945219668700, 'fire_id': 'dc1e463e-e62f-48ad-a7f4-5bc53e8ed22c', 'location_name': 'Monitoring Station 60', 'particulate_level': 91.13, 'air_quality': 389, 'smoke_opacity': 15.73, 'batch_timestamp': '2025-10-30T10:22:25.217Z', 'reading_timestamp': '2025-10-30T10:22:25.217Z'}}
+2025-10-30 10:22:40,369 - basicLogger - DEBUG - Storing 1761844945219668700 to the database
+2025-10-30 10:22:40,490 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945219668700
+2025-10-30 10:22:40,491 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945219668700
+2025-10-30 10:22:40,542 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945277438300, 'fire_id': '33f5bd64-0e94-4368-90b3-551124aed3f3', 'location_name': 'Monitoring Station 42', 'particulate_level': 356.8, 'air_quality': 89, 'smoke_opacity': 99.55, 'batch_timestamp': '2025-10-30T10:22:25.274Z', 'reading_timestamp': '2025-10-30T10:22:25.274Z'}}
+2025-10-30 10:22:40,543 - basicLogger - DEBUG - Storing 1761844945277438300 to the database
+2025-10-30 10:22:40,670 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945277438300
+2025-10-30 10:22:40,671 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945277438300
+2025-10-30 10:22:40,713 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945325258600, 'fire_id': '98f8fa92-14ee-4ed0-a881-b5bb6c83376c', 'latitude': 52.541425, 'longitude': -59.308051, 'temperature_celsius': 191.9, 'humidity_level': 45.1, 'batch_timestamp': '2025-10-30T10:22:25.321Z', 'reading_timestamp': '2025-10-30T10:22:25.321Z'}}
+2025-10-30 10:22:40,713 - basicLogger - DEBUG - Storing 1761844945325258600 to the database
+2025-10-30 10:22:40,851 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844945325258600
+2025-10-30 10:22:40,852 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844945325258600
+2025-10-30 10:22:40,893 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945325437800, 'fire_id': '10ed0b0f-52fa-47bd-a292-166f52a8de8c', 'location_name': 'Monitoring Station 91', 'particulate_level': 19.95, 'air_quality': 149, 'smoke_opacity': 72.19, 'batch_timestamp': '2025-10-30T10:22:25.321Z', 'reading_timestamp': '2025-10-30T10:22:25.321Z'}}
+2025-10-30 10:22:40,893 - basicLogger - DEBUG - Storing 1761844945325437800 to the database
+2025-10-30 10:22:41,020 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945325437800
+2025-10-30 10:22:41,020 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945325437800
+2025-10-30 10:22:41,076 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945364685700, 'fire_id': '264ebf68-973c-4be2-8c5c-7d2ba576c5f2', 'latitude': 71.725557, 'longitude': 27.410979, 'temperature_celsius': 110.6, 'humidity_level': 41.3, 'batch_timestamp': '2025-10-30T10:22:25.362Z', 'reading_timestamp': '2025-10-30T10:22:25.362Z'}}
+2025-10-30 10:22:41,076 - basicLogger - DEBUG - Storing 1761844945364685700 to the database
+2025-10-30 10:22:41,203 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844945364685700
+2025-10-30 10:22:41,204 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844945364685700
+2025-10-30 10:22:41,251 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945419441100, 'fire_id': 'a4db8053-49e1-4b23-b4fe-28b2bd296050', 'location_name': 'Monitoring Station 78', 'particulate_level': 336.59, 'air_quality': 441, 'smoke_opacity': 92.8, 'batch_timestamp': '2025-10-30T10:22:25.417Z', 'reading_timestamp': '2025-10-30T10:22:25.417Z'}}
+2025-10-30 10:22:41,251 - basicLogger - DEBUG - Storing 1761844945419441100 to the database
+2025-10-30 10:22:41,368 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945419441100
+2025-10-30 10:22:41,369 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945419441100
+2025-10-30 10:22:41,408 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945457608200, 'fire_id': '6bbca57e-3653-4ad1-b266-d7e6b4b5274c', 'location_name': 'Monitoring Station 7', 'particulate_level': 345.51, 'air_quality': 252, 'smoke_opacity': 100.12, 'batch_timestamp': '2025-10-30T10:22:25.455Z', 'reading_timestamp': '2025-10-30T10:22:25.455Z'}}
+2025-10-30 10:22:41,408 - basicLogger - DEBUG - Storing 1761844945457608200 to the database
+2025-10-30 10:22:41,531 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945457608200
+2025-10-30 10:22:41,532 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945457608200

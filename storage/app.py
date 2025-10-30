@@ -273,4 +273,8 @@ app = connexion.App(__name__, specification_dir=".")
 app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
+    logger.info("Database tables created/verified")
+    
+    # Start Kafka consumer thread BEFORE running the app
+    setup_kafka_thread()
     app.run(port=8090)
