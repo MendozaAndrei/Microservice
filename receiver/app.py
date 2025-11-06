@@ -146,7 +146,7 @@ app.add_api("lab1.yaml", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
     try:
-        app.run(port=8080)
+        app.run(port=8080, host="0.0.0.0")
     finally:
         # Clean up producer on shutdown
         if producer:

@@ -277,4 +277,4 @@ if __name__ == "__main__":
     
     # Start Kafka consumer thread BEFORE running the app
     setup_kafka_thread()
-    app.run(port=8090)
+    app.run(port=8090, host="0.0.0.0")

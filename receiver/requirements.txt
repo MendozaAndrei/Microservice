@@ -1,0 +1,8 @@
+setuptools>=65.0.0
+
+connexion[flask,uvicorn,swagger-ui]
+sqlalchemy
+mysqlclient
+pykafka
+httpx
+apscheduler

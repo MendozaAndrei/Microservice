@@ -10,3 +10,6 @@ events:
   hostname: 143.198.72.207
   port: 9092
   topic: events
+
+datastore:
+  url: mysql+pymysql://user:password@mysql:3306/events

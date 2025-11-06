@@ -1,15 +1,63 @@
-services:
-  db:
-    image: mysql
-    environment:
-      MYSQL_RANDOM_ROOT_PASSWORD: 1
-      MYSQL_USER: skibidi
-      MYSQL_PASSWORD: helpme
-      MYSQL_DATABASE: fire_data
-    ports:
-      - 3307:3306
-    volumes:
-      - mysql_data:/var/lib/mysql
+version: '3.8'
 
-volumes:
-  mysql_data:
+services:
+  # MySQL Database
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: events
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./data/database:/var/lib/mysql
+
+  # Receiver Service
+  receiver:
+    build:
+      context: ./receiver
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./logs:/logs
+      - ./receiver/app_conf.yaml:/app/app_conf.yaml
+
+  # Storage Service
+  storage:
+    build:
+      context: ./storage
+      dockerfile: Dockerfile
+    ports:
+      - "8090:8090"
+    depends_on:
+      - mysql
+    volumes:
+      - ./logs:/logs
+      - ./storage/app_conf.yaml:/app/app_conf.yaml
+
+  # Processing Service
+  processing:
+    build:
+      context: ./processing
+      dockerfile: Dockerfile
+    ports:
+      - "8100:8100"
+    depends_on:
+      - storage
+    volumes:
+      - ./logs:/logs
+
+  # Analyzer Service
+  analyzer:
+    build:
+      context: ./analyzer
+      dockerfile: Dockerfile
+    ports:
+      - "8110:8110"
+    depends_on:
+      - storage
+    volumes:
+      - ./logs:/logs

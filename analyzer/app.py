@@ -127,4 +127,6 @@ app = connexion.App(__name__, specification_dir=".")
 app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
-    app.run(port=8110)
+    # Added "host" to keep the "localhost" link stil lworking and not have to change anything 
+    # 
+    app.run(port=8110, host="0.0.0.0")
