@@ -7,7 +7,7 @@ COPY ./requirements.txt /app/requirements.txt
 WORKDIR /app
 RUN pip3 install --upgrade pip
 #Kept getting a ton of error regarding setuptools
-RUN pip3 install setuptools wheel
+RUN pip3 install setuptools>=65.0.0
 RUN pip3 install -r requirements.txt
 COPY . /app
 RUN chown -R nobody:nogroup /app
