@@ -104,7 +104,8 @@ class AirQuality(Base):
             "reading_timestamp": self.reading_timestamp.strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + "Z"
         }
 
-
+Base.metadata.create_all(mysql)
+logger.info("Database tables created/verified")
 def create_temperature_reading(body):
     session = SessionLocal()
     logger.debug(f"Storing {body['trace_id']} to the database")
