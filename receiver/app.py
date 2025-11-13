@@ -7,16 +7,18 @@ import yaml
 import logging.config
 from pykafka import KafkaClient
 
-# Loads External Configuration File. This is used specifically for KAFKA agent. 
-with open('app_conf.yml', 'r') as f:
-    app_config = yaml.safe_load(f.read())
-
 # Loads External Configuration File. This is used specifically for LOGGING agent. 
-with open("log_conf.yml", "r") as f:
+with open("/config/receiver_log_conf.yml", "r") as f:
     LOG_CONFIG = yaml.safe_load(f.read())
 
 logging.config.dictConfig(LOG_CONFIG)
 logger = logging.getLogger('basicLogger')
+# Loads External Configuration File. This is used specifically for KAFKA agent. 
+with open('/config/receiver_conf.yml', 'r') as f:
+
+    app_config = yaml.safe_load(f.read())
+logger.info("File read successful")
+
 
 # Kafka configuration
 KAFKA_HOSTNAME = app_config['events']['hostname']

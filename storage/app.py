@@ -13,11 +13,11 @@ import json
 
 #================= Lab 4 Code Added ==============================
 #Opens the app_conf.yml configuration to load. 
-with open('app_conf.yml', 'r') as f:
+with open('/config/storage_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
 
 #Opens the log_conf.yml for configuration
-with open("log_conf.yml", "r") as f:
+with open("/config/storage_log_conf.yml", "r") as f:
     LOG_CONFIG = yaml.safe_load(f.read())
 
 #Sets up logging from the configuration file. 

@@ -1,20 +1,48 @@
-version: '3.8'
-
 services:
-  # MySQL Database
-  mysql:
-    image: mysql:8.0
+  db:
+    image: mysql
+    restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: events
-      MYSQL_USER: user
-      MYSQL_PASSWORD: password
+      MYSQL_RANDOM_ROOT_PASSWORD: 1
+      MYSQL_USER: skibidi
+      MYSQL_PASSWORD: helpme
+      MYSQL_DATABASE: fire_data
     ports:
       - "3307:3306"
     volumes:
-      - ./data/database:/var/lib/mysql
+      - mysql_data:/var/lib/mysql
+    networks:
+      - kafka-network
 
-  # Receiver Service
+  zookeeper:
+    image: zookeeper:3.7
+    ports:
+      - "2181:2181"
+    environment:
+      ZOO_MY_ID: 1
+      ZOO_SERVERS: server.1=localhost:2888:3888;2181
+    volumes:
+      - zookeeper_data:/data
+    networks:
+      - kafka-network
+
+  kafka:
+    image: wurstmeister/kafka:latest
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_ADVERTISED_HOST_NAME: kafka
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092
+      KAFKA_CREATE_TOPICS: "events:1:1"
+    volumes:
+      - ./data/kafka:/kafka  
+    depends_on:
+      - zookeeper
+    networks:
+      - kafka-network
+
   receiver:
     build:
       context: ./receiver
@@ -23,9 +51,13 @@ services:
       - "8080:8080"
     volumes:
       - ./logs:/logs
-      - ./receiver/app_conf.yaml:/app/app_conf.yaml
+      - ./config/receiver:/config
+    depends_on:
+      - kafka
+    networks:
+      - kafka-network
+    restart: on-failure
 
-  # Storage Service
   storage:
     build:
       context: ./storage
@@ -33,12 +65,16 @@ services:
     ports:
       - "8090:8090"
     depends_on:
-      - mysql
+      - db
+      - kafka
     volumes:
       - ./logs:/logs
-      - ./storage/app_conf.yaml:/app/app_conf.yaml
+      - ./data/storage:/data
+      - ./config/storage:/config
+    networks:
+      - kafka-network
+    restart: on-failure
 
-  # Processing Service
   processing:
     build:
       context: ./processing
@@ -49,8 +85,12 @@ services:
       - storage
     volumes:
       - ./logs:/logs
+      - ./data/processing:/data 
+      - ./config/processing:/config
+    networks:
+      - kafka-network
+    restart: on-failure
 
-  # Analyzer Service
   analyzer:
     build:
       context: ./analyzer
@@ -59,5 +99,19 @@ services:
       - "8110:8110"
     depends_on:
       - storage
+      - kafka
     volumes:
       - ./logs:/logs
+      - ./data/events:/data
+      - ./config/analyzer:/config
+    networks:
+      - kafka-network
+    restart: on-failure
+
+volumes:
+  mysql_data:
+  zookeeper_data:
+
+networks:
+  kafka-network:
+    driver: bridge
